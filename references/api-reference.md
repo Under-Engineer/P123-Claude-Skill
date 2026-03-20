@@ -15,11 +15,11 @@
 
 ## Setup & Authentication <a name="setup"></a>
 
-```python
-# Install
+```bash
 pip install --upgrade p123api
+```
 
-# Usage
+```python
 import p123api
 
 client = p123api.Client(api_id='YOUR_API_ID', api_key='YOUR_API_KEY')
@@ -379,8 +379,9 @@ result = client.data_series_create_update({
 series_id = result['id']
 
 # Upload data (CSV: date,value)
+# Note: P123 docs use file=, but the wrapper renamed this param to data=
 client.data_series_upload(
-    file='series_data.csv',
+    data='series_data.csv',
     series_id=series_id,
     existing_data='overwrite',
     date_format='yyyy-mm-dd',
@@ -405,8 +406,9 @@ result = client.stock_factor_create_update({
 factor_id = result['id']
 
 # Upload data (CSV: date,ticker,value)
+# Note: P123 docs use file=, but the wrapper renamed this param to data=
 client.stock_factor_upload(
-    file='factors.csv',
+    data='factors.csv',
     factor_id=factor_id,
     column_separator='comma',
     existing_data='overwrite',
@@ -423,7 +425,26 @@ Use in formulas as: `StockFactor("MyMLSignal")` or by ID.
 
 ## AI Factor <a name="ai-factor"></a>
 
-P123 has built-in AI Factor functionality for machine learning predictions. See the P123 help center for AI Factor API details.
+P123's AI Factor system trains ML models (LightGBM, XGBoost) on user-defined features to predict stock returns. The API exposes a single prediction endpoint. For comprehensive documentation, see `ai-factor-reference.md`.
+
+### Quick Reference
+
+```python
+# Get current predictions
+df = client.aifactor_predict(predictor_id=123456, to_pandas=True)
+
+# With features and names
+df = client.aifactor_predict(123456, {
+    'includeNames': True,
+    'includeFeatures': True,
+    'precision': 4
+}, to_pandas=True)
+
+# Historical (must be Saturday)
+df = client.aifactor_predict(123456, {'asOfDt': '2026-03-14'}, to_pandas=True)
+```
+
+**Cost:** 20 credits per call. See `ai-factor-reference.md` for full parameter docs, response schema, quota management, and operational gotchas.
 
 ---
 

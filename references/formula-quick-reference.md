@@ -75,7 +75,7 @@ Eval(condition, value_if_true, value_if_false)
 Eval(IsNA(PEExclXorTTM), Pr2SalesTTM, PEExclXorTTM)
 
 // Sector-specific thresholds
-Eval(SectorId = 40, DbtTot2EqQ < 15, DbtTot2EqQ < 2)
+Eval(Sector = 40, DbtTot2EqQ < 15, DbtTot2EqQ < 2)
 
 // Nested Eval for multiple conditions
 Eval(MktCap > 10000, 1,
@@ -313,7 +313,7 @@ Mod(a, b)                     // modulus
 Trunc(expr)                   // truncate to integer
 Gr%(a, b [, years])           // percent growth, optionally annualized
 %(a, b)                       // percent = 100 * (a-b) / abs(b)
-Rand()                        // random number 0-100
+Random()                      // random number 0-100 (NOTE: not Rand)
 BarsSince(date)               // bars since YYYYMMDD date
 DaysSince(date)               // calendar days since date
 DaysDiff(from, to)            // calendar days between two dates
@@ -378,8 +378,8 @@ Close(0) > 5                  // minimum share price
 ### Sector/Industry filtering
 
 ```
-SectorId != 40                  // exclude Financials
-IndustryId != 40201020          // exclude REITs
+Sector != 40                  // exclude Financials
+Industry != 40201020          // exclude REITs
 ```
 
 ### Using benchmarks and indices

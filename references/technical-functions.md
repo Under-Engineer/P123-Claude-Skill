@@ -80,6 +80,17 @@ Many functions also have `_D` (calendar days) and `_W` (weeks) variants.
 | `PctAvgDailyTot(bars [, offset])` | % of liquidity traded |
 | `UpDownRatio(bars, offset)` | Up/down volume ratio |
 
+**Pre-built volume/price factors:**
+
+| Factor | Description |
+|--------|-------------|
+| `AvgVol5` / `AvgVol10` / `AvgVol1M` / `AvgVol3M` / `AvgVol6M` | Average volume (5/10 day, 1/3/6 month) |
+| `Vol10DAvg` / `Vol3MAvg` | Volume vs 10-day/3-month average |
+| `VolD%ShsOut` / `VolM%ShsOut` | Volume as % of shares outstanding (daily/monthly) |
+| `Pct52WH` / `Pct52WL` | Price as % of 52-week high/low |
+| `Pct3MH` / `Pct3ML` / `Pct4WH` / `Pct4WL` | Price as % of 3-month/4-week high/low |
+| `PriceH` / `PriceL` | Period high/low price |
+
 ---
 
 ## Return Functions
@@ -100,7 +111,7 @@ Many functions also have `_D` (calendar days) and `_W` (weeks) variants.
 |--------|-------------|
 | `Ret1W%Chg` | Total return 1 week |
 | `Ret4W%Chg` | Total return 4 weeks |
-| `Ret13W%Chg` | Total return 13 weeks (~3 months) |
+| `Ret3M%Chg` | Total return 13 weeks (~3 months) |
 | `Ret6M%Chg` | Total return 6 months |
 | `Ret1Y%Chg` | Total return 1 year |
 | `Ret2Y%Chg` | Total return 2 years |
@@ -240,11 +251,23 @@ StochK(14, 3) > StochD(14, 3, 3)
 | `Sharpe(range [, bars, offset])` | Sharpe-like ratio |
 | `Sortino(range [, bars, offset])` | Sortino-like ratio |
 
+**Pre-built volatility/risk factors:**
+
+| Factor | Description |
+|--------|-------------|
+| `Beta1Y` / `Beta3Y` / `Beta5Y` | Pre-computed beta (1/3/5 year) |
+| `Sharpe1Y` / `Sharpe2Y` | Pre-computed Sharpe ratio |
+| `Sortino1Y` / `Sortino2Y` | Pre-computed Sortino ratio |
+| `TRSD30D` / `TRSD60D` / `TRSD90D` | Total return std dev (30/60/90 day) |
+| `TRSD1YD` / `TRSD3YD` / `TRSD5YD` | Total return std dev (1/3/5 year, daily) |
+| `TRSD3YM` / `TRSD5YM` | Total return std dev (3/5 year, monthly) |
+
 ```
 // Price near lower Bollinger Band
 Close(0) < BBLower(20, 2)
 
-// Custom beta (52 weeks, 104 weekly samples)
+// Custom beta (52-bar return periods, 104 samples)
+// For weekly returns use period=5: BetaFunc(5, 52) = 1Y weekly beta
 BetaFunc(52, 104)
 ```
 
@@ -261,6 +284,8 @@ BetaFunc(52, 104)
 | `DMICrossUnder(period, bars [, series])` | TRUE if DMI+ crossed below DMI− |
 | `PrcRegEst(bars [, series])` | Price regression end value (incl div) |
 | `PrcRegEst_W(bars [, series])` | Price regression end value (weekly) |
+| `PrcRegEst10` / `PrcRegEst20` / `PrcRegEst50` | Pre-built regression estimates (10/20/50 day) |
+| `PrcRegEst10W` / `PrcRegEst20W` / `PrcRegEst50W` | Weekly regression estimates |
 | `SAR` | **Parabolic SAR** value (acceleration factor 0.02, max 0.20) |
 
 **Note**: P123 uses `DMIPlus` / `DMIMinus`, NOT `PlusDI` / `MinusDI`.
@@ -324,16 +349,13 @@ Close(0) / HighVal(252) > 0.95
 
 ## Streak Functions
 
-| Function | Description |
-|----------|-------------|
-| `Streak(formula, #Positive)` | Consecutive bars with positive values |
-| `Streak(formula, #NotPositive)` | Consecutive bars with non-positive values |
-| `Streak(formula, #Increasing)` | Consecutive bars with increasing values |
-| `Streak(formula, #NotIncreasing)` | Consecutive bars with non-increasing values |
+**⚠️ Use `LoopStreak`, not `Streak`.** The correct function name is `LoopStreak` (see advanced-functions.md for full signature).
+
+Streak modes: `#Positive`, `#NotPositive`, `#Increasing`, `#NotIncreasing`
 
 ```
 // Price rising for 5+ consecutive days
-Streak(Close(0) - Close(1), #Positive) >= 5
+LoopStreak("Close(0) - Close(CTR)", 20, 1, 1, #Positive) >= 5
 ```
 
 ---
@@ -411,4 +433,4 @@ PctFromHi <= -20 AND BenchPctFromPosHi > -20
 | `DaysDiff(from, to)` | Calendar days between two dates |
 | `MonthBars(bars [, "cid"])` | TRUE if as-of date is within N bars of month-end |
 | `Holiday(weekday)` | TRUE if weekday is a holiday |
-| `GetSeries("ticker")` | Get price series for a ticker (use in series parameter) |
+| `GetSeries("name")` | Get a handle to a custom imported data series (use inside `Close()`, `SMA()`, etc. — see api-reference.md § Data Series) |

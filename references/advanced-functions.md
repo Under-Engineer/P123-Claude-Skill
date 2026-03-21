@@ -48,7 +48,7 @@ SetVar(@quality, ROE%TTM > 15 AND GMgn%TTM > 40)
 @cheap AND @quality
 
 // ShowVar for grouping in screen reports
-ShowVar(@group, Eval(DivYield%TTM=0, 0, Eval(DivYield%TTM > 5, 2, 1)))
+ShowVar(@group, Eval(Yield=0, 0, Eval(Yield > 5, 2, 1)))
 ShowVar(@groupAvgCap, Aggregate("MktCap", #GroupVar, #Avg))
 MktCap < @groupAvgCap
 ```
@@ -68,7 +68,7 @@ Eval(condition, true_value, false_value)
 Eval(IsNA(PEExclXorTTM), Pr2SalesTTM, PEExclXorTTM)
 
 // Sector-specific logic
-Eval(SectorId = 40, DbtTot2EqQ < 15, DbtTot2EqQ < 2)
+Eval(Sector = 40, DbtTot2EqQ < 15, DbtTot2EqQ < 2)
 
 // Nested multi-branch
 Eval(MktCap > 10000, 1, Eval(MktCap > 2000, 2, Eval(MktCap > 300, 3, 4)))
@@ -214,7 +214,7 @@ Aggregate("ROE%TTM", #Sector, #CapAvg)
 Aggregate("PEExclXorTTM", #All, #Avg, 5, #Winsor)
 
 // Exclude zeros for yield
-Aggregate("DivYield%TTM", #Industry, #Avg, 16.5, #Exclude, TRUE)
+Aggregate("Yield", #Industry, #Avg, 16.5, #Exclude, TRUE)
 ```
 
 ---
@@ -273,8 +273,8 @@ FHist("PEExclXorTTM", 52)
 // 3-year historical max of ROE
 FHistMax("ROE%TTM", 156, 1)
 
-// Dividend yield average over 65 weeks (weekly samples)
-FHistAvg("DivYield%TTM", 65, 4)
+// Dividend yield average: 65 samples spaced 4 weeks apart (~5 years)
+FHistAvg("Yield", 65, 4)
 ```
 
 ---
@@ -324,7 +324,8 @@ LoopFunction("formula(CTR)", iterations [, start=0, increment=1, ...])
 | `LoopSum(...)` | Sum |
 | `LoopStdDev(...)` | Standard deviation |
 | `LoopRelStdDev(...)` | Relative standard deviation |
-| `LoopStreak("formula(CTR)", iterations [, start, increment, streak=#Positive])` | Streak count |
+| `LoopStreak("formula(CTR)", iterations [, start, increment, streak=#Positive, recent=TRUE])` | Streak count (`recent=FALSE` for longest streak) |
+| `LoopProd("formula(CTR)", iterations [, start, increment, noNAs=FALSE, break=FALSE])` | Product of iterated values |
 
 ### Relative vs Loop History
 
@@ -411,7 +412,7 @@ Eval(SlopeConf% > 90, RegGr%(), NA)
 | `RankPrev(weeksAgo)` | Historical weekly rank |
 | `RankPosPrev(weeksAgo)` | Historical weekly rank position |
 | `RankBars` | Bars since rank was last calculated |
-| `LatestRank` | Latest daily-updated rank |
+| `Rank` | Latest daily-updated rank |
 
 **Note**: P123 does NOT have `OtherRank()`. Use `Rating("name")` or `RatingPos("name")`.
 
@@ -647,25 +648,52 @@ All take a `period_offset` parameter (0 = most recent filing, 1 = previous, etc.
 | `InstitutionalShsSold(period_offset)` | Shares sold |
 | `InstitutionalShsNet(period_offset)` | Net shares (bought − sold) |
 
-**Note**: P123 does NOT have `InstOwn%` or `InstOwnChg%QoQ` as standalone factors. Use `InstitutionalPctOwn(0)` and `InstitutionalPctChg(0)`.
+**Verified against P123 syntax reference (2026-03-21):**
+- `InstOwn%` and `InstOwnChg%QoQ` are **invalid** — use `Inst%Own` (pre-built factor) or `InstitutionalPctOwn(offset)` (function)
+- Additional pre-built factors: `Inst%OwnPQ`, `Inst#ShsOwn`, `Inst#ShsOwnPQ`, `Inst#ShsPurch`, `Inst#ShsPurchPQ`, `Inst#ShsSold`, `Inst#ShsSoldPQ`, `InstNetPurch`, `InstNetPurchPQ`
 
 ---
 
 ## Short Interest <a name="shortinterest"></a>
 
-Short interest factors (pre-built, USA only):
+Short interest factors (pre-built, USA only). Names verified against official P123 syntax reference (2026-03-21):
 
 | Factor | Description |
 |--------|-------------|
-| `SIPM` | Short interest, previous month (millions) |
-| `SIPM2` | Short interest, 2 months ago |
-| `SIPM3` | Short interest, 3 months ago |
-| `SI%Float` | Short interest as % of float |
-| `SI%FloatPM` | Short interest % of float, previous month |
-| `SI%ShOut` | Short interest as % of shares outstanding |
-| `SI%ShOutPM` | Short interest % of shares outstanding, previous month |
-| `SI%Chg` | Short interest % change |
+| `SI%Float` / `SI%FloatPM` / `SI%FloatPM2` / `SI%FloatPM3` | Short interest as % of float (current + prev months) |
+| `SI%ShsOut` / `SI%ShsOutPM` / `SI%ShsOutPM2` / `SI%ShsOutPM3` | Short interest as % of shares outstanding |
+| `SIRatio` / `SIRatioPM` / `SIRatioPM2` / `SIRatioPM3` | Days to cover (current + prev months) |
+| `SIPM` / `SIPM2` / `SIPM3` / `SICM` | Short interest volume (prev months / current month) |
+| `SI1Mo%Chg` | Short interest 1-month % change |
 
-**Note**: P123 does NOT have `ShortInt%`, `ShortIntRatio`, `ShortInt%Float`. Use `SI%Float`, `SI%ShOut`, etc.
+**⚠️ Invalid names:** `ShortInt%Float`, `ShortInt%ShOut`, `ShortIntRatio`, `SI%ShOut` (correct: `SI%ShsOut`), `SI%ShOutPM` (correct: `SI%ShsOutPM`), `SI%Chg` (correct: `SI1Mo%Chg`).
 
 Short interest data is published twice monthly with ~10 days lag.
+
+---
+
+## Analyst Opinions <a name="opinions"></a>
+
+| Factor | Description |
+|--------|-------------|
+| `Opinion` | Current analyst opinion score |
+| `Opinion%Chg` | Change in opinion |
+| `OpinionBars` / `OpinionDays` | Bars/days since opinion change |
+
+---
+
+## Strategy & Screener Functions <a name="strategy"></a>
+
+Functions available only within strategy/screener contexts:
+
+| Factor | Description |
+|--------|-------------|
+| `InList` | TRUE if stock is in a specified list |
+| `SecCount` / `SecWeight` | Sector count / weight in portfolio |
+| `SubSecCount` / `SubSecWeight` | Sub-sector count / weight |
+| `CapCount` / `CapWeight` | Cap-size count / weight |
+| `LargeCount` / `LargeWeight` | Large-cap allocation |
+| `MidCount` / `MidWeight` | Mid-cap allocation |
+| `SmallCount` / `SmallWeight` | Small-cap allocation |
+| `MicroCount` / `MicroWeight` | Micro-cap allocation |
+| `IndWeight` / `SubIndWeight` | Industry / sub-industry weight |

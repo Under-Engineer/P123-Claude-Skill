@@ -126,7 +126,7 @@ All macro constants use `##` prefix and map to FRED series.
 | `##UST10YR` | DGS10 | Daily |
 | `##UST20YR` | DGS20 | Daily |
 | `##UST30YR` | DGS30 | Daily |
-| `##USR10YR` | RTWEXBGS | 10Y Real Rate, Monthly |
+| `##USR10YR` | ⚠️ P123 maps to RTWEXBGS (Real Broad Dollar Index) — likely a P123 documentation error; not actually 10Y real rate | Monthly |
 
 ### International Government Bonds
 
@@ -257,7 +257,7 @@ All macro constants use `##` prefix and map to FRED series.
 ##UST10YR - ##UST2YR
 
 // Risk premium above fed funds
-EarnYield%TTM - ##FEDFUNDS / 100
+EarnYield - ##FEDFUNDS / 100
 
 // Fed funds rate in SMA
 SMA(21, 0, ##FEDFUNDS)
@@ -314,8 +314,8 @@ SMA(50, 0, #USDEUR)
 | `#Increasing` | Increasing values streak |
 | `#NotIncreasing` | Non-increasing values streak |
 
-Used with `Streak()` function:
+Used with `LoopStreak()` function (see advanced-functions.md):
 ```
-Streak(Close(0) - Close(1), #Positive)       // days of consecutive price increases
-Streak(SalesGr%PYQ, #Positive)               // quarters of positive YoY sales growth
+LoopStreak("Close(0) - Close(CTR)", 20, 1, 1, #Positive)   // consecutive price increases
+LoopStreak("SalesGr%PYQ", 12, 0, 1, #Positive)             // quarters of positive YoY sales growth
 ```

@@ -27,7 +27,7 @@ Portfolio123 (P123) is a web-based platform for systematic/quantitative equity r
 
 ## When to Read Which Reference File
 
-This skill has 7 reference files. Read only what's needed for the task:
+This skill has 8 reference files. Read only what's needed for the task:
 
 | Task | Read This File |
 |------|---------------|
@@ -35,11 +35,14 @@ This skill has 7 reference files. Read only what's needed for the task:
 | Using financial statement data (balance sheet, income, cash flow) | `references/fundamental-data.md` |
 | Technical analysis (RSI, MACD, SMA, Bollinger, etc.) | `references/technical-functions.md` |
 | Advanced logic (SetVar, FHist, FRank, Eval, Aggregate, Loop, Regression) | `references/advanced-functions.md` |
+| Building or editing a ranking system XML | `references/ranking-system-xml.md` |
 | Macro data, FRED series, universe IDs, constants | `references/macros-constants.md` |
 | Python API calls (p123api wrapper) | `references/api-reference.md` |
 | AI Factor predictions (ML models) | `references/ai-factor-reference.md` |
 
-For most tasks, start with `formula-quick-reference.md` + the relevant domain file.
+For ranking system XML tasks, ALWAYS read `ranking-system-xml.md` first — it contains
+the verified schema, correct tag names, known formula errors, and a working example.
+For most other tasks, start with `formula-quick-reference.md` + the relevant domain file.
 
 ## Key Concepts
 
@@ -118,25 +121,28 @@ P123 uses its own naming conventions that differ from common financial terminolo
 
 ### Ranking System Structure (XML)
 
-Ranking systems use XML for the text editor format:
+Ranking systems use XML in the text editor. The correct schema uses `<Composite>`,
+`<StockFactor>`, and `<StockFormula>` tags. **Always read `references/ranking-system-xml.md`
+before writing any ranking system XML** — it contains the verified schema, correct
+pre-built factor names, and known errors to avoid.
+
+Minimal correct example:
 
 ```xml
-<RankingSystem>
-  <RankPerformance>
-    <NNodes>2</NNodes>
-    <SNode>
-      <n>Value</n>
-      <Formula>PEExclXorTTM</Formula>
-      <LowerIsBetter>1</LowerIsBetter>
-      <Weight>50</Weight>
-    </SNode>
-    <SNode>
-      <n>Momentum</n>
-      <Formula>Ret%Chg(252, 21)</Formula>
-      <LowerIsBetter>0</LowerIsBetter>
-      <Weight>50</Weight>
-    </SNode>
-  </RankPerformance>
+<RankingSystem RankType="Higher">
+  <Composite Name="Value" Weight="50" RankType="Higher">
+    <StockFactor Weight="50" RankType="Lower" Scope="Industry">
+      <Factor>PEExclXorTTM</Factor>
+    </StockFactor>
+    <StockFormula Weight="50" RankType="Higher" Name="EBITDA to EV" Description="" Scope="Universe">
+      <Formula>OpIncBDeprTTM/EV</Formula>
+    </StockFormula>
+  </Composite>
+  <Composite Name="Quality" Weight="50" RankType="Higher">
+    <StockFactor Weight="100" RankType="Higher" Scope="Industry">
+      <Factor>ROI%TTM</Factor>
+    </StockFactor>
+  </Composite>
 </RankingSystem>
 ```
 
@@ -208,7 +214,7 @@ result = client.data_universe({
 - All P123 formulas are **point-in-time** — they evaluate using only data available on the as-of date
 - `NA` handling is critical: use `FALLBACK` (fills from prior period), `KEEPNA`, or `ZERONA`
 - Screen rules are **AND** conditions (all must be true); use `OR` keyword for disjunction
-- In ranking systems, `LowerIsBetter=1` means lower values get higher ranks (e.g., PE ratio)
+- In ranking systems, `RankType="Lower"` means lower values get higher ranks (e.g., PE ratio). See `ranking-system-xml.md`
 - The API uses credits: `data` = 1 per 100K points, `screen_run` = 2, `screen_backtest` = 5
 - Weekend dates should be used for `asOfDts` in `data_universe()` calls
 - Bars = trading days (~251/year, ~21/month, ~5/week); use `#Year`, `#Month`, `#Week` constants

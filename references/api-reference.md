@@ -172,22 +172,17 @@ client.rank_perf({
 
 ```python
 client.rank_update({
-    'nodes': '''<RankingSystem>
-        <RankPerformance>
-            <NNodes>2</NNodes>
-            <SNode>
-                <n>Value</n>
-                <Formula>PEExclXorTTM</Formula>
-                <LowerIsBetter>1</LowerIsBetter>
-                <Weight>50</Weight>
-            </SNode>
-            <SNode>
-                <n>Momentum</n>
-                <Formula>Close(0)/Close(252)</Formula>
-                <LowerIsBetter>0</LowerIsBetter>
-                <Weight>50</Weight>
-            </SNode>
-        </RankPerformance>
+    'nodes': '''<RankingSystem RankType="Higher">
+        <Composite Name="Value" Weight="50" RankType="Higher">
+            <StockFactor Weight="100" RankType="Lower" Scope="Universe">
+                <Factor>PEExclXorTTM</Factor>
+            </StockFactor>
+        </Composite>
+        <Composite Name="Momentum" Weight="50" RankType="Higher">
+            <StockFormula Weight="100" RankType="Higher" Name="12-1M Mom" Description="" Scope="Universe">
+                <Formula>Ret%Chg(252, 21)</Formula>
+            </StockFormula>
+        </Composite>
     </RankingSystem>''',
     'type': 'stock',
     'rankingMethod': 2,

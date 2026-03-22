@@ -27,7 +27,7 @@ Portfolio123 (P123) is a web-based platform for systematic/quantitative equity r
 
 ## When to Read Which Reference File
 
-This skill has 6 reference files. Read only what's needed for the task:
+This skill has 7 reference files. Read only what's needed for the task:
 
 | Task | Read This File |
 |------|---------------|
@@ -37,6 +37,7 @@ This skill has 6 reference files. Read only what's needed for the task:
 | Advanced logic (SetVar, FHist, FRank, Eval, Aggregate, Loop, Regression) | `references/advanced-functions.md` |
 | Macro data, FRED series, universe IDs, constants | `references/macros-constants.md` |
 | Python API calls (p123api wrapper) | `references/api-reference.md` |
+| AI Factor predictions (ML models) | `references/ai-factor-reference.md` |
 
 For most tasks, start with `formula-quick-reference.md` + the relevant domain file.
 

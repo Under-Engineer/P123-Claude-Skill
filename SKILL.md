@@ -125,13 +125,13 @@ Ranking systems use XML for the text editor format:
   <RankPerformance>
     <NNodes>2</NNodes>
     <SNode>
-      <Name>Value</Name>
+      <n>Value</n>
       <Formula>PEExclXorTTM</Formula>
       <LowerIsBetter>1</LowerIsBetter>
       <Weight>50</Weight>
     </SNode>
     <SNode>
-      <Name>Momentum</Name>
+      <n>Momentum</n>
       <Formula>Ret%Chg(252, 21)</Formula>
       <LowerIsBetter>0</LowerIsBetter>
       <Weight>50</Weight>
@@ -144,7 +144,7 @@ Ranking systems use XML for the text editor format:
 
 **Value**: PEExclXorTTM, Pr2BookQ, Pr2SalesTTM, Pr2FrCashFlTTM, EV2EBITDATTM
 **Momentum**: Ret%Chg(252, 21), Pr52W%Chg, Pr52WRel%Chg, RSI(14)
-**Quality**: ROE%TTM, ROA%TTM, GMgn%TTM, OpMgn%TTM, PiotroskiF
+**Quality**: ROE%TTM, ROA%TTM, GMgn%TTM, OpMgn%TTM, PiotFScore
 **Low Volatility**: PctDev(52, 5), BetaFunc(52, 104), StdDev(252)
 **Size**: MktCap, Close(0)
 **Growth**: SalesGr%TTM, EBITDAGr%TTM, ConsEstMean(#EPS, #NY) / ConsEstMean(#EPS, #CY) - 1

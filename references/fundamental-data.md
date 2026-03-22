@@ -199,13 +199,38 @@ Each item also generates pre-built factors (no parentheses): see Pattern Guide a
 
 | Factor | Description |
 |--------|-------------|
-| `DivYield%TTM` | **Dividend yield** |
-| `EarnYield%TTM` | Earnings yield (inverse of PE) |
-| `ShrYield%TTM` | Shareholder yield (dividends + buybacks) |
-| `EBITDAYield%TTM` | EBITDA yield |
-| `FCFYield%TTM` | Free cash flow yield |
-| `OCFYield%TTM` | Operating cash flow yield |
-| `OpIncYield%TTM` | Operating income yield |
+| `Yield` | **Dividend yield** |
+| `EarnYield` | Earnings yield (inverse of PE) |
+| `ShareholderYield` | Shareholder yield (dividends + buybacks) |
+| `EBITDAYield` | EBITDA yield |
+| `FCFYield` | Free cash flow yield |
+| `OCFYield` | Operating cash flow yield |
+| `OpIncYield` | Operating income yield |
+
+### Dividends
+
+| Factor / Function | Description |
+|--------|-------------|
+| `DivPSTTM` / `DivPS52W` | Dividends per share (TTM / 52-week) |
+| `DivPSNextQ` / `DivPSNextQCnt` | Next quarter dividend estimate / count |
+| `IAD` / `IAD13W` / `IAD26W` / `IAD52W` | Indicated annual dividend (current / 13/26/52 week) |
+| `Div%ChgA` / `Div%ChgTTM` / `Div%ChgPYQ` | Dividend growth (annual / TTM / YoY quarter) |
+| `DaysFromDivPay` / `DaysToDivEx` / `DaysToDivPay` | Dividend calendar |
+| `DaysFromMergerAnn` | Days since merger announcement |
+
+### Actuals (Analyst-sourced, from press releases/brokers)
+
+| Function | Description |
+|--------|-------------|
+| `Actual(item, offset, type)` | Generic actual function |
+| `EPSActual(offset, type)` / `EPSActualTTM` | EPS actuals |
+| `SalesActual(offset, type)` / `SalesActualTTM` | Sales actuals |
+| `EBITDAActual(offset, type)` / `EBITDAActualTTM` | EBITDA actuals |
+| `ActualQ(item)` / `ActualPQ(item)` / `ActualTTM(item)` / `ActualA(item)` | Period shortcuts |
+| `ActualGr%TTM(item)` / `ActualGr%PYQ(item)` | Growth rates |
+| `LatestActualDays` / `LatestActualPeriodDate` | Timing |
+
+Items: `#EPS`, `#EPS_GAAP`, `#SALES`, `#EBITDA`, `#EBIT`, `#NET`, `#PTI`, `#FCF`, `#FFO`, `#CAPX`, `#SHS_REPURCH`, `#SOE`
 
 ### Margins
 
@@ -278,17 +303,30 @@ Each item also generates pre-built factors (no parentheses): see Pattern Guide a
 
 | Factor | Description |
 |--------|-------------|
-| `AltmanZ` | Altman Z-score (bankruptcy predictor) |
-| `AltmanX1` ... `AltmanX5` | Individual Altman Z components |
-| `PiotroskiF` | Piotroski F-score (financial strength, 0-9) |
-| `BeneishM` | Beneish M-score (earnings manipulation detector) |
+| `AltmanZOrig` | Original Altman Z-score (cutoff ≥1.81) |
+| `AltmanZPriv` | Private-firm Z-score (cutoff ≥1.23) |
+| `AltmanZNonManu` | Non-manufacturing Z-score (cutoff ≥1.10) |
+| `AltmanX1`–`AltmanX5` | Z-score components (WorkCap/Assets, RetEarn/Assets, EBIT/Assets, MktCap/Liab, Sales/Assets) |
+| `AltmanX4Rev` | Revised X4 (book equity / liabilities, for private firms) |
+| `PiotFScore` | Piotroski F-score (financial strength, 0-9) |
+| `BeneishMScore` | Beneish M-score (earnings manipulation detector) |
+| `MScoreDSRI` / `MScoreGMI` / `MScoreAQI` / `MScoreSGI` / `MScoreDEPI` | M-score components |
+| `MScoreSGAI` / `MScoreLVGI` / `MScoreTATA` / `MScoreDEPAMI` | M-score components (continued) |
+| `ValROETTM` | Valuation-adjusted ROE |
+| `EPS#Positive` / `EPSStableQ` | Earnings quality |
+| `NoPosEPS5Q` / `NoPosEBITDA5Y` / `NoIncP4YN2Y` | Positive period counts |
+| `SusGr%` | Sustainable growth rate |
+| `EVPS` | Enterprise value per share |
+| `PEHigh` / `PELow` / `PERelative` | PE range and relative PE |
+| `PayRatio5Y` | 5-year payout ratio |
+| `WCapPS2PrA` / `WCapPS2PrQ` | Working capital per share to price |
 
 ### Other
 
 | Factor | Description |
 |--------|-------------|
 | `MktCap` | **Market capitalization** |
-| `EntVal` | Enterprise value |
+| `EV` | Enterprise value |
 | `Float` | Shares float |
 | `Beta` | Beta (from `BetaFunc()`) |
 
@@ -309,24 +347,79 @@ Each item also generates pre-built factors (no parentheses): see Pattern Guide a
 | `EstEPSGr%NQ` | Estimated EPS growth next quarter |
 | `EstEPSGr%NY` | Estimated EPS growth next year |
 | `NumEstEPSCQ` | Number of analyst estimates CQ |
-| `EPSSurprise%CQ` | EPS surprise % current quarter |
+| `Surprise%Q1` | EPS surprise % current quarter |
 | `SumRevisions` | Sum of EPS revisions |
 | `EstSalesCY` | Sales estimate current year |
 | `EstSalesNY` | Sales estimate next year |
 | `AvgRec` | Average analyst recommendation (1=Strong Buy to 5=Strong Sell) |
 | `LTGrRt` | Long-term EPS growth rate estimate |
+| `FY2EPSMean` / `FY3EPSMean` | EPS estimate FY+2 / FY+3 |
+| `EstSalesCY` / `EstSalesNY` | Sales estimate current/next year |
+| `NTMSalesMean` / `FY2SalesMean` / `FY3SalesMean` | Sales estimates NTM / FY+2 / FY+3 |
+| `CapExEstCY` / `CapExEstNY` | CapEx estimate current/next year |
+| `EBITDAEstCY` / `EBITDAEstNY` | EBITDA estimate current/next year |
+| `FCFEstCY` / `FCFEstNY` | FCF estimate current/next year |
+| `#AnalystsCurQ` / `#AnalystsCurFY` / `#AnalystsNextQ` / `#AnalystsNextFY` | Analyst count |
+| `#AnalystsCurFYSales` / `#AnalystsNextFYSales` | Sales analyst count |
+| `#AnalystsLTGrthRt` / `#AnalystsPriceTarget` | LT growth / price target analyst count |
+| `PriceTargetMean` / `PriceTargetHi` / `PriceTargetLo` / `PriceTargetStdDev` | Price targets |
+| `ProjPECurFY` / `ProjPENextFY` / `ProjPENTM` | Forward PE ratios |
+| `Pr2SalesNTM` | Price to NTM sales |
+| `PEGLT` / `PEGST` / `PEGLTY` / `PEGSTY` | PEG ratios (LT/ST, with/without yield) |
+| `AvgRec` / `AvgRec1WkAgo` / `AvgRec4WkAgo` / `AvgRec8WkAgo` / `AvgRec13WkAgo` | Recommendation history |
+| `CurQUpRevLastWk` / `CurQDnRevLastWk` / `CurFYUpRevLastWk` / `CurFYDnRevLastWk` | Revision counts (last week) |
+| `CurQUpRev4WkAgo` / `CurQDnRev4WkAgo` / `CurFYUpRev4WkAgo` / `CurFYDnRev4WkAgo` | Revision counts (4 weeks ago) |
+| `NextQUpRevLastWk` / `NextQDnRevLastWk` / `NextFYUpRevLastWk` / `NextFYDnRevLastWk` | Next period revisions |
+| `TotRevisions4W` / `TotRevisionsLastW` | Total revision counts |
+| `Surprise%Q1`–`Surprise%Q5` / `Surprise%Y1`–`Surprise%Y4` | EPS surprise history |
+| `SalesSurp%Q1`–`SalesSurp%Q5` / `SalesSurp%Y1`–`SalesSurp%Y4` | Sales surprise history |
+| `SUEQ1`–`SUEQ4` / `SUEY1`–`SUEY4` | Standardized unexpected earnings |
+| `SUSQ1`–`SUSQ4` / `SUSY1`–`SUSY4` | Standardized unexpected sales |
 
 ### Insider & Institutional
 
+Names verified against official P123 syntax reference (2026-03-21).
+
+**Insider (pre-built factors):**
+
 | Factor | Description |
 |--------|-------------|
-| `InsiderBuySell%3Mo` | Insider buy/sell ratio (3 month) |
-| `InsiderBuySell%6Mo` | Insider buy/sell ratio (6 month) |
-| `InstOwn%` | Institutional ownership % |
-| `InstOwnChg%QoQ` | Institutional ownership change QoQ |
-| `ShortInt%Float` | Short interest as % of float |
-| `ShortInt%ShOut` | Short interest as % of shares outstanding |
-| `ShortIntRatio` | Short interest ratio (days to cover) |
+| `Insider#Own` | Number of shares owned by insiders |
+| `Insider%Own` | Insider ownership as % |
+| `InsiderBuySh1M(offset)` – `InsiderBuySh12M(offset)` | Shares bought (1M/3M/6M/12M windows) |
+| `InsiderSellSh1M(offset)` – `InsiderSellSh12M(offset)` | Shares sold |
+| `InsiderBuyTran1M(offset)` – `InsiderBuyTran12M(offset)` | Buy transactions |
+| `InsiderSellTran1M(offset)` – `InsiderSellTran12M(offset)` | Sell transactions |
+| `InsiderUniqBuy1M(offset)` / `InsiderUniqBuy3M(offset)` | Unique insiders buying |
+| `InsiderUniqSell1M(offset)` / `InsiderUniqSell3M(offset)` | Unique insiders selling |
+
+**Institutional:**
+
+| Factor / Function | Description |
+|--------|-------------|
+| `Inst%Own` / `Inst%OwnPQ` | Institutional ownership % (current / prev quarter) |
+| `Inst#ShsOwn` / `Inst#ShsOwnPQ` | Shares owned |
+| `Inst#ShsPurch` / `Inst#ShsSold` | Shares purchased / sold |
+| `InstNetPurch` / `InstNetPurchPQ` | Net purchases |
+| `InstitutionalPctOwn(offset)` | % of shares owned (function form) |
+| `InstitutionalPctChg(offset)` | Net shares changed % |
+| `InstitutionalHolders(offset)` | Total institutional holders |
+| `InstitutionalBuyers(offset)` / `InstitutionalSellers(offset)` | Buyers / sellers count |
+| `InstitutionalShsHeld(offset)` / `InstitutionalShsBought(offset)` / `InstitutionalShsSold(offset)` / `InstitutionalShsNet(offset)` | Share counts |
+
+**Short Interest:**
+
+| Factor | Description |
+|--------|-------------|
+| `SI%Float` / `SI%FloatPM` / `SI%FloatPM2` / `SI%FloatPM3` | Short interest as % of float (current + history) |
+| `SI%ShsOut` / `SI%ShsOutPM` / `SI%ShsOutPM2` / `SI%ShsOutPM3` | Short interest as % of shares outstanding |
+| `SIRatio` / `SIRatioPM` / `SIRatioPM2` / `SIRatioPM3` | Days to cover |
+| `SIPM` / `SIPM2` / `SIPM3` / `SICM` | Short interest volume (prev months / current) |
+| `SI1Mo%Chg` | Short interest 1-month % change |
+
+**⚠️ Common hallucinations (NOT valid P123 names):** `InsiderBuySell%3Mo`, `InsiderBuySell%6Mo`, `InstOwn%`, `InstOwnChg%QoQ`, `ShortInt%Float`, `ShortInt%ShOut`, `ShortIntRatio`, `SI%ShOut` (correct: `SI%ShsOut`), `SI%Chg` (correct: `SI1Mo%Chg`).
+
+For detailed usage examples, see `advanced-functions.md`.
 
 ---
 
@@ -372,17 +465,33 @@ For any base function `Item`, P123 auto-generates factors:
 
 | Factor | Description |
 |--------|-------------|
-| `SectorId` | GICS sector code (10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60) |
-| `IndustryId` | GICS industry code (8-digit) |
-| `SubIndId` | GICS sub-industry code |
+| `Sector` | GICS sector code (10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60) |
+| `Industry` | GICS industry code (8-digit) |
+| `SubIndustry` | GICS sub-industry code |
+| `SectorCode` / `SectorDescr` | GICS sector (code / text name) |
+| `SubSector` / `SubSectorCode` / `SubSectorDescr` | GICS sub-sector |
+| `IndCode` / `IndDescr` | GICS industry (code / text) |
+| `SubIndCode` / `SubIndDescr` | GICS sub-industry (code / text) |
+| `CountryCode` | ISO country code |
 | `ExchCountry("cid")` | Exchange country filter (function) |
 | `Country("cid")` | Country of domicile filter (function) |
+| `ExchangeCode` | Exchange code |
+| `SecurityType` | Security type |
+| `IsADR` / `IsMLP` / `IsOTC` / `IsPrimary` | Boolean flags |
+| `StockID` / `EvenID` / `ccFIGI` / `scFIGI` | Identifiers |
 | `FYEndMonth` | Fiscal year end month (1-12) |
 | `NoEmp` | Number of employees |
 | `CoName("name")` | Match company name (returns TRUE/FALSE) |
 | `Ticker("AAPL")` | Match ticker |
 | `FIGI("figi")` | Match FIGI identifier |
-| `#APeriods` | Number of historical annual periods available |
-| `#QPeriods` | Number of historical quarterly periods available |
+| `#APeriods` / `#QPeriods` | Number of historical periods available |
+| `FloatPct` | Float as % of shares outstanding |
+| `DaysLate` | Days since filing was expected |
+| `WeeksIntoQ` / `WeeksToQ` / `WeeksToY` | Calendar position |
+| `LatestFilingDate` / `LatestPeriodDate` / `LatestNewsDate` | Key dates |
+| `PeriodDateA` / `PeriodDateQ` | Period end dates (YYYYMMDD) |
+| `CompleteStmt` / `QtrComplete` / `StaleStmt` | Filing completeness flags |
+| `AsOfDate` / `MonthDay` / `WeekDay` / `PrevBarDaysAgo` | Date utilities |
+| `FXRate` | FX rate to USD |
 
 **GICS Sectors**: 10=Energy, 15=Materials, 20=Industrials, 25=Consumer Disc, 30=Consumer Staples, 35=Health Care, 40=Financials, 45=Info Tech, 50=Communication, 55=Utilities, 60=Real Estate

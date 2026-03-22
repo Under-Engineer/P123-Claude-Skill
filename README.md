@@ -24,15 +24,16 @@ This skill was cross-referenced line-by-line against the official [P123 528-page
 
 | Reference File | Lines | Content |
 |---------------|-------|---------|
-| `SKILL.md` | 224 | Entry point, key concepts, naming gotchas, quick-start examples |
-| `formula-quick-reference.md` | 392 | Syntax, operators, SetVar, Eval, FRank, ZScore, FHist, NA handling, common patterns |
-| `fundamental-data.md` | 388 | Balance sheet, income statement, cash flow functions & pre-built factors |
-| `technical-functions.md` | 414 | OHLCV, returns, moving averages, MACD, RSI, volatility, trend, strategy functions |
-| `advanced-functions.md` | 671 | FHist/Loop/Regression families, Aggregate, consensus estimates, insider/institutional, short interest |
-| `api-reference.md` | 455 | Full `p123api` Python wrapper: data, rank, screen, strategy, data series, stock factors |
-| `macros-constants.md` | 321 | FRED macro series, universe IDs, FX rates, S&P 500 aggregates, constants |
+| `SKILL.md` | ~225 | Entry point, key concepts, naming gotchas, quick-start examples |
+| `formula-quick-reference.md` | ~392 | Syntax, operators, SetVar, Eval, FRank, ZScore, FHist, NA handling, common patterns |
+| `fundamental-data.md` | ~388 | Balance sheet, income statement, cash flow functions & pre-built factors |
+| `technical-functions.md` | ~414 | OHLCV, returns, moving averages, MACD, RSI, volatility, trend, strategy functions |
+| `advanced-functions.md` | ~671 | FHist/Loop/Regression families, Aggregate, consensus estimates, insider/institutional, short interest |
+| `api-reference.md` | ~773 | Full `p123api` Python wrapper: data, rank, screen, strategy & books, data series, stock factors, AI Factor |
+| `ai-factor-reference.md` | ~441 | AI Factor ML predictions: parameters, response schema, feature extraction, operational gotchas |
+| `macros-constants.md` | ~321 | FRED macro series, universe IDs, FX rates, S&P 500 aggregates, constants |
 
-**Total: 2,865 lines of verified reference material.**
+**Total: ~3,625 lines of reference material.**
 
 ### Key areas:
 
@@ -50,8 +51,8 @@ This skill was cross-referenced line-by-line against the official [P123 528-page
 ### Claude Code (recommended)
 
 ```bash
-git clone https://github.com/YOUR_USER/portfolio123-skill.git
-cp -r portfolio123-skill ~/.claude/skills/portfolio123/
+git clone https://github.com/YOUR_USER/P123-Claude-Skill.git
+cp -r P123-Claude-Skill ~/.claude/skills/portfolio123/
 ```
 
 Or from the `.skill` package:
@@ -95,10 +96,11 @@ portfolio123/
     ├── technical-functions.md            # Price, volume, technical indicators
     ├── advanced-functions.md             # FHist, Loop, Regression, estimates
     ├── api-reference.md                  # p123api Python wrapper
+    ├── ai-factor-reference.md            # AI Factor ML predictions
     └── macros-constants.md               # FRED macros, universes, constants
 ```
 
-The skill follows the [Agent Skills](https://agentskills.io/) standard with progressive disclosure: `SKILL.md` is always in context (~224 lines), and reference files are loaded only when relevant to the task.
+The skill follows the [Agent Skills](https://agentskills.io/) standard with progressive disclosure: `SKILL.md` is always in context (~225 lines), and reference files are loaded only when relevant to the task.
 
 ---
 

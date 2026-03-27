@@ -393,6 +393,10 @@ FRED macro series that are not seasonally adjusted.
 
 Functions that perform calculations on groups of stocks or that identify individual stocks.
 
+### RBICS Codes
+
+RBICS codes that can be used in the RBICS() function.
+
 ### Math
 
 Mathematical functions, including logs, absolute values and random numbers.

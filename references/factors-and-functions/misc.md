@@ -529,6 +529,581 @@ To see all universes click on 'Full Description'
 | `Universe()` | uname |  |
 
 
+## RBICS Codes
+
+RBICS codes that can be used in the RBICS() function.
+
+### Business Services
+
+10 - Business Services
+
+| Factor | Params | Variant |
+|--------|--------|---------|
+| `BIZSVCE` | rcode |  |
+| `BIZSVCESS` | rcode |  |
+| `MKTINGPRINTING` | rcode |  |
+| `ADVERTISING` | rcode |  |
+| `PRINTING` | rcode |  |
+| `PROSVCE` | rcode |  |
+| `ADMINSVCE` | rcode |  |
+| `CONSULTING` | rcode |  |
+| `PROSVCEOTHER` | rcode |  |
+| `BIZSUPPORT` | rcode |  |
+| `FACILSVCE` | rcode |  |
+| `SECURITYSVCE` | rcode |  |
+| `WASTEMGMT` | rcode |  |
+| `WASTECOLLECTION` | rcode |  |
+| `HAZMAT` | rcode |  |
+| `WASTESVCE` | rcode |  |
+| `WASTEWATER` | rcode |  |
+| `ENVISVCE` | rcode |  |
+| `DEMOSVCE` | rcode |  |
+
+
+### Consumer Cyclicals
+
+20 - Consumer Cyclicals
+
+| Factor | Params | Variant |
+|--------|--------|---------|
+| `CYCLICALS` | rcode |  |
+| `CONSUMERGOODS` | rcode |  |
+| `APPARELPRODUCTS` | rcode |  |
+| `ACCESSORIESMFR` | rcode |  |
+| `CLOTHINGMFR` | rcode |  |
+| `APPARELMFR` | rcode |  |
+| `LEISURE` | rcode |  |
+| `LEISUREOTHER` | rcode |  |
+| `RECREATIONALGOODS` | rcode |  |
+| `SPORTINGGOODS` | rcode |  |
+| `APPLIANCESFURN` | rcode |  |
+| `RETAILMISC` | rcode |  |
+| `AUTORETAIL` | rcode |  |
+| `AUTOSVCE` | rcode |  |
+| `AUTOSALES` | rcode |  |
+| `AUTOPARTSSALESRENT` | rcode |  |
+| `RETAILOTHER` | rcode |  |
+| `AUCTION` | rcode |  |
+| `GASSTATION` | rcode |  |
+| `OFFICESUPPLY` | rcode |  |
+| `PETS` | rcode |  |
+| `RETAILSOFTW` | rcode |  |
+| `EVSTATION` | rcode |  |
+| `CANNABISRETAIL` | rcode |  |
+| `HOMEBUILDMANUF` | rcode |  |
+| `HOMEBUILD` | rcode |  |
+| `MFRBUILDING` | rcode |  |
+| `VEHICLESS` | rcode |  |
+| `VEHICLE` | rcode |  |
+| `AUTOPARTSMFR` | rcode |  |
+| `AUTOMFR` | rcode |  |
+| `CONSUMERRETAIL` | rcode |  |
+| `APPARELRETAIL` | rcode |  |
+| `ACCESSORIESRETAIL` | rcode |  |
+| `CLOTHINGACCESSORIESRETAIL` | rcode |  |
+| `CLOTHINGRETAIL` | rcode |  |
+| `SHOES` | rcode |  |
+| `ELECTRONICSENTRETAIL` | rcode |  |
+| `ELECTRONICSRETAIL` | rcode |  |
+| `ENTRETAIL` | rcode |  |
+| `ELECTRONICSENTMIXRETAIL` | rcode |  |
+| `HOMEIMPROVE` | rcode |  |
+| `BUILDINGMAT` | rcode |  |
+| `STOREFURNITURE` | rcode |  |
+| `HOMEIMPROV` | rcode |  |
+
+
+### Consumer Non-Cyclicals
+
+50 - Consumer Non-Cyclicals
+
+| Factor | Params | Variant |
+|--------|--------|---------|
+| `NONCYCLICAL` | rcode |  |
+| `STAPLESRETAIL` | rcode |  |
+| `FOODDRINKRETAIL` | rcode |  |
+| `STOREFOOD` | rcode |  |
+| `FOODDRINKRETAILGEN` | rcode |  |
+| `GROCERY` | rcode |  |
+| `RETAILDISTRIB` | rcode |  |
+| `GENMERCH` | rcode |  |
+| `STOREDEPT` | rcode |  |
+| `STOREDISC` | rcode |  |
+| `MERCHRETAIL` | rcode |  |
+| `OFFPRICERETAIL` | rcode |  |
+| `WAREHOUSECLUB` | rcode |  |
+| `PERSONALCARERETAIL` | rcode |  |
+| `PERSONALCARERETAILGEN` | rcode |  |
+| `PERSONALCARERETAILOTHER` | rcode |  |
+| `PHARMACY` | rcode |  |
+| `FOODPRODUCTION` | rcode |  |
+| `AGRICULTURE` | rcode |  |
+| `ANIMAL` | rcode |  |
+| `CROP` | rcode |  |
+| `AGRICDIV` | rcode |  |
+| `AGRICSUPPORT` | rcode |  |
+| `FOODDRINKMFR` | rcode |  |
+| `BEVERAGE` | rcode |  |
+| `FOOD` | rcode |  |
+| `FOODDRINKMFRGEN` | rcode |  |
+| `TOBACCO` | rcode |  |
+| `CIGARETTE` | rcode |  |
+| `TOBACCOMFRGEN` | rcode |  |
+| `TOBACCOPRODUCT` | rcode |  |
+| `ECIGARETTE` | rcode |  |
+| `CANNABIS` | rcode |  |
+| `PRODHOUSESUBSECT` | rcode |  |
+| `APPLIANCESTOOLS` | rcode |  |
+| `APPLIANCESTOOLSDIV` | rcode |  |
+| `APPLIANCESSMALL` | rcode |  |
+| `PRODHOUSEIND` | rcode |  |
+| `BABYMFR` | rcode |  |
+| `PRODHOUSEDIV` | rcode |  |
+| `HOMEOFFICEFURNMFR` | rcode |  |
+| `PERSONALCAREPRODUCT` | rcode |  |
+| `ABSORBENT` | rcode |  |
+| `COSMETICS` | rcode |  |
+| `FRAGRANCE` | rcode |  |
+| `PERSONALCAREGEN` | rcode |  |
+| `HAIRCARE` | rcode |  |
+| `CLEANING` | rcode |  |
+| `SANITARY` | rcode |  |
+| `SKINCARE` | rcode |  |
+| `HOUSESVCESS` | rcode |  |
+| `HOUSESVCE` | rcode |  |
+| `EDUCATION` | rcode |  |
+| `PERSONALSVCE` | rcode |  |
+
+
+### Consumer Services
+
+15 - Consumer Services
+
+| Factor | Params | Variant |
+|--------|--------|---------|
+| `CONSUMERSVCE` | rcode |  |
+| `HOSPITALITYSS` | rcode |  |
+| `HOSPITALITY` | rcode |  |
+| `HOTEL` | rcode |  |
+| `ARTSENT` | rcode |  |
+| `FOODDRINKSVCE` | rcode |  |
+| `RESTAURANT` | rcode |  |
+| `TRAVEL` | rcode |  |
+| `MEDIAPUBSS` | rcode |  |
+| `MEDIAPUB` | rcode |  |
+| `BROADCAST` | rcode |  |
+| `ENTERTAINMENT` | rcode |  |
+| `BOOKS` | rcode |  |
+
+
+### Energy
+
+25 - Energy
+
+| Factor | Params | Variant |
+|--------|--------|---------|
+| `ENERGY` | rcode |  |
+| `UPSTREAMENERGY` | rcode |  |
+| `COAL` | rcode |  |
+| `COALAMER` | rcode |  |
+| `COALASIA` | rcode |  |
+| `COALINTL` | rcode |  |
+| `URANIUMRADIUMVANADIUM.XX1` | rcode |  |
+| `RADIUMVANADIUM` | rcode |  |
+| `URANIUM` | rcode |  |
+| `COALSTREAMING` | rcode |  |
+| `FOSSILFUEL` | rcode |  |
+| `FOSSILFUELAMER` | rcode |  |
+| `FOSSILFUELINT.XX1` | rcode |  |
+| `FOSSILFUELOTHER` | rcode |  |
+| `OILGASSUPPORT` | rcode |  |
+| `OILGASTRANSPORT` | rcode |  |
+| `OILGASFIELD` | rcode |  |
+| `OILGASOPER` | rcode |  |
+| `DOWNMIDSTREAMENERGY` | rcode |  |
+| `DOWNSTREAMENERGY` | rcode |  |
+| `LPGPROPANE` | rcode |  |
+| `REFINERIES` | rcode |  |
+| `MIDSTREAMENERGY` | rcode |  |
+| `NATGASPIPELINE` | rcode |  |
+| `PIPELINEOTHER` | rcode |  |
+| `PETROLPIPELINE` | rcode |  |
+| `GATHERPROCESSSVCE` | rcode |  |
+| `OILGASINTEGSS` | rcode |  |
+| `OILGASINTEG` | rcode |  |
+
+
+### Finance
+
+30 - Finance
+
+| Factor | Params | Variant |
+|--------|--------|---------|
+| `FINANCIAL` | rcode |  |
+| `BANKS` | rcode |  |
+| `BANKSINTL` | rcode |  |
+| `BANKSAMEREXUS` | rcode |  |
+| `BANKSASIA` | rcode |  |
+| `BANKSEUROPE` | rcode |  |
+| `BANKSMULTINAT` | rcode |  |
+| `BANKSMORTG` | rcode |  |
+| `BANKSUSA` | rcode |  |
+| `BANKSCOMMERCIAL` | rcode |  |
+| `SAVINGSLOAN` | rcode |  |
+| `CREDITUNIONS` | rcode |  |
+| `BANKSINTERNET` | rcode |  |
+| `INSURANCESS` | rcode |  |
+| `INSURANCE` | rcode |  |
+| `INSBROKER` | rcode |  |
+| `INSLIFEHEALTH` | rcode |  |
+| `INSPROPCAS` | rcode |  |
+| `INSRE` | rcode |  |
+| `INSDIV` | rcode |  |
+| `INVESTSVCESS` | rcode |  |
+| `INVESTSVCE` | rcode |  |
+| `ASSETMGMT` | rcode |  |
+| `INVESTBANK` | rcode |  |
+| `INVESTHOLDING` | rcode |  |
+| `SECURITIES` | rcode |  |
+| `INVESTDIV` | rcode |  |
+| `REALESTATE` | rcode |  |
+| `HOMEBUILDMANUF.XX1` | rcode |  |
+| `HOMEBUILD.XX1` | rcode |  |
+| `MFRBUILDING.XX1` | rcode |  |
+| `REALESTATESVCE` | rcode |  |
+| `REALESTATESVCEOTHER` | rcode |  |
+| `PROPERTY` | rcode |  |
+| `REIT` | rcode |  |
+| `REITDIV` | rcode |  |
+| `REITEQUITY` | rcode |  |
+| `REITMORTG` | rcode |  |
+| `FINSVCE` | rcode |  |
+| `FINSPECIAL` | rcode |  |
+| `FINCOMMSVCE` | rcode |  |
+| `FINCONSUMERSVCE` | rcode |  |
+| `FINSOFTW` | rcode |  |
+
+
+### Healthcare
+
+35 - Healthcare
+
+| Factor | Params | Variant |
+|--------|--------|---------|
+| `HEALTHCARE` | rcode |  |
+| `BIOPHARMA` | rcode |  |
+| `BIOPHARMANONSYS` | rcode |  |
+| `INFECTIOUS` | rcode |  |
+| `ONCOLOGY` | rcode |  |
+| `BIOPHARMAOTHER` | rcode |  |
+| `ALLERGIES` | rcode |  |
+| `PAINMGMT` | rcode |  |
+| `SURGICAL` | rcode |  |
+| `TOXICOLOGY` | rcode |  |
+| `TRANSPLANTATION` | rcode |  |
+| `WEIGHTMGMT` | rcode |  |
+| `BIOPHARMADIV` | rcode |  |
+| `BIOPHARMASYS` | rcode |  |
+| `CARDIOVASCULAR` | rcode |  |
+| `DERMATOLOGY` | rcode |  |
+| `DIGESTIVE` | rcode |  |
+| `ENDOCRINOLOGY` | rcode |  |
+| `HEMATOLOGY` | rcode |  |
+| `IMMUNOLOGY` | rcode |  |
+| `MUSCULOSKELETAL` | rcode |  |
+| `NEUROLOGY` | rcode |  |
+| `OBSTETRICS` | rcode |  |
+| `OPHTHALMOLOGY` | rcode |  |
+| `RESPIRATORY` | rcode |  |
+| `UROLOGY` | rcode |  |
+| `HCARESVCE` | rcode |  |
+| `HCARESUPPORT` | rcode |  |
+| `HPLAN` | rcode |  |
+| `HCAREADMIN` | rcode |  |
+| `HCAREDISTRIB` | rcode |  |
+| `HCARESUPPORTOTHER` | rcode |  |
+| `PATIENTCARE` | rcode |  |
+| `ACUTECARE` | rcode |  |
+| `AMBULANCE` | rcode |  |
+| `LTCARE` | rcode |  |
+| `MULTIDELIVCARE` | rcode |  |
+| `AMBULANCEOTHER` | rcode |  |
+| `HCAREMISC` | rcode |  |
+| `NUTRITION` | rcode |  |
+| `OUTSOURCEDBIOMED` | rcode |  |
+| `OUTSOURCEDDRUG` | rcode |  |
+| `HCARESCIPRODUCTS` | rcode |  |
+| `VETERINARY` | rcode |  |
+| `HCARESVCEDIV` | rcode |  |
+| `HCAREOUTSOURCE` | rcode |  |
+| `HCARECONTRACTMFR` | rcode |  |
+| `HCARECONTRACTRESEARCH` | rcode |  |
+| `HCAREDEV` | rcode |  |
+| `HCAREEQUIP` | rcode |  |
+| `HCAREDIAGNOSTICS` | rcode |  |
+| `DIAGNOSTIC` | rcode |  |
+| `DRUGDELIV` | rcode |  |
+| `MEDDEVICESGEN` | rcode |  |
+| `SYSTEMSPECIFIC` | rcode |  |
+| `MEDDEVICESDIV` | rcode |  |
+| `MEDDEVICESOTHER` | rcode |  |
+| `MEDSUPPLIES` | rcode |  |
+| `MEDDEVICESSPECIAL` | rcode |  |
+
+
+### Industrials
+
+40 - Industrials
+
+| Factor | Params | Variant |
+|--------|--------|---------|
+| `INDUSTRIAL` | rcode |  |
+| `INDMFR` | rcode |  |
+| `AERODEF` | rcode |  |
+| `AEROSPACEEQUIP` | rcode |  |
+| `DEF` | rcode |  |
+| `AERODEFDIV` | rcode |  |
+| `ELECTREQUIP` | rcode |  |
+| `COMMELECTRIC` | rcode |  |
+| `ELECTREQUIPOTHER` | rcode |  |
+| `POWERGEN` | rcode |  |
+| `MACHINE` | rcode |  |
+| `CONTROLEQUIP` | rcode |  |
+| `AUTOMATIONEQUIP` | rcode |  |
+| `MACHINEPARTS` | rcode |  |
+| `CONSTRUCTIONMACHINE` | rcode |  |
+| `MACHINEOTHER` | rcode |  |
+| `TOOLS` | rcode |  |
+| `TRANSPORTEQUIP` | rcode |  |
+| `TRANSPORTEQUIPCML` | rcode |  |
+| `TRANSPORTEQUIPGEN` | rcode |  |
+| `INDSVCE` | rcode |  |
+| `TRAINTRUCK` | rcode |  |
+| `AIRWATER` | rcode |  |
+| `TRAINTRUCKGEN` | rcode |  |
+| `TRAINTRUCKOP` | rcode |  |
+| `INTERMODAL` | rcode |  |
+| `DELIVERY` | rcode |  |
+| `EXPRESS` | rcode |  |
+| `DELIVERYGEN` | rcode |  |
+| `LOGISTICS` | rcode |  |
+| `INDLDIST` | rcode |  |
+| `EQUIPDISTRIB` | rcode |  |
+| `MATDISTRIB` | rcode |  |
+| `INDLDIVDISTRIB` | rcode |  |
+| `BUILDINGMATDIST` | rcode |  |
+| `FACIL` | rcode |  |
+| `INFCONSTRSVCE` | rcode |  |
+| `CONTRACTINGSVCE` | rcode |  |
+| `PASSENGERTRANS` | rcode |  |
+| `AIRPASSENGER` | rcode |  |
+| `PASSENGEROTHER` | rcode |  |
+
+
+### Non-Energy Materials
+
+45 - Non-Energy Materials
+
+| Factor | Params | Variant |
+|--------|--------|---------|
+| `MATERIALS` | rcode |  |
+| `CHEM` | rcode |  |
+| `CHEMCOMMOD` | rcode |  |
+| `ORGANICCHEM` | rcode |  |
+| `COMMODITYCHEM` | rcode |  |
+| `CHEMMIX` | rcode |  |
+| `CHEMSPECIAL` | rcode |  |
+| `ADDITIVES` | rcode |  |
+| `ADHESIVE` | rcode |  |
+| `AGROCHEM` | rcode |  |
+| `SANITIZE` | rcode |  |
+| `CHEMMFROTHER` | rcode |  |
+| `POLYMER` | rcode |  |
+| `PLASTIC` | rcode |  |
+| `PLASTICOTHER` | rcode |  |
+| `PLASTICMFR` | rcode |  |
+| `MINING` | rcode |  |
+| `METAL` | rcode |  |
+| `METALPARTS` | rcode |  |
+| `METALOTHER` | rcode |  |
+| `METALPRIMARY` | rcode |  |
+| `MINERAL` | rcode |  |
+| `MIXMETALMINERAL` | rcode |  |
+| `ORE` | rcode |  |
+| `OREBASE` | rcode |  |
+| `OREOTHER` | rcode |  |
+| `PRECIOUS` | rcode |  |
+| `MININGOTHER` | rcode |  |
+| `OREMULTI` | rcode |  |
+| `ORENONMETAL` | rcode |  |
+| `MININGSTREAMING` | rcode |  |
+| `GASMININGDIV` | rcode |  |
+| `MATCONSTR` | rcode |  |
+| `ARCHITECTCOMPONENT` | rcode |  |
+| `MATCONSTRGEN` | rcode |  |
+| `MATCONSTRHEAVY` | rcode |  |
+| `MFRPROD` | rcode |  |
+| `WOODPAPER` | rcode |  |
+| `WOOD` | rcode |  |
+| `WOODPAPEROTHER` | rcode |  |
+| `PAPER` | rcode |  |
+| `PACKAGING` | rcode |  |
+| `PACKAGINGMETAL` | rcode |  |
+| `PACKAGINGOTHER` | rcode |  |
+| `PACKAGINGPAPER` | rcode |  |
+| `PACKAGINGPLASTIC` | rcode |  |
+| `MATOTHER` | rcode |  |
+| `TEXTILE` | rcode |  |
+| `MATDIV` | rcode |  |
+| `COMPMAT` | rcode |  |
+
+
+### Technology
+
+55 - Technology
+
+| Factor | Params | Variant |
+|--------|--------|---------|
+| `TECH` | rcode |  |
+| `ELECTRONIC` | rcode |  |
+| `COMPONENTS` | rcode |  |
+| `COMPONENTINTERCONNECT` | rcode |  |
+| `COMPONENTMODULE` | rcode |  |
+| `COMPONENTOPTOELECTRONIC` | rcode |  |
+| `COMPONENTPASSIVE` | rcode |  |
+| `COMPONENTDIV` | rcode |  |
+| `ELECTRONICEQUIP` | rcode |  |
+| `CONTRACTELECMFR` | rcode |  |
+| `ELECTRONICEQUIPDIV` | rcode |  |
+| `INTERCONNECTMFR` | rcode |  |
+| `SEMIMFR` | rcode |  |
+| `SEMIANALOG` | rcode |  |
+| `SEMIDISCRETE` | rcode |  |
+| `SEMIGEN` | rcode |  |
+| `SEMIMEMORY` | rcode |  |
+| `SEMIPROCESSOR` | rcode |  |
+| `SEMIASIC` | rcode |  |
+| `SEMISPECIAL` | rcode |  |
+| `ELECTRONICMFR` | rcode |  |
+| `SEMIEQUIPSVCE` | rcode |  |
+| `SEMIMFREQUIP` | rcode |  |
+| `SEMIMFRSVCE` | rcode |  |
+| `HW` | rcode |  |
+| `COMMERCIALELECTRONICS` | rcode |  |
+| `COMMERCEEQUIP` | rcode |  |
+| `SECURITYEQUIP` | rcode |  |
+| `FINELECTRONICS` | rcode |  |
+| `MEDIAELECTRONICS` | rcode |  |
+| `OFFICEEQUIP` | rcode |  |
+| `COMMERCIALELECTRONICSMFR` | rcode |  |
+| `PRINTINGELECTRONICS` | rcode |  |
+| `MEASURE` | rcode |  |
+| `COMMEQUIP` | rcode |  |
+| `BIZCOMM` | rcode |  |
+| `CABLEEQUIP` | rcode |  |
+| `LANEQUIP` | rcode |  |
+| `COMMEQUIPOTHER` | rcode |  |
+| `SATELLITEEQUIP` | rcode |  |
+| `WANEQUIP` | rcode |  |
+| `WIRELESSINFEQUIP` | rcode |  |
+| `WIRELESSMOBILEEQUIP` | rcode |  |
+| `COMPUTER` | rcode |  |
+| `PERIPHERALS` | rcode |  |
+| `COMPUTERSYSTEMS` | rcode |  |
+| `DATASTORAGEHW` | rcode |  |
+| `COMPUTERGEN` | rcode |  |
+| `HWCOMPONENTS` | rcode |  |
+| `CONSUMERELECTRONICS` | rcode |  |
+| `AUDIOMFR` | rcode |  |
+| `AUTOELECTRONICSMFR` | rcode |  |
+| `CONSUMERELECTRONICSACCESS` | rcode |  |
+| `VIDEOEQUIP` | rcode |  |
+| `GAMING` | rcode |  |
+| `CONSUMERELECTRONICSGEN` | rcode |  |
+| `PHOTO` | rcode |  |
+| `VIRTUALREALITY` | rcode |  |
+| `WEARABLETECH` | rcode |  |
+| `TECHDISTRIB` | rcode |  |
+| `HWDISTRIB` | rcode |  |
+| `TECHDISTRIBOTHER` | rcode |  |
+| `SOFTWDISTRIB.XX1` | rcode |  |
+| `SOFTWTECH` | rcode |  |
+| `INTERNET` | rcode |  |
+| `CONSUMERDATA` | rcode |  |
+| `INTERNETMEDIA` | rcode |  |
+| `INTERNETHOSTING` | rcode |  |
+| `TECHSUPPORT` | rcode |  |
+| `PRODATA` | rcode |  |
+| `WEBDATA` | rcode |  |
+| `SOFTW` | rcode |  |
+| `SOFTWDESIGN` | rcode |  |
+| `SOFTWENTERPRISE` | rcode |  |
+| `SOFTWGAMES` | rcode |  |
+| `SOFTWHOMEOFFICE` | rcode |  |
+| `SOFTWINDSPECIFIC` | rcode |  |
+| `SOFTWINF` | rcode |  |
+| `SOFTWGEN` | rcode |  |
+| `TECHCONSULTSVCE` | rcode |  |
+| `TECHCONSULTGEN` | rcode |  |
+| `TECHINDSPECIFIC` | rcode |  |
+| `TECHCONSULT` | rcode |  |
+| `TECHCONSULTNETW` | rcode |  |
+| `SOFTWDISTRIB` | rcode |  |
+
+
+### Telecommunications
+
+60 - Telecommunications
+
+| Factor | Params | Variant |
+|--------|--------|---------|
+| `TELECOM` | rcode |  |
+| `TELECOMSS` | rcode |  |
+| `TELECOMGEN` | rcode |  |
+| `TELECOMOTHER` | rcode |  |
+| `TELECOMINTL` | rcode |  |
+| `SATELLITESVCE` | rcode |  |
+| `SATELLITEINTL` | rcode |  |
+| `TELECOMUSOTHER` | rcode |  |
+| `TELECOMCARRIER` | rcode |  |
+| `TELECOMSOFTW` | rcode |  |
+| `TELECOMSOFTWSVCE` | rcode |  |
+| `SATELLITEUS` | rcode |  |
+| `TELECOMAMEREXUS` | rcode |  |
+| `TELECOMASIA` | rcode |  |
+| `TELECOMEUROPE` | rcode |  |
+| `TELECOMMIDEAST` | rcode |  |
+| `TELECOMWIRE` | rcode |  |
+| `WIRELESS` | rcode |  |
+| `WIRELINE` | rcode |  |
+
+
+### Utilities
+
+65 - Utilities
+
+| Factor | Params | Variant |
+|--------|--------|---------|
+| `UTIL` | rcode |  |
+| `UTILSS` | rcode |  |
+| `ENERGYUTIL` | rcode |  |
+| `UTILELEC` | rcode |  |
+| `GAS` | rcode |  |
+| `UTILELECGAS` | rcode |  |
+| `POWER.XX1` | rcode |  |
+| `POWERMULTINAT` | rcode |  |
+| `POWERUS` | rcode |  |
+| `POWERAMEREXUS` | rcode |  |
+| `POWERASIA` | rcode |  |
+| `POWERINTLOTHER` | rcode |  |
+| `XMSNUS` | rcode |  |
+| `XMSNMULTINAT` | rcode |  |
+| `WATER` | rcode |  |
+| `WATERINTL` | rcode |  |
+| `WATERUS` | rcode |  |
+| `WATERMULTINAT` | rcode |  |
+
+
 ## Math
 
 Mathematical functions, including logs, absolute values and random numbers.

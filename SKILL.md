@@ -56,7 +56,7 @@ SetVar(@myPE, PEExclXorTTM)
 @myPE < 20
 
 // Conditional logic
-Eval(IsNA(PEExclXorTTM), Pr2SalesTTM < 2, PEExclXorTTM < 20)
+Eval(PEExclXorTTM = NA, Pr2SalesTTM < 2, PEExclXorTTM < 20)
 
 // Cross-sectional ranking (#ASC = lower is better)
 FRank("PEExclXorTTM", #All, #ASC) > 80

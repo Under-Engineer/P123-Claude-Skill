@@ -280,7 +280,7 @@ OpInc(0, TTM)             // default: FALLBACK
 
 ```
 IsNA(PEExclXorTTM, 999)                // replace NA with 999
-Eval(IsNA(PEExclXorTTM), 999, PEExclXorTTM)  // equivalent
+Eval(PEExclXorTTM = NA, 999, PEExclXorTTM)  // equivalent
 
 Bound(PEExclXorTTM, 0, 200)            // clip to range [0, 200]
 Bound(PEExclXorTTM, 0, 200, TRUE)      // return NA if outside range

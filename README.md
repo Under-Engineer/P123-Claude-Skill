@@ -26,12 +26,10 @@ This skill was cross-referenced line-by-line against the official [P123 528-page
 |---------------|-------|---------|
 | `SKILL.md` | ~225 | Entry point, key concepts, naming gotchas, quick-start examples |
 | `formula-quick-reference.md` | ~392 | Syntax, operators, SetVar, Eval, FRank, ZScore, FHist, NA handling, common patterns |
-| `fundamental-data.md` | ~388 | Balance sheet, income statement, cash flow functions & pre-built factors |
-| `technical-functions.md` | ~414 | OHLCV, returns, moving averages, MACD, RSI, volatility, trend, strategy functions |
-| `advanced-functions.md` | ~671 | FHist/Loop/Regression families, Aggregate, consensus estimates, insider/institutional, short interest |
+| `factors-and-functions/index.md` | ~398 | An index file with all categories and subcategories directly from the P123 Factor & Function Reference page. Links to specific reference files for each category |
+| `factors-and-functions/*.md` | ~MANY | A reference file per top level category as seen in the [P123 Factor & Function Reference](https://www.portfolio123.com/doc/doc_factors.jsp). Should contain every factor in that reference page. |
 | `api-reference.md` | ~773 | Full `p123api` Python wrapper: data, rank, screen, strategy & books, data series, stock factors, AI Factor |
 | `ai-factor-reference.md` | ~441 | AI Factor ML predictions: parameters, response schema, feature extraction, operational gotchas |
-| `macros-constants.md` | ~321 | FRED macro series, universe IDs, FX rates, S&P 500 aggregates, constants |
 
 **Total: ~3,625 lines of reference material.**
 

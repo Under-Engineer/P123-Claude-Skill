@@ -1,6 +1,6 @@
 # Factor & Function Reference
 
-This reference lists all the top level categories and subcategories that factors and functions are grouped into. Search in here for the appropriate category and then read the specific category markdown file. Each category file contains all subcategories and associated factors.
+This reference lists all the top level categories and subcategories that factors and functions are grouped into. Search in here for the appropriate category and then read the specific category markdown file. Each category file contains all subcategories and associated factors. A link to the full description of the factor is also included when available.
 
 ## Ratios & Statistics ([ratios-and-statistics.md](ratios-and-statistics.md))
 

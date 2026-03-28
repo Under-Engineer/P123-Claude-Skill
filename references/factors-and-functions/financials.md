@@ -10,1179 +10,1179 @@ Lines from the (consolidated) statement of income.
 
 Write down value of non-physical assets like copyrights, patents, and brands.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `Amort()` | offset, type[, NAHandling] |  |
-| `AmortQ` |  | Latest Quarter |
-| `AmortPQ` |  | Previous Quarter |
-| `AmortPYQ` |  | Previous Quarter 1 Year Ago |
-| `AmortTTM` |  | Trailing 12 Months |
-| `AmortPTM` |  | Previous Trailing 12 Months |
-| `AmortA` |  | Latest Year |
-| `AmortPY` |  | Previous Year |
-| `AmortGr%PQ` |  | Q vs Previous Q Growth |
-| `AmortGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `AmortGr%TTM` |  | Trailing Twelve Months Growth |
-| `AmortGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `AmortGr%A` |  | Growth Annual |
-| `AmortGr%3Y` |  | Three Year Annualized Growth |
-| `AmortGr%5Y` |  | Five Year Annualized Growth |
-| `AmortGr%10Y` |  | Ten Year Annualized Growth |
-| `AmortRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `AmortRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `AmortRegEstANN` |  | Ten Year Regression Estimate |
-| `AmortRegEstTTM` |  | Five Year Regression Estimate |
-| `AmortRegGr%ANN` |  | Ten Year Regression Estimate |
-| `AmortRegGr%TTM` |  | Five Year Regression Growth |
-| `AmortPSQ` |  | Quarterly Per Share |
-| `AmortPSA` |  | Annual Per Share |
-| `Amort%SalesQ` |  | % of Quarterly Sales |
-| `Amort%SalesA` |  | % of Annual Sales |
-| `Amort%AssetsQ` |  | % of Quarterly Assets |
-| `Amort%AssetsA` |  | % of Annual Assets |
-| `Amort3YAvg` |  | Three Year Average |
-| `Amort5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `Amort()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `AmortPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `Amort%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `Amort%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `Amort%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `Amort%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `Amort3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
+| `Amort5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Amort |
 
 
 ### Cost of Goods Sold
 
 Direct production expenses. CostG = Direct Materials + Direct Labor (excludes D&A).
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `CostG()` | offset, type[, NAHandling] |  |
-| `CostGQ` |  | Latest Quarter |
-| `CostGPQ` |  | Previous Quarter |
-| `CostGPYQ` |  | Previous Quarter 1 Year Ago |
-| `CostGTTM` |  | Trailing 12 Months |
-| `CostGPTM` |  | Previous Trailing 12 Months |
-| `CostGA` |  | Latest Year |
-| `CostGPY` |  | Previous Year |
-| `CostGGr%PQ` |  | Q vs Previous Q Growth |
-| `CostGGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `CostGGr%TTM` |  | Trailing Twelve Months Growth |
-| `CostGGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `CostGGr%A` |  | Growth Annual |
-| `CostGGr%3Y` |  | Three Year Annualized Growth |
-| `CostGGr%5Y` |  | Five Year Annualized Growth |
-| `CostGGr%10Y` |  | Ten Year Annualized Growth |
-| `CostGRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `CostGRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `CostGRegEstANN` |  | Ten Year Regression Estimate |
-| `CostGRegEstTTM` |  | Five Year Regression Estimate |
-| `CostGRegGr%ANN` |  | Ten Year Regression Estimate |
-| `CostGRegGr%TTM` |  | Five Year Regression Growth |
-| `CostGPSQ` |  | Quarterly Per Share |
-| `CostGPSA` |  | Annual Per Share |
-| `CostG%SalesQ` |  | % of Quarterly Sales |
-| `CostG%SalesA` |  | % of Annual Sales |
-| `CostG3YAvg` |  | Three Year Average |
-| `CostG5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `CostG()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostGPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostG%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostG%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostG3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
+| `CostG5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG |
 
 
 ### Cost of Goods Sold GAAP
 
 Direct production expenses. CostG_GAAP = Direct Materials + Direct Labor + D&A.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `CostG_GAAP()` | offset, type[, NAHandling] |  |
-| `CostG_GAAPQ` |  | Latest Quarter |
-| `CostG_GAAPPQ` |  | Previous Quarter |
-| `CostG_GAAPPYQ` |  | Previous Quarter 1 Year Ago |
-| `CostG_GAAPTTM` |  | Trailing 12 Months |
-| `CostG_GAAPPTM` |  | Previous Trailing 12 Months |
-| `CostG_GAAPA` |  | Latest Year |
-| `CostG_GAAPPY` |  | Previous Year |
-| `CostG_GAAPGr%PQ` |  | Q vs Previous Q Growth |
-| `CostG_GAAPGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `CostG_GAAPGr%TTM` |  | Trailing Twelve Months Growth |
-| `CostG_GAAPGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `CostG_GAAPGr%A` |  | Growth Annual |
-| `CostG_GAAPGr%3Y` |  | Three Year Annualized Growth |
-| `CostG_GAAPGr%5Y` |  | Five Year Annualized Growth |
-| `CostG_GAAPGr%10Y` |  | Ten Year Annualized Growth |
-| `CostG_GAAPRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `CostG_GAAPRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `CostG_GAAPRegEstANN` |  | Ten Year Regression Estimate |
-| `CostG_GAAPRegEstTTM` |  | Five Year Regression Estimate |
-| `CostG_GAAPRegGr%ANN` |  | Ten Year Regression Estimate |
-| `CostG_GAAPRegGr%TTM` |  | Five Year Regression Growth |
-| `CostG_GAAPPSQ` |  | Quarterly Per Share |
-| `CostG_GAAPPSA` |  | Annual Per Share |
-| `CostG_GAAP%SalesQ` |  | % of Quarterly Sales |
-| `CostG_GAAP%SalesA` |  | % of Annual Sales |
-| `CostG_GAAP3YAvg` |  | Three Year Average |
-| `CostG_GAAP5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `CostG_GAAP()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAPPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAP%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAP%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAP3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
+| `CostG_GAAP5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CostG_GAAP |
 
 
 ### Depreciation and Amortization
 
 The sum of D&A expenses as reported specifically on income statement.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `DepAmort()` | offset, type[, NAHandling] |  |
-| `DepAmortQ` |  | Latest Quarter |
-| `DepAmortPQ` |  | Previous Quarter |
-| `DepAmortPYQ` |  | Previous Quarter 1 Year Ago |
-| `DepAmortTTM` |  | Trailing 12 Months |
-| `DepAmortPTM` |  | Previous Trailing 12 Months |
-| `DepAmortA` |  | Latest Year |
-| `DepAmortPY` |  | Previous Year |
-| `DepAmortGr%PQ` |  | Q vs Previous Q Growth |
-| `DepAmortGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `DepAmortGr%TTM` |  | Trailing Twelve Months Growth |
-| `DepAmortGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `DepAmortGr%A` |  | Growth Annual |
-| `DepAmortGr%3Y` |  | Three Year Annualized Growth |
-| `DepAmortGr%5Y` |  | Five Year Annualized Growth |
-| `DepAmortGr%10Y` |  | Ten Year Annualized Growth |
-| `DepAmortRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `DepAmortRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `DepAmortRegEstANN` |  | Ten Year Regression Estimate |
-| `DepAmortRegEstTTM` |  | Five Year Regression Estimate |
-| `DepAmortRegGr%ANN` |  | Ten Year Regression Estimate |
-| `DepAmortRegGr%TTM` |  | Five Year Regression Growth |
-| `DepAmortPSQ` |  | Quarterly Per Share |
-| `DepAmortPSA` |  | Annual Per Share |
-| `DepAmort%SalesQ` |  | % of Quarterly Sales |
-| `DepAmort%SalesA` |  | % of Annual Sales |
-| `DepAmort3YAvg` |  | Three Year Average |
-| `DepAmort5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `DepAmort()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmortPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmort%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmort%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmort3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
+| `DepAmort5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmort |
 
 
 ### Earnings Before Interest and Taxes (EBIT)
 
 Operating income including depreciation and amortization.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `EBIT()` | offset, type[, NAHandling] |  |
-| `EBITQ` |  | Latest Quarter |
-| `EBITPQ` |  | Previous Quarter |
-| `EBITPYQ` |  | Previous Quarter 1 Year Ago |
-| `EBITTTM` |  | Trailing 12 Months |
-| `EBITPTM` |  | Previous Trailing 12 Months |
-| `EBITA` |  | Latest Year |
-| `EBITPY` |  | Previous Year |
-| `EBITGr%PQ` |  | Q vs Previous Q Growth |
-| `EBITGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `EBITGr%TTM` |  | Trailing Twelve Months Growth |
-| `EBITGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `EBITGr%A` |  | Growth Annual |
-| `EBITGr%3Y` |  | Three Year Annualized Growth |
-| `EBITGr%5Y` |  | Five Year Annualized Growth |
-| `EBITGr%10Y` |  | Ten Year Annualized Growth |
-| `EBITRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `EBITRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `EBITRegEstANN` |  | Ten Year Regression Estimate |
-| `EBITRegEstTTM` |  | Five Year Regression Estimate |
-| `EBITRegGr%ANN` |  | Ten Year Regression Estimate |
-| `EBITRegGr%TTM` |  | Five Year Regression Growth |
-| `EBITPSQ` |  | Quarterly Per Share |
-| `EBITPSA` |  | Annual Per Share |
-| `EBIT%SalesQ` |  | % of Quarterly Sales |
-| `EBIT%SalesA` |  | % of Annual Sales |
-| `EBIT3YAvg` |  | Three Year Average |
-| `EBIT5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `EBIT()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBITPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBIT%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBIT%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBIT3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
+| `EBIT5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBIT |
 
 
 ### Earnings Before Interest, Taxes, Dep and Amort (EBITDA)
 
 Operating income excluding non-cash expenses D&A.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `EBITDA()` | offset, type[, NAHandling] |  |
-| `EBITDAQ` |  | Latest Quarter |
-| `EBITDAPQ` |  | Previous Quarter |
-| `EBITDAPYQ` |  | Previous Quarter 1 Year Ago |
-| `EBITDATTM` |  | Trailing 12 Months |
-| `EBITDAPTM` |  | Previous Trailing 12 Months |
-| `EBITDAA` |  | Latest Year |
-| `EBITDAPY` |  | Previous Year |
-| `EBITDAGr%PQ` |  | Q vs Previous Q Growth |
-| `EBITDAGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `EBITDAGr%TTM` |  | Trailing Twelve Months Growth |
-| `EBITDAGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `EBITDAGr%A` |  | Growth Annual |
-| `EBITDAGr%3Y` |  | Three Year Annualized Growth |
-| `EBITDAGr%5Y` |  | Five Year Annualized Growth |
-| `EBITDAGr%10Y` |  | Ten Year Annualized Growth |
-| `EBITDARSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `EBITDARSD%TTM` |  | Five Year Relative Standard Deviation |
-| `EBITDARegEstANN` |  | Ten Year Regression Estimate |
-| `EBITDARegEstTTM` |  | Five Year Regression Estimate |
-| `EBITDARegGr%ANN` |  | Ten Year Regression Estimate |
-| `EBITDARegGr%TTM` |  | Five Year Regression Growth |
-| `EBITDAPSQ` |  | Quarterly Per Share |
-| `EBITDAPSA` |  | Annual Per Share |
-| `EBITDA%SalesQ` |  | % of Quarterly Sales |
-| `EBITDA%SalesA` |  | % of Annual Sales |
-| `EBITDA3YAvg` |  | Three Year Average |
-| `EBITDA5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `EBITDA()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDATTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDARSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDARSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDARegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDARegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDARegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDARegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDAPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDA%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDA%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDA3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
+| `EBITDA5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EBITDA |
 
 
 ### Funds From Operations
 
 Funds From Operations
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `FundsFromOp()` | offset, type[, NAHandling] |  |
-| `FundsFromOpQ` |  | Latest Quarter |
-| `FundsFromOpPQ` |  | Previous Quarter |
-| `FundsFromOpPYQ` |  | Previous Quarter 1 Year Ago |
-| `FundsFromOpTTM` |  | Trailing 12 Months |
-| `FundsFromOpPTM` |  | Previous Trailing 12 Months |
-| `FundsFromOpA` |  | Latest Year |
-| `FundsFromOpPY` |  | Previous Year |
-| `FundsFromOpGr%PQ` |  | Q vs Previous Q Growth |
-| `FundsFromOpGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `FundsFromOpGr%TTM` |  | Trailing Twelve Months Growth |
-| `FundsFromOpGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `FundsFromOpGr%A` |  | Growth Annual |
-| `FundsFromOpGr%3Y` |  | Three Year Annualized Growth |
-| `FundsFromOpGr%5Y` |  | Five Year Annualized Growth |
-| `FundsFromOpGr%10Y` |  | Ten Year Annualized Growth |
-| `FundsFromOpRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `FundsFromOpRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `FundsFromOpRegEstANN` |  | Ten Year Regression Estimate |
-| `FundsFromOpRegEstTTM` |  | Five Year Regression Estimate |
-| `FundsFromOpRegGr%ANN` |  | Ten Year Regression Estimate |
-| `FundsFromOpRegGr%TTM` |  | Five Year Regression Growth |
-| `FundsFromOpPSQ` |  | Quarterly Per Share |
-| `FundsFromOpPSA` |  | Annual Per Share |
-| `FundsFromOp%SalesQ` |  | % of Quarterly Sales |
-| `FundsFromOp%SalesA` |  | % of Annual Sales |
-| `FundsFromOp%AssetsQ` |  | % of Quarterly Assets |
-| `FundsFromOp%AssetsA` |  | % of Annual Assets |
-| `FundsFromOp3YAvg` |  | Three Year Average |
-| `FundsFromOp5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `FundsFromOp()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOpPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOp%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOp%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOp%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOp%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOp3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
+| `FundsFromOp5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FundsFromOp |
 
 
 ### Gross Profit
 
 Profit after deducting production/service costs. GrossProfit = Sales - CostG (excludes D&A).
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `GrossProfit()` | offset, type[, NAHandling] |  |
-| `GrossProfitQ` |  | Latest Quarter |
-| `GrossProfitPQ` |  | Previous Quarter |
-| `GrossProfitPYQ` |  | Previous Quarter 1 Year Ago |
-| `GrossProfitTTM` |  | Trailing 12 Months |
-| `GrossProfitPTM` |  | Previous Trailing 12 Months |
-| `GrossProfitA` |  | Latest Year |
-| `GrossProfitPY` |  | Previous Year |
-| `GrossProfitGr%PQ` |  | Q vs Previous Q Growth |
-| `GrossProfitGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `GrossProfitGr%TTM` |  | Trailing Twelve Months Growth |
-| `GrossProfitGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `GrossProfitGr%A` |  | Growth Annual |
-| `GrossProfitGr%3Y` |  | Three Year Annualized Growth |
-| `GrossProfitGr%5Y` |  | Five Year Annualized Growth |
-| `GrossProfitGr%10Y` |  | Ten Year Annualized Growth |
-| `GrossProfitRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `GrossProfitRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `GrossProfitRegEstANN` |  | Ten Year Regression Estimate |
-| `GrossProfitRegEstTTM` |  | Five Year Regression Estimate |
-| `GrossProfitRegGr%ANN` |  | Ten Year Regression Estimate |
-| `GrossProfitRegGr%TTM` |  | Five Year Regression Growth |
-| `GrossProfitPSQ` |  | Quarterly Per Share |
-| `GrossProfitPSA` |  | Annual Per Share |
-| `GrossProfit%SalesQ` |  | % of Quarterly Sales |
-| `GrossProfit%SalesA` |  | % of Annual Sales |
-| `GrossProfit%AssetsQ` |  | % of Quarterly Assets |
-| `GrossProfit%AssetsA` |  | % of Annual Assets |
-| `GrossProfit3YAvg` |  | Three Year Average |
-| `GrossProfit5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `GrossProfit()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfitPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfit%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfit%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfit%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfit%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfit3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
+| `GrossProfit5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit |
 
 
 ### Gross Profit GAAP
 
 Profit after deducting production/service costs. GrossProfit_GAAP = Sales - CostG_GAAP (includes D&A).
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `GrossProfit_GAAP()` | offset, type[, NAHandling] |  |
-| `GrossProfit_GAAPQ` |  | Latest Quarter |
-| `GrossProfit_GAAPPQ` |  | Previous Quarter |
-| `GrossProfit_GAAPPYQ` |  | Previous Quarter 1 Year Ago |
-| `GrossProfit_GAAPTTM` |  | Trailing 12 Months |
-| `GrossProfit_GAAPPTM` |  | Previous Trailing 12 Months |
-| `GrossProfit_GAAPA` |  | Latest Year |
-| `GrossProfit_GAAPPY` |  | Previous Year |
-| `GrossProfit_GAAPGr%PQ` |  | Q vs Previous Q Growth |
-| `GrossProfit_GAAPGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `GrossProfit_GAAPGr%TTM` |  | Trailing Twelve Months Growth |
-| `GrossProfit_GAAPGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `GrossProfit_GAAPGr%A` |  | Growth Annual |
-| `GrossProfit_GAAPGr%3Y` |  | Three Year Annualized Growth |
-| `GrossProfit_GAAPGr%5Y` |  | Five Year Annualized Growth |
-| `GrossProfit_GAAPGr%10Y` |  | Ten Year Annualized Growth |
-| `GrossProfit_GAAPRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `GrossProfit_GAAPRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `GrossProfit_GAAPRegEstANN` |  | Ten Year Regression Estimate |
-| `GrossProfit_GAAPRegEstTTM` |  | Five Year Regression Estimate |
-| `GrossProfit_GAAPRegGr%ANN` |  | Ten Year Regression Estimate |
-| `GrossProfit_GAAPRegGr%TTM` |  | Five Year Regression Growth |
-| `GrossProfit_GAAPPSQ` |  | Quarterly Per Share |
-| `GrossProfit_GAAPPSA` |  | Annual Per Share |
-| `GrossProfit_GAAP%SalesQ` |  | % of Quarterly Sales |
-| `GrossProfit_GAAP%SalesA` |  | % of Annual Sales |
-| `GrossProfit_GAAP%AssetsQ` |  | % of Quarterly Assets |
-| `GrossProfit_GAAP%AssetsA` |  | % of Annual Assets |
-| `GrossProfit_GAAP3YAvg` |  | Three Year Average |
-| `GrossProfit_GAAP5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `GrossProfit_GAAP()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAPPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAP%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAP%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAP%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAP%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAP3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
+| `GrossProfit_GAAP5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossProfit_GAAP |
 
 
 ### Impairment Charges
 
 Represents the total charge against the carrying value of an asset to bring it to its fair value.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `Impair()` | offset, type[, NAHandling] |  |
-| `ImpairQ` |  | Latest Quarter |
-| `ImpairPQ` |  | Previous Quarter |
-| `ImpairPYQ` |  | Previous Quarter 1 Year Ago |
-| `ImpairTTM` |  | Trailing 12 Months |
-| `ImpairPTM` |  | Previous Trailing 12 Months |
-| `ImpairA` |  | Latest Year |
-| `ImpairPY` |  | Previous Year |
-| `ImpairGr%PQ` |  | Q vs Previous Q Growth |
-| `ImpairGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `ImpairGr%TTM` |  | Trailing Twelve Months Growth |
-| `ImpairGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `ImpairGr%A` |  | Growth Annual |
-| `ImpairGr%3Y` |  | Three Year Annualized Growth |
-| `ImpairGr%5Y` |  | Five Year Annualized Growth |
-| `ImpairGr%10Y` |  | Ten Year Annualized Growth |
-| `ImpairRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `ImpairRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `ImpairRegEstANN` |  | Ten Year Regression Estimate |
-| `ImpairRegEstTTM` |  | Five Year Regression Estimate |
-| `ImpairRegGr%ANN` |  | Ten Year Regression Estimate |
-| `ImpairRegGr%TTM` |  | Five Year Regression Growth |
-| `Impair3YAvg` |  | Three Year Average |
-| `Impair5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `Impair()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `ImpairRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `Impair3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
+| `Impair5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Impair |
 
 
 ### Income After Taxes
 
 Pre-tax income excluding extraordinary items less tax expense.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `IncAftTax()` | offset, type[, NAHandling] |  |
-| `IncAftTaxQ` |  | Latest Quarter |
-| `IncAftTaxPQ` |  | Previous Quarter |
-| `IncAftTaxPYQ` |  | Previous Quarter 1 Year Ago |
-| `IncAftTaxTTM` |  | Trailing 12 Months |
-| `IncAftTaxPTM` |  | Previous Trailing 12 Months |
-| `IncAftTaxA` |  | Latest Year |
-| `IncAftTaxPY` |  | Previous Year |
-| `IncAftTaxGr%PQ` |  | Q vs Previous Q Growth |
-| `IncAftTaxGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `IncAftTaxGr%TTM` |  | Trailing Twelve Months Growth |
-| `IncAftTaxGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `IncAftTaxGr%A` |  | Growth Annual |
-| `IncAftTaxGr%3Y` |  | Three Year Annualized Growth |
-| `IncAftTaxGr%5Y` |  | Five Year Annualized Growth |
-| `IncAftTaxGr%10Y` |  | Ten Year Annualized Growth |
-| `IncAftTaxRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `IncAftTaxRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `IncAftTaxRegEstANN` |  | Ten Year Regression Estimate |
-| `IncAftTaxRegEstTTM` |  | Five Year Regression Estimate |
-| `IncAftTaxRegGr%ANN` |  | Ten Year Regression Estimate |
-| `IncAftTaxRegGr%TTM` |  | Five Year Regression Growth |
-| `IncAftTaxPSQ` |  | Quarterly Per Share |
-| `IncAftTaxPSA` |  | Annual Per Share |
-| `IncAftTax%SalesQ` |  | % of Quarterly Sales |
-| `IncAftTax%SalesA` |  | % of Annual Sales |
-| `IncAftTax3YAvg` |  | Three Year Average |
-| `IncAftTax5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `IncAftTax()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTaxPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTax%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTax%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTax3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
+| `IncAftTax5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncAftTax |
 
 
 ### Income Available to Common
 
 Income before extraordinary items and discontinued operations less preferred dividends.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `IAC()` | offset, type[, NAHandling] |  |
-| `IACQ` |  | Latest Quarter |
-| `IACPQ` |  | Previous Quarter |
-| `IACPYQ` |  | Previous Quarter 1 Year Ago |
-| `IACTTM` |  | Trailing 12 Months |
-| `IACPTM` |  | Previous Trailing 12 Months |
-| `IACA` |  | Latest Year |
-| `IACPY` |  | Previous Year |
-| `IACGr%PQ` |  | Q vs Previous Q Growth |
-| `IACGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `IACGr%TTM` |  | Trailing Twelve Months Growth |
-| `IACGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `IACGr%A` |  | Growth Annual |
-| `IACGr%3Y` |  | Three Year Annualized Growth |
-| `IACGr%5Y` |  | Five Year Annualized Growth |
-| `IACGr%10Y` |  | Ten Year Annualized Growth |
-| `IACRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `IACRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `IACRegEstANN` |  | Ten Year Regression Estimate |
-| `IACRegEstTTM` |  | Five Year Regression Estimate |
-| `IACRegGr%ANN` |  | Ten Year Regression Estimate |
-| `IACRegGr%TTM` |  | Five Year Regression Growth |
-| `IACPSQ` |  | Quarterly Per Share |
-| `IACPSA` |  | Annual Per Share |
-| `IAC%SalesQ` |  | % of Quarterly Sales |
-| `IAC%SalesA` |  | % of Annual Sales |
-| `IAC3YAvg` |  | Three Year Average |
-| `IAC5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `IAC()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IACPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IAC%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IAC%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IAC3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
+| `IAC5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IAC |
 
 
 ### Income Before Taxes
 
 Income Before Taxes includes all expenses except extraordinary and discontinued items.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `IncBTax()` | offset, type[, NAHandling] |  |
-| `IncBTaxQ` |  | Latest Quarter |
-| `IncBTaxPQ` |  | Previous Quarter |
-| `IncBTaxPYQ` |  | Previous Quarter 1 Year Ago |
-| `IncBTaxTTM` |  | Trailing 12 Months |
-| `IncBTaxPTM` |  | Previous Trailing 12 Months |
-| `IncBTaxA` |  | Latest Year |
-| `IncBTaxPY` |  | Previous Year |
-| `IncBTaxGr%PQ` |  | Q vs Previous Q Growth |
-| `IncBTaxGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `IncBTaxGr%TTM` |  | Trailing Twelve Months Growth |
-| `IncBTaxGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `IncBTaxGr%A` |  | Growth Annual |
-| `IncBTaxGr%3Y` |  | Three Year Annualized Growth |
-| `IncBTaxGr%5Y` |  | Five Year Annualized Growth |
-| `IncBTaxGr%10Y` |  | Ten Year Annualized Growth |
-| `IncBTaxRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `IncBTaxRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `IncBTaxRegEstANN` |  | Ten Year Regression Estimate |
-| `IncBTaxRegEstTTM` |  | Five Year Regression Estimate |
-| `IncBTaxRegGr%ANN` |  | Ten Year Regression Estimate |
-| `IncBTaxRegGr%TTM` |  | Five Year Regression Growth |
-| `IncBTaxPSQ` |  | Quarterly Per Share |
-| `IncBTaxPSA` |  | Annual Per Share |
-| `IncBTax%SalesQ` |  | % of Quarterly Sales |
-| `IncBTax%SalesA` |  | % of Annual Sales |
-| `IncBTax3YAvg` |  | Three Year Average |
-| `IncBTax5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `IncBTax()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTaxPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTax%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTax%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTax3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
+| `IncBTax5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBTax |
 
 
 ### Income Before Xor Items Adj for Common
 
 Net income available to common divided by fully diluted shares.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `IncBXorAdjCSE()` | offset, type[, NAHandling] |  |
-| `IncBXorAdjCSEQ` |  | Latest Quarter |
-| `IncBXorAdjCSEPQ` |  | Previous Quarter |
-| `IncBXorAdjCSEPYQ` |  | Previous Quarter 1 Year Ago |
-| `IncBXorAdjCSETTM` |  | Trailing 12 Months |
-| `IncBXorAdjCSEPTM` |  | Previous Trailing 12 Months |
-| `IncBXorAdjCSEA` |  | Latest Year |
-| `IncBXorAdjCSEPY` |  | Previous Year |
-| `IncBXorAdjCSEGr%PQ` |  | Q vs Previous Q Growth |
-| `IncBXorAdjCSEGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `IncBXorAdjCSEGr%TTM` |  | Trailing Twelve Months Growth |
-| `IncBXorAdjCSEGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `IncBXorAdjCSEGr%A` |  | Growth Annual |
-| `IncBXorAdjCSEGr%3Y` |  | Three Year Annualized Growth |
-| `IncBXorAdjCSEGr%5Y` |  | Five Year Annualized Growth |
-| `IncBXorAdjCSEGr%10Y` |  | Ten Year Annualized Growth |
-| `IncBXorAdjCSERSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `IncBXorAdjCSERSD%TTM` |  | Five Year Relative Standard Deviation |
-| `IncBXorAdjCSERegEstANN` |  | Ten Year Regression Estimate |
-| `IncBXorAdjCSERegEstTTM` |  | Five Year Regression Estimate |
-| `IncBXorAdjCSERegGr%ANN` |  | Ten Year Regression Estimate |
-| `IncBXorAdjCSERegGr%TTM` |  | Five Year Regression Growth |
-| `IncBXorAdjCSEPSQ` |  | Quarterly Per Share |
-| `IncBXorAdjCSEPSA` |  | Annual Per Share |
-| `IncBXorAdjCSE%SalesQ` |  | % of Quarterly Sales |
-| `IncBXorAdjCSE%SalesA` |  | % of Annual Sales |
-| `IncBXorAdjCSE3YAvg` |  | Three Year Average |
-| `IncBXorAdjCSE5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `IncBXorAdjCSE()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSETTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSERSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSERSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSERegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSERegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSERegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSERegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSEPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSE%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSE%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSE3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
+| `IncBXorAdjCSE5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorAdjCSE |
 
 
 ### Income Before Xor Items Avail for Common
 
 Income before extraordinary/discontinued items minus preferred dividends.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `IncBXorForCom()` | offset, type[, NAHandling] |  |
-| `IncBXorForComQ` |  | Latest Quarter |
-| `IncBXorForComPQ` |  | Previous Quarter |
-| `IncBXorForComPYQ` |  | Previous Quarter 1 Year Ago |
-| `IncBXorForComTTM` |  | Trailing 12 Months |
-| `IncBXorForComPTM` |  | Previous Trailing 12 Months |
-| `IncBXorForComA` |  | Latest Year |
-| `IncBXorForComPY` |  | Previous Year |
-| `IncBXorForComGr%PQ` |  | Q vs Previous Q Growth |
-| `IncBXorForComGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `IncBXorForComGr%TTM` |  | Trailing Twelve Months Growth |
-| `IncBXorForComGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `IncBXorForComGr%A` |  | Growth Annual |
-| `IncBXorForComGr%3Y` |  | Three Year Annualized Growth |
-| `IncBXorForComGr%5Y` |  | Five Year Annualized Growth |
-| `IncBXorForComGr%10Y` |  | Ten Year Annualized Growth |
-| `IncBXorForComRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `IncBXorForComRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `IncBXorForComRegEstANN` |  | Ten Year Regression Estimate |
-| `IncBXorForComRegEstTTM` |  | Five Year Regression Estimate |
-| `IncBXorForComRegGr%ANN` |  | Ten Year Regression Estimate |
-| `IncBXorForComRegGr%TTM` |  | Five Year Regression Growth |
-| `IncBXorForComPSQ` |  | Quarterly Per Share |
-| `IncBXorForComPSA` |  | Annual Per Share |
-| `IncBXorForCom%SalesQ` |  | % of Quarterly Sales |
-| `IncBXorForCom%SalesA` |  | % of Annual Sales |
-| `IncBXorForCom3YAvg` |  | Three Year Average |
-| `IncBXorForCom5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `IncBXorForCom()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForComPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForCom%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForCom%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForCom3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
+| `IncBXorForCom5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncBXorForCom |
 
 
 ### Income Tax Expense
 
 Net amount paid by the company during the period.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `IncTaxExp()` | offset, type[, NAHandling] |  |
-| `IncTaxExpQ` |  | Latest Quarter |
-| `IncTaxExpPQ` |  | Previous Quarter |
-| `IncTaxExpPYQ` |  | Previous Quarter 1 Year Ago |
-| `IncTaxExpTTM` |  | Trailing 12 Months |
-| `IncTaxExpPTM` |  | Previous Trailing 12 Months |
-| `IncTaxExpA` |  | Latest Year |
-| `IncTaxExpPY` |  | Previous Year |
-| `IncTaxExpGr%PQ` |  | Q vs Previous Q Growth |
-| `IncTaxExpGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `IncTaxExpGr%TTM` |  | Trailing Twelve Months Growth |
-| `IncTaxExpGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `IncTaxExpGr%A` |  | Growth Annual |
-| `IncTaxExpGr%3Y` |  | Three Year Annualized Growth |
-| `IncTaxExpGr%5Y` |  | Five Year Annualized Growth |
-| `IncTaxExpGr%10Y` |  | Ten Year Annualized Growth |
-| `IncTaxExpRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `IncTaxExpRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `IncTaxExpRegEstANN` |  | Ten Year Regression Estimate |
-| `IncTaxExpRegEstTTM` |  | Five Year Regression Estimate |
-| `IncTaxExpRegGr%ANN` |  | Ten Year Regression Estimate |
-| `IncTaxExpRegGr%TTM` |  | Five Year Regression Growth |
-| `IncTaxExpPSQ` |  | Quarterly Per Share |
-| `IncTaxExpPSA` |  | Annual Per Share |
-| `IncTaxExp%SalesQ` |  | % of Quarterly Sales |
-| `IncTaxExp%SalesA` |  | % of Annual Sales |
-| `IncTaxExp3YAvg` |  | Three Year Average |
-| `IncTaxExp5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `IncTaxExp()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExpPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExp%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExp%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExp3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
+| `IncTaxExp5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IncTaxExp |
 
 
 ### Interest Expense
 
 Amount paid to service all debt during the period.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `IntExp()` | offset, type[, NAHandling] |  |
-| `IntExpQ` |  | Latest Quarter |
-| `IntExpPQ` |  | Previous Quarter |
-| `IntExpPYQ` |  | Previous Quarter 1 Year Ago |
-| `IntExpTTM` |  | Trailing 12 Months |
-| `IntExpPTM` |  | Previous Trailing 12 Months |
-| `IntExpA` |  | Latest Year |
-| `IntExpPY` |  | Previous Year |
-| `IntExpGr%PQ` |  | Q vs Previous Q Growth |
-| `IntExpGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `IntExpGr%TTM` |  | Trailing Twelve Months Growth |
-| `IntExpGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `IntExpGr%A` |  | Growth Annual |
-| `IntExpGr%3Y` |  | Three Year Annualized Growth |
-| `IntExpGr%5Y` |  | Five Year Annualized Growth |
-| `IntExpGr%10Y` |  | Ten Year Annualized Growth |
-| `IntExpRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `IntExpRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `IntExpRegEstANN` |  | Ten Year Regression Estimate |
-| `IntExpRegEstTTM` |  | Five Year Regression Estimate |
-| `IntExpRegGr%ANN` |  | Ten Year Regression Estimate |
-| `IntExpRegGr%TTM` |  | Five Year Regression Growth |
-| `IntExpPSQ` |  | Quarterly Per Share |
-| `IntExpPSA` |  | Annual Per Share |
-| `IntExp%SalesQ` |  | % of Quarterly Sales |
-| `IntExp%SalesA` |  | % of Annual Sales |
-| `IntExp3YAvg` |  | Three Year Average |
-| `IntExp5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `IntExp()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExpPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExp%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExp%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExp3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
+| `IntExp5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntExp |
 
 
 ### Interest Income
 
 Amount earned from loans during the period.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `IntInc()` | offset, type[, NAHandling] |  |
-| `IntIncQ` |  | Latest Quarter |
-| `IntIncPQ` |  | Previous Quarter |
-| `IntIncPYQ` |  | Previous Quarter 1 Year Ago |
-| `IntIncTTM` |  | Trailing 12 Months |
-| `IntIncPTM` |  | Previous Trailing 12 Months |
-| `IntIncA` |  | Latest Year |
-| `IntIncPY` |  | Previous Year |
-| `IntIncGr%PQ` |  | Q vs Previous Q Growth |
-| `IntIncGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `IntIncGr%TTM` |  | Trailing Twelve Months Growth |
-| `IntIncGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `IntIncGr%A` |  | Growth Annual |
-| `IntIncGr%3Y` |  | Three Year Annualized Growth |
-| `IntIncGr%5Y` |  | Five Year Annualized Growth |
-| `IntIncGr%10Y` |  | Ten Year Annualized Growth |
-| `IntIncRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `IntIncRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `IntIncRegEstANN` |  | Ten Year Regression Estimate |
-| `IntIncRegEstTTM` |  | Five Year Regression Estimate |
-| `IntIncRegGr%ANN` |  | Ten Year Regression Estimate |
-| `IntIncRegGr%TTM` |  | Five Year Regression Growth |
-| `IntIncPSQ` |  | Quarterly Per Share |
-| `IntIncPSA` |  | Annual Per Share |
-| `IntInc%SalesQ` |  | % of Quarterly Sales |
-| `IntInc%SalesA` |  | % of Annual Sales |
-| `IntInc3YAvg` |  | Three Year Average |
-| `IntInc5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `IntInc()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntIncPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntInc%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntInc%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntInc3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
+| `IntInc5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntInc |
 
 
 ### Net Income Before Xor
 
 Income after all expenses including taxes and minority interest.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `NetIncBXor()` | offset, type[, NAHandling] |  |
-| `NetIncBXorQ` |  | Latest Quarter |
-| `NetIncBXorPQ` |  | Previous Quarter |
-| `NetIncBXorPYQ` |  | Previous Quarter 1 Year Ago |
-| `NetIncBXorTTM` |  | Trailing 12 Months |
-| `NetIncBXorPTM` |  | Previous Trailing 12 Months |
-| `NetIncBXorA` |  | Latest Year |
-| `NetIncBXorPY` |  | Previous Year |
-| `NetIncBXorGr%PQ` |  | Q vs Previous Q Growth |
-| `NetIncBXorGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `NetIncBXorGr%TTM` |  | Trailing Twelve Months Growth |
-| `NetIncBXorGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `NetIncBXorGr%A` |  | Growth Annual |
-| `NetIncBXorGr%3Y` |  | Three Year Annualized Growth |
-| `NetIncBXorGr%5Y` |  | Five Year Annualized Growth |
-| `NetIncBXorGr%10Y` |  | Ten Year Annualized Growth |
-| `NetIncBXorRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `NetIncBXorRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `NetIncBXorRegEstANN` |  | Ten Year Regression Estimate |
-| `NetIncBXorRegEstTTM` |  | Five Year Regression Estimate |
-| `NetIncBXorRegGr%ANN` |  | Ten Year Regression Estimate |
-| `NetIncBXorRegGr%TTM` |  | Five Year Regression Growth |
-| `NetIncBXorPSQ` |  | Quarterly Per Share |
-| `NetIncBXorPSA` |  | Annual Per Share |
-| `NetIncBXor%SalesQ` |  | % of Quarterly Sales |
-| `NetIncBXor%SalesA` |  | % of Annual Sales |
-| `NetIncBXor3YAvg` |  | Three Year Average |
-| `NetIncBXor5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `NetIncBXor()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXorPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXor%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXor%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXor3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
+| `NetIncBXor5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXor |
 
 
 ### Net Income Before Xor and Non-Control Interest
 
 Total earnings excluding extraordinary items and minority interest.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `NetIncBXorNonC()` | offset, type[, NAHandling] |  |
-| `NetIncBXorNonCQ` |  | Latest Quarter |
-| `NetIncBXorNonCPQ` |  | Previous Quarter |
-| `NetIncBXorNonCPYQ` |  | Previous Quarter 1 Year Ago |
-| `NetIncBXorNonCTTM` |  | Trailing 12 Months |
-| `NetIncBXorNonCPTM` |  | Previous Trailing 12 Months |
-| `NetIncBXorNonCA` |  | Latest Year |
-| `NetIncBXorNonCPY` |  | Previous Year |
-| `NetIncBXorNonCGr%PQ` |  | Q vs Previous Q Growth |
-| `NetIncBXorNonCGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `NetIncBXorNonCGr%TTM` |  | Trailing Twelve Months Growth |
-| `NetIncBXorNonCGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `NetIncBXorNonCGr%A` |  | Growth Annual |
-| `NetIncBXorNonCGr%3Y` |  | Three Year Annualized Growth |
-| `NetIncBXorNonCGr%5Y` |  | Five Year Annualized Growth |
-| `NetIncBXorNonCGr%10Y` |  | Ten Year Annualized Growth |
-| `NetIncBXorNonCRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `NetIncBXorNonCRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `NetIncBXorNonCRegEstANN` |  | Ten Year Regression Estimate |
-| `NetIncBXorNonCRegEstTTM` |  | Five Year Regression Estimate |
-| `NetIncBXorNonCRegGr%ANN` |  | Ten Year Regression Estimate |
-| `NetIncBXorNonCRegGr%TTM` |  | Five Year Regression Growth |
-| `NetIncBXorNonCPSQ` |  | Quarterly Per Share |
-| `NetIncBXorNonCPSA` |  | Annual Per Share |
-| `NetIncBXorNonC%SalesQ` |  | % of Quarterly Sales |
-| `NetIncBXorNonC%SalesA` |  | % of Annual Sales |
-| `NetIncBXorNonC3YAvg` |  | Three Year Average |
-| `NetIncBXorNonC5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `NetIncBXorNonC()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonCPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonC%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonC%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonC3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
+| `NetIncBXorNonC5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncBXorNonC |
 
 
 ### Non-Operating Expenses
 
 Net result from secondary activities unrelated to core business.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `ExpNonOp()` | offset, type[, NAHandling] |  |
-| `ExpNonOpQ` |  | Latest Quarter |
-| `ExpNonOpPQ` |  | Previous Quarter |
-| `ExpNonOpPYQ` |  | Previous Quarter 1 Year Ago |
-| `ExpNonOpTTM` |  | Trailing 12 Months |
-| `ExpNonOpPTM` |  | Previous Trailing 12 Months |
-| `ExpNonOpA` |  | Latest Year |
-| `ExpNonOpPY` |  | Previous Year |
-| `ExpNonOpGr%PQ` |  | Q vs Previous Q Growth |
-| `ExpNonOpGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `ExpNonOpGr%TTM` |  | Trailing Twelve Months Growth |
-| `ExpNonOpGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `ExpNonOpGr%A` |  | Growth Annual |
-| `ExpNonOpGr%3Y` |  | Three Year Annualized Growth |
-| `ExpNonOpGr%5Y` |  | Five Year Annualized Growth |
-| `ExpNonOpGr%10Y` |  | Ten Year Annualized Growth |
-| `ExpNonOpRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `ExpNonOpRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `ExpNonOpRegEstANN` |  | Ten Year Regression Estimate |
-| `ExpNonOpRegEstTTM` |  | Five Year Regression Estimate |
-| `ExpNonOpRegGr%ANN` |  | Ten Year Regression Estimate |
-| `ExpNonOpRegGr%TTM` |  | Five Year Regression Growth |
-| `ExpNonOpPSQ` |  | Quarterly Per Share |
-| `ExpNonOpPSA` |  | Annual Per Share |
-| `ExpNonOp%SalesQ` |  | % of Quarterly Sales |
-| `ExpNonOp%SalesA` |  | % of Annual Sales |
-| `ExpNonOp3YAvg` |  | Three Year Average |
-| `ExpNonOp5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `ExpNonOp()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOpPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOp%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOp%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOp3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
+| `ExpNonOp5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ExpNonOp |
 
 
 ### Operating Income
 
 Revenues minus cost of goods sold, SG&A, and depreciation/amortization.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `OpInc()` | offset, type[, NAHandling] |  |
-| `OpIncQ` |  | Latest Quarter |
-| `OpIncPQ` |  | Previous Quarter |
-| `OpIncPYQ` |  | Previous Quarter 1 Year Ago |
-| `OpIncTTM` |  | Trailing 12 Months |
-| `OpIncPTM` |  | Previous Trailing 12 Months |
-| `OpIncA` |  | Latest Year |
-| `OpIncPY` |  | Previous Year |
-| `OpIncGr%PQ` |  | Q vs Previous Q Growth |
-| `OpIncGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `OpIncGr%TTM` |  | Trailing Twelve Months Growth |
-| `OpIncGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `OpIncGr%A` |  | Growth Annual |
-| `OpIncGr%3Y` |  | Three Year Annualized Growth |
-| `OpIncGr%5Y` |  | Five Year Annualized Growth |
-| `OpIncGr%10Y` |  | Ten Year Annualized Growth |
-| `OpIncRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `OpIncRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `OpIncRegEstANN` |  | Ten Year Regression Estimate |
-| `OpIncRegEstTTM` |  | Five Year Regression Estimate |
-| `OpIncRegGr%ANN` |  | Ten Year Regression Estimate |
-| `OpIncRegGr%TTM` |  | Five Year Regression Growth |
-| `OpIncPSQ` |  | Quarterly Per Share |
-| `OpIncPSA` |  | Annual Per Share |
-| `OpInc%SalesQ` |  | % of Quarterly Sales |
-| `OpInc%SalesA` |  | % of Annual Sales |
-| `OpInc3YAvg` |  | Three Year Average |
-| `OpInc5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `OpInc()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpIncPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpInc%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpInc%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpInc3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
+| `OpInc5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpInc |
 
 
 ### Operating Income After Depreciation
 
 Revenues minus COGS, SG&A, and depreciation/amortization. Identical to Operating Income.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `OpIncAftDepr()` | offset, type[, NAHandling] |  |
-| `OpIncAftDeprQ` |  | Latest Quarter |
-| `OpIncAftDeprPQ` |  | Previous Quarter |
-| `OpIncAftDeprPYQ` |  | Previous Quarter 1 Year Ago |
-| `OpIncAftDeprTTM` |  | Trailing 12 Months |
-| `OpIncAftDeprPTM` |  | Previous Trailing 12 Months |
-| `OpIncAftDeprA` |  | Latest Year |
-| `OpIncAftDeprPY` |  | Previous Year |
-| `OpIncAftDeprGr%PQ` |  | Q vs Previous Q Growth |
-| `OpIncAftDeprGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `OpIncAftDeprGr%TTM` |  | Trailing Twelve Months Growth |
-| `OpIncAftDeprGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `OpIncAftDeprGr%A` |  | Growth Annual |
-| `OpIncAftDeprGr%3Y` |  | Three Year Annualized Growth |
-| `OpIncAftDeprGr%5Y` |  | Five Year Annualized Growth |
-| `OpIncAftDeprGr%10Y` |  | Ten Year Annualized Growth |
-| `OpIncAftDeprRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `OpIncAftDeprRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `OpIncAftDeprRegEstANN` |  | Ten Year Regression Estimate |
-| `OpIncAftDeprRegEstTTM` |  | Five Year Regression Estimate |
-| `OpIncAftDeprRegGr%ANN` |  | Ten Year Regression Estimate |
-| `OpIncAftDeprRegGr%TTM` |  | Five Year Regression Growth |
-| `OpIncAftDeprPSQ` |  | Quarterly Per Share |
-| `OpIncAftDeprPSA` |  | Annual Per Share |
-| `OpIncAftDepr%SalesQ` |  | % of Quarterly Sales |
-| `OpIncAftDepr%SalesA` |  | % of Annual Sales |
-| `OpIncAftDepr3YAvg` |  | Three Year Average |
-| `OpIncAftDepr5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `OpIncAftDepr()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDeprPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDepr%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDepr%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDepr3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
+| `OpIncAftDepr5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncAftDepr |
 
 
 ### Operating Income Before Depreciation
 
 Revenues minus COGS and SG&A.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `OpIncBDepr()` | offset, type[, NAHandling] |  |
-| `OpIncBDeprQ` |  | Latest Quarter |
-| `OpIncBDeprPQ` |  | Previous Quarter |
-| `OpIncBDeprPYQ` |  | Previous Quarter 1 Year Ago |
-| `OpIncBDeprTTM` |  | Trailing 12 Months |
-| `OpIncBDeprPTM` |  | Previous Trailing 12 Months |
-| `OpIncBDeprA` |  | Latest Year |
-| `OpIncBDeprPY` |  | Previous Year |
-| `OpIncBDeprGr%PQ` |  | Q vs Previous Q Growth |
-| `OpIncBDeprGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `OpIncBDeprGr%TTM` |  | Trailing Twelve Months Growth |
-| `OpIncBDeprGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `OpIncBDeprGr%A` |  | Growth Annual |
-| `OpIncBDeprGr%3Y` |  | Three Year Annualized Growth |
-| `OpIncBDeprGr%5Y` |  | Five Year Annualized Growth |
-| `OpIncBDeprGr%10Y` |  | Ten Year Annualized Growth |
-| `OpIncBDeprRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `OpIncBDeprRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `OpIncBDeprRegEstANN` |  | Ten Year Regression Estimate |
-| `OpIncBDeprRegEstTTM` |  | Five Year Regression Estimate |
-| `OpIncBDeprRegGr%ANN` |  | Ten Year Regression Estimate |
-| `OpIncBDeprRegGr%TTM` |  | Five Year Regression Growth |
-| `OpIncBDeprPSQ` |  | Quarterly Per Share |
-| `OpIncBDeprPSA` |  | Annual Per Share |
-| `OpIncBDepr%SalesQ` |  | % of Quarterly Sales |
-| `OpIncBDepr%SalesA` |  | % of Annual Sales |
-| `OpIncBDepr3YAvg` |  | Three Year Average |
-| `OpIncBDepr5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `OpIncBDepr()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDeprPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDepr%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDepr%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDepr3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
+| `OpIncBDepr5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OpIncBDepr |
 
 
 ### Preferred Dividends Paid, Total
 
 Total amount paid to preferred shareholders across all preferred share issues during the period.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `PfdDiv()` | offset, type[, NAHandling] |  |
-| `PfdDivQ` |  | Latest Quarter |
-| `PfdDivPQ` |  | Previous Quarter |
-| `PfdDivPYQ` |  | Previous Quarter 1 Year Ago |
-| `PfdDivTTM` |  | Trailing 12 Months |
-| `PfdDivPTM` |  | Previous Trailing 12 Months |
-| `PfdDivA` |  | Latest Year |
-| `PfdDivPY` |  | Previous Year |
-| `PfdDivGr%PQ` |  | Q vs Previous Q Growth |
-| `PfdDivGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `PfdDivGr%TTM` |  | Trailing Twelve Months Growth |
-| `PfdDivGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `PfdDivGr%A` |  | Growth Annual |
-| `PfdDivGr%3Y` |  | Three Year Annualized Growth |
-| `PfdDivGr%5Y` |  | Five Year Annualized Growth |
-| `PfdDivGr%10Y` |  | Ten Year Annualized Growth |
-| `PfdDivRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `PfdDivRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `PfdDivRegEstANN` |  | Ten Year Regression Estimate |
-| `PfdDivRegEstTTM` |  | Five Year Regression Estimate |
-| `PfdDivRegGr%ANN` |  | Ten Year Regression Estimate |
-| `PfdDivRegGr%TTM` |  | Five Year Regression Growth |
-| `PfdDivPSQ` |  | Quarterly Per Share |
-| `PfdDivPSA` |  | Annual Per Share |
-| `PfdDiv%SalesQ` |  | % of Quarterly Sales |
-| `PfdDiv%SalesA` |  | % of Annual Sales |
-| `PfdDiv%AssetsQ` |  | % of Quarterly Assets |
-| `PfdDiv%AssetsA` |  | % of Annual Assets |
-| `PfdDiv3YAvg` |  | Three Year Average |
-| `PfdDiv5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `PfdDiv()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDivPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDiv%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDiv%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDiv%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDiv%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDiv3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
+| `PfdDiv5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdDiv |
 
 
 ### Research and Development Expense
 
 Spending on future products/services during the period.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `RandD()` | offset, type[, NAHandling] |  |
-| `RandDQ` |  | Latest Quarter |
-| `RandDPQ` |  | Previous Quarter |
-| `RandDPYQ` |  | Previous Quarter 1 Year Ago |
-| `RandDTTM` |  | Trailing 12 Months |
-| `RandDPTM` |  | Previous Trailing 12 Months |
-| `RandDA` |  | Latest Year |
-| `RandDPY` |  | Previous Year |
-| `RandDGr%PQ` |  | Q vs Previous Q Growth |
-| `RandDGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `RandDGr%TTM` |  | Trailing Twelve Months Growth |
-| `RandDGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `RandDGr%A` |  | Growth Annual |
-| `RandDGr%3Y` |  | Three Year Annualized Growth |
-| `RandDGr%5Y` |  | Five Year Annualized Growth |
-| `RandDGr%10Y` |  | Ten Year Annualized Growth |
-| `RandDRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `RandDRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `RandDRegEstANN` |  | Ten Year Regression Estimate |
-| `RandDRegEstTTM` |  | Five Year Regression Estimate |
-| `RandDRegGr%ANN` |  | Ten Year Regression Estimate |
-| `RandDRegGr%TTM` |  | Five Year Regression Growth |
-| `RandDPSQ` |  | Quarterly Per Share |
-| `RandDPSA` |  | Annual Per Share |
-| `RandD%SalesQ` |  | % of Quarterly Sales |
-| `RandD%SalesA` |  | % of Annual Sales |
-| `RandD%AssetsQ` |  | % of Quarterly Assets |
-| `RandD%AssetsA` |  | % of Annual Assets |
-| `RandD3YAvg` |  | Three Year Average |
-| `RandD5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `RandD()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandDPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandD%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandD%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandD%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandD%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandD3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
+| `RandD5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RandD |
 
 
 ### Sales (International)
 
 Represents sales generated from operations in foreign countries. Export sales are not included. Annual values only.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `SalesIntl()` | offset, type[, NAHandling] |  |
-| `SalesIntlA` |  | Latest Year |
-| `SalesIntlPY` |  | Previous Year |
-| `SalesIntlGr%A` |  | Growth Annual |
-| `SalesIntlGr%3Y` |  | Three Year Annualized Growth |
-| `SalesIntlGr%5Y` |  | Five Year Annualized Growth |
-| `SalesIntlGr%10Y` |  | Ten Year Annualized Growth |
-| `SalesIntl3YAvg` |  | Three Year Average |
-| `SalesIntl5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `SalesIntl()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SalesIntl |
+| `SalesIntlA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SalesIntl |
+| `SalesIntlPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SalesIntl |
+| `SalesIntlGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SalesIntl |
+| `SalesIntlGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SalesIntl |
+| `SalesIntlGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SalesIntl |
+| `SalesIntlGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SalesIntl |
+| `SalesIntl3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SalesIntl |
+| `SalesIntl5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SalesIntl |
 
 
 ### Sales (Revenues)
 
 Total value of goods/services sold in a period.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `Sales()` | offset, type[, NAHandling] |  |
-| `SalesQ` |  | Latest Quarter |
-| `SalesPQ` |  | Previous Quarter |
-| `SalesPYQ` |  | Previous Quarter 1 Year Ago |
-| `SalesTTM` |  | Trailing 12 Months |
-| `SalesPTM` |  | Previous Trailing 12 Months |
-| `SalesA` |  | Latest Year |
-| `SalesPY` |  | Previous Year |
-| `SalesGr%PQ` |  | Q vs Previous Q Growth |
-| `SalesGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `SalesGr%TTM` |  | Trailing Twelve Months Growth |
-| `SalesGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `SalesGr%A` |  | Growth Annual |
-| `SalesGr%3Y` |  | Three Year Annualized Growth |
-| `SalesGr%5Y` |  | Five Year Annualized Growth |
-| `SalesGr%10Y` |  | Ten Year Annualized Growth |
-| `SalesRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `SalesRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `SalesRegEstANN` |  | Ten Year Regression Estimate |
-| `SalesRegEstTTM` |  | Five Year Regression Estimate |
-| `SalesRegGr%ANN` |  | Ten Year Regression Estimate |
-| `SalesRegGr%TTM` |  | Five Year Regression Growth |
-| `SalesPSQ` |  | Quarterly Per Share |
-| `SalesPSA` |  | Annual Per Share |
-| `Sales%AssetsQ` |  | % of Quarterly Assets |
-| `Sales%AssetsA` |  | % of Annual Assets |
-| `Sales3YAvg` |  | Three Year Average |
-| `Sales5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `Sales()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `SalesPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `Sales%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `Sales%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `Sales3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
+| `Sales5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Sales |
 
 
 ### Sales, General and Admin Exp
 
 Expenses include all general/administrative costs plus direct/indirect selling expenses - excludes R&D expenses.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `SGandA()` | offset, type[, NAHandling] |  |
-| `SGandAQ` |  | Latest Quarter |
-| `SGandAPQ` |  | Previous Quarter |
-| `SGandAPYQ` |  | Previous Quarter 1 Year Ago |
-| `SGandATTM` |  | Trailing 12 Months |
-| `SGandAPTM` |  | Previous Trailing 12 Months |
-| `SGandAA` |  | Latest Year |
-| `SGandAPY` |  | Previous Year |
-| `SGandAGr%PQ` |  | Q vs Previous Q Growth |
-| `SGandAGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `SGandAGr%TTM` |  | Trailing Twelve Months Growth |
-| `SGandAGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `SGandAGr%A` |  | Growth Annual |
-| `SGandAGr%3Y` |  | Three Year Annualized Growth |
-| `SGandAGr%5Y` |  | Five Year Annualized Growth |
-| `SGandAGr%10Y` |  | Ten Year Annualized Growth |
-| `SGandARSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `SGandARSD%TTM` |  | Five Year Relative Standard Deviation |
-| `SGandARegEstANN` |  | Ten Year Regression Estimate |
-| `SGandARegEstTTM` |  | Five Year Regression Estimate |
-| `SGandARegGr%ANN` |  | Ten Year Regression Estimate |
-| `SGandARegGr%TTM` |  | Five Year Regression Growth |
-| `SGandAPSQ` |  | Quarterly Per Share |
-| `SGandAPSA` |  | Annual Per Share |
-| `SGandA%SalesQ` |  | % of Quarterly Sales |
-| `SGandA%SalesA` |  | % of Annual Sales |
-| `SGandA%AssetsQ` |  | % of Quarterly Assets |
-| `SGandA%AssetsA` |  | % of Annual Assets |
-| `SGandA3YAvg` |  | Three Year Average |
-| `SGandA5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `SGandA()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandATTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandARSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandARSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandARegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandARegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandARegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandARegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandAPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandA%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandA%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandA%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandA%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandA3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
+| `SGandA5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA |
 
 
 ### Sales, General and Admin Exp GAAP
 
 Expenses include all general/administrative costs plus direct/indirect selling expenses - includes R&D expenses.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `SGandA_GAAP()` | offset, type[, NAHandling] |  |
-| `SGandA_GAAPQ` |  | Latest Quarter |
-| `SGandA_GAAPPQ` |  | Previous Quarter |
-| `SGandA_GAAPPYQ` |  | Previous Quarter 1 Year Ago |
-| `SGandA_GAAPTTM` |  | Trailing 12 Months |
-| `SGandA_GAAPPTM` |  | Previous Trailing 12 Months |
-| `SGandA_GAAPA` |  | Latest Year |
-| `SGandA_GAAPPY` |  | Previous Year |
-| `SGandA_GAAPGr%PQ` |  | Q vs Previous Q Growth |
-| `SGandA_GAAPGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `SGandA_GAAPGr%TTM` |  | Trailing Twelve Months Growth |
-| `SGandA_GAAPGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `SGandA_GAAPGr%A` |  | Growth Annual |
-| `SGandA_GAAPGr%3Y` |  | Three Year Annualized Growth |
-| `SGandA_GAAPGr%5Y` |  | Five Year Annualized Growth |
-| `SGandA_GAAPGr%10Y` |  | Ten Year Annualized Growth |
-| `SGandA_GAAPRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `SGandA_GAAPRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `SGandA_GAAPRegEstANN` |  | Ten Year Regression Estimate |
-| `SGandA_GAAPRegEstTTM` |  | Five Year Regression Estimate |
-| `SGandA_GAAPRegGr%ANN` |  | Ten Year Regression Estimate |
-| `SGandA_GAAPRegGr%TTM` |  | Five Year Regression Growth |
-| `SGandA_GAAPPSQ` |  | Quarterly Per Share |
-| `SGandA_GAAPPSA` |  | Annual Per Share |
-| `SGandA_GAAP%SalesQ` |  | % of Quarterly Sales |
-| `SGandA_GAAP%SalesA` |  | % of Annual Sales |
-| `SGandA_GAAP%AssetsQ` |  | % of Quarterly Assets |
-| `SGandA_GAAP%AssetsA` |  | % of Annual Assets |
-| `SGandA_GAAP3YAvg` |  | Three Year Average |
-| `SGandA_GAAP5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `SGandA_GAAP()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAPPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAP%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAP%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAP%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAP%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAP3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
+| `SGandA_GAAP5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SGandA_GAAP |
 
 
 ### Special Items
 
 Total pre-tax non-recurring items.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `SpcItems()` | offset, type[, NAHandling] |  |
-| `SpcItemsQ` |  | Latest Quarter |
-| `SpcItemsPQ` |  | Previous Quarter |
-| `SpcItemsPYQ` |  | Previous Quarter 1 Year Ago |
-| `SpcItemsTTM` |  | Trailing 12 Months |
-| `SpcItemsPTM` |  | Previous Trailing 12 Months |
-| `SpcItemsA` |  | Latest Year |
-| `SpcItemsPY` |  | Previous Year |
-| `SpcItemsGr%PQ` |  | Q vs Previous Q Growth |
-| `SpcItemsGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `SpcItemsGr%TTM` |  | Trailing Twelve Months Growth |
-| `SpcItemsGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `SpcItemsGr%A` |  | Growth Annual |
-| `SpcItemsGr%3Y` |  | Three Year Annualized Growth |
-| `SpcItemsGr%5Y` |  | Five Year Annualized Growth |
-| `SpcItemsGr%10Y` |  | Ten Year Annualized Growth |
-| `SpcItemsRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `SpcItemsRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `SpcItemsRegEstANN` |  | Ten Year Regression Estimate |
-| `SpcItemsRegEstTTM` |  | Five Year Regression Estimate |
-| `SpcItemsRegGr%ANN` |  | Ten Year Regression Estimate |
-| `SpcItemsRegGr%TTM` |  | Five Year Regression Growth |
-| `SpcItemsPSQ` |  | Quarterly Per Share |
-| `SpcItemsPSA` |  | Annual Per Share |
-| `SpcItems%SalesQ` |  | % of Quarterly Sales |
-| `SpcItems%SalesA` |  | % of Annual Sales |
-| `SpcItems%AssetsQ` |  | % of Quarterly Assets |
-| `SpcItems%AssetsA` |  | % of Annual Assets |
-| `SpcItems3YAvg` |  | Three Year Average |
-| `SpcItems5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `SpcItems()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItemsPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItems%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItems%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItems%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItems%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItems3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
+| `SpcItems5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SpcItems |
 
 
 ### Stock Option Compensation Expense
 
 Income statement SBC. Data begins around 2003, with full annual coverage starting in 2008, and interim in 2017
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `StkOptExp()` | offset, type[, NAHandling] |  |
-| `StkOptExpQ` |  | Latest Quarter |
-| `StkOptExpPQ` |  | Previous Quarter |
-| `StkOptExpPYQ` |  | Previous Quarter 1 Year Ago |
-| `StkOptExpTTM` |  | Trailing 12 Months |
-| `StkOptExpPTM` |  | Previous Trailing 12 Months |
-| `StkOptExpA` |  | Latest Year |
-| `StkOptExpPY` |  | Previous Year |
-| `StkOptExpGr%PQ` |  | Q vs Previous Q Growth |
-| `StkOptExpGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `StkOptExpGr%TTM` |  | Trailing Twelve Months Growth |
-| `StkOptExpGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `StkOptExpGr%A` |  | Growth Annual |
-| `StkOptExpGr%3Y` |  | Three Year Annualized Growth |
-| `StkOptExpGr%5Y` |  | Five Year Annualized Growth |
-| `StkOptExpGr%10Y` |  | Ten Year Annualized Growth |
-| `StkOptExpRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `StkOptExpRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `StkOptExpRegEstANN` |  | Ten Year Regression Estimate |
-| `StkOptExpRegEstTTM` |  | Five Year Regression Estimate |
-| `StkOptExpRegGr%ANN` |  | Ten Year Regression Estimate |
-| `StkOptExpRegGr%TTM` |  | Five Year Regression Growth |
-| `StkOptExpPSQ` |  | Quarterly Per Share |
-| `StkOptExpPSA` |  | Annual Per Share |
-| `StkOptExp%SalesQ` |  | % of Quarterly Sales |
-| `StkOptExp%SalesA` |  | % of Annual Sales |
-| `StkOptExp3YAvg` |  | Three Year Average |
-| `StkOptExp5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `StkOptExp()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExpPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExp%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExp%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExp3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
+| `StkOptExp5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptExp |
 
 
 ### Tax Rate
 
 Tax expense as percentage of pre-tax income.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `TxRate%()` | offset, type[, NAHandling] |  |
-| `TxRate%Q` |  | Latest Quarter |
-| `TxRate%PQ` |  | Previous Quarter |
-| `TxRate%PYQ` |  | Previous Quarter 1 Year Ago |
-| `TxRate%TTM` |  | Trailing 12 Months |
-| `TxRate%PTM` |  | Previous Trailing 12 Months |
-| `TxRate%A` |  | Latest Year |
-| `TxRate%PY` |  | Previous Year |
-| `TxRate%Gr%PQ` |  | Q vs Previous Q Growth |
-| `TxRate%Gr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `TxRate%Gr%TTM` |  | Trailing Twelve Months Growth |
-| `TxRate%Gr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `TxRate%Gr%A` |  | Growth Annual |
-| `TxRate%Gr%3Y` |  | Three Year Annualized Growth |
-| `TxRate%Gr%5Y` |  | Five Year Annualized Growth |
-| `TxRate%Gr%10Y` |  | Ten Year Annualized Growth |
-| `TxRate%RSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `TxRate%RSD%TTM` |  | Five Year Relative Standard Deviation |
-| `TxRate%RegEstANN` |  | Ten Year Regression Estimate |
-| `TxRate%RegEstTTM` |  | Five Year Regression Estimate |
-| `TxRate%RegGr%ANN` |  | Ten Year Regression Estimate |
-| `TxRate%RegGr%TTM` |  | Five Year Regression Growth |
-| `TxRate%3YAvg` |  | Three Year Average |
-| `TxRate%5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `TxRate%()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%Q` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%PQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%PYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%TTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%PTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%A` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%PY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%Gr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%Gr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%Gr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%Gr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%Gr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%Gr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%Gr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%Gr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%RSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%RSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%RegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%RegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%RegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%RegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
+| `TxRate%5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxRate% |
 
 
 ## Balance Sheet
@@ -1197,288 +1197,288 @@ Owned items that are identified by the company as being collectible or liquid en
 
 Amounts due to the company within 12 months, typically from credit sales.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `Recvbl()` | offset, type[, NAHandling] |  |
-| `RecvblQ` |  | Latest Quarter |
-| `RecvblPQ` |  | Previous Quarter |
-| `RecvblPYQ` |  | Previous Quarter 1 Year Ago |
-| `RecvblTTM` |  | Trailing 12 Months |
-| `RecvblPTM` |  | Previous Trailing 12 Months |
-| `RecvblA` |  | Latest Year |
-| `RecvblPY` |  | Previous Year |
-| `RecvblGr%PQ` |  | Q vs Previous Q Growth |
-| `RecvblGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `RecvblGr%TTM` |  | Trailing Twelve Months Growth |
-| `RecvblGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `RecvblGr%A` |  | Growth Annual |
-| `RecvblGr%3Y` |  | Three Year Annualized Growth |
-| `RecvblGr%5Y` |  | Five Year Annualized Growth |
-| `RecvblGr%10Y` |  | Ten Year Annualized Growth |
-| `RecvblRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `RecvblRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `RecvblRegEstANN` |  | Ten Year Regression Estimate |
-| `RecvblRegEstTTM` |  | Five Year Regression Estimate |
-| `RecvblRegGr%ANN` |  | Ten Year Regression Estimate |
-| `RecvblRegGr%TTM` |  | Five Year Regression Growth |
-| `RecvblPSQ` |  | Quarterly Per Share |
-| `RecvblPSA` |  | Annual Per Share |
-| `Recvbl%AssetsQ` |  | % of Quarterly Assets |
-| `Recvbl%AssetsA` |  | % of Annual Assets |
-| `Recvbl3YAvg` |  | Three Year Average |
-| `Recvbl5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `Recvbl()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `RecvblPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `Recvbl%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `Recvbl%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `Recvbl3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
+| `Recvbl5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Recvbl |
 
 
 #### Cash
 
 Amount of cash and equivalents not including short-term investments.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `Cash()` | offset, type[, NAHandling] |  |
-| `CashQ` |  | Latest Quarter |
-| `CashPQ` |  | Previous Quarter |
-| `CashPYQ` |  | Previous Quarter 1 Year Ago |
-| `CashTTM` |  | Trailing 12 Months |
-| `CashPTM` |  | Previous Trailing 12 Months |
-| `CashA` |  | Latest Year |
-| `CashPY` |  | Previous Year |
-| `CashGr%PQ` |  | Q vs Previous Q Growth |
-| `CashGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `CashGr%TTM` |  | Trailing Twelve Months Growth |
-| `CashGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `CashGr%A` |  | Growth Annual |
-| `CashGr%3Y` |  | Three Year Annualized Growth |
-| `CashGr%5Y` |  | Five Year Annualized Growth |
-| `CashGr%10Y` |  | Ten Year Annualized Growth |
-| `CashRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `CashRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `CashRegEstANN` |  | Ten Year Regression Estimate |
-| `CashRegEstTTM` |  | Five Year Regression Estimate |
-| `CashRegGr%ANN` |  | Ten Year Regression Estimate |
-| `CashRegGr%TTM` |  | Five Year Regression Growth |
-| `CashPSQ` |  | Quarterly Per Share |
-| `CashPSA` |  | Annual Per Share |
-| `Cash%AssetsQ` |  | % of Quarterly Assets |
-| `Cash%AssetsA` |  | % of Annual Assets |
-| `Cash3YAvg` |  | Three Year Average |
-| `Cash5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `Cash()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `CashPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `Cash%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `Cash%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `Cash3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
+| `Cash5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Cash |
 
 
 #### Cash and Equivalents
 
 Total cash available. It includes both cash and short-term investments.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `CashEquiv()` | offset, type[, NAHandling] |  |
-| `CashEquivQ` |  | Latest Quarter |
-| `CashEquivPQ` |  | Previous Quarter |
-| `CashEquivPYQ` |  | Previous Quarter 1 Year Ago |
-| `CashEquivTTM` |  | Trailing 12 Months |
-| `CashEquivPTM` |  | Previous Trailing 12 Months |
-| `CashEquivA` |  | Latest Year |
-| `CashEquivPY` |  | Previous Year |
-| `CashEquivGr%PQ` |  | Q vs Previous Q Growth |
-| `CashEquivGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `CashEquivGr%TTM` |  | Trailing Twelve Months Growth |
-| `CashEquivGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `CashEquivGr%A` |  | Growth Annual |
-| `CashEquivGr%3Y` |  | Three Year Annualized Growth |
-| `CashEquivGr%5Y` |  | Five Year Annualized Growth |
-| `CashEquivGr%10Y` |  | Ten Year Annualized Growth |
-| `CashEquivRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `CashEquivRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `CashEquivRegEstANN` |  | Ten Year Regression Estimate |
-| `CashEquivRegEstTTM` |  | Five Year Regression Estimate |
-| `CashEquivRegGr%ANN` |  | Ten Year Regression Estimate |
-| `CashEquivRegGr%TTM` |  | Five Year Regression Growth |
-| `CashEquivPSQ` |  | Quarterly Per Share |
-| `CashEquivPSA` |  | Annual Per Share |
-| `CashEquiv%AssetsQ` |  | % of Quarterly Assets |
-| `CashEquiv%AssetsA` |  | % of Annual Assets |
-| `CashEquiv3YAvg` |  | Three Year Average |
-| `CashEquiv5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `CashEquiv()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquivPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquiv%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquiv%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquiv3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
+| `CashEquiv5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashEquiv |
 
 
 #### Current Assets Other
 
 Sum of all current assets that are not included in cash, cash equivalents, short-term investments, receivables or inventory.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `AstCurOther()` | offset, type[, NAHandling] |  |
-| `AstCurOtherQ` |  | Latest Quarter |
-| `AstCurOtherPQ` |  | Previous Quarter |
-| `AstCurOtherPYQ` |  | Previous Quarter 1 Year Ago |
-| `AstCurOtherTTM` |  | Trailing 12 Months |
-| `AstCurOtherPTM` |  | Previous Trailing 12 Months |
-| `AstCurOtherA` |  | Latest Year |
-| `AstCurOtherPY` |  | Previous Year |
-| `AstCurOtherGr%PQ` |  | Q vs Previous Q Growth |
-| `AstCurOtherGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `AstCurOtherGr%TTM` |  | Trailing Twelve Months Growth |
-| `AstCurOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `AstCurOtherGr%A` |  | Growth Annual |
-| `AstCurOtherGr%3Y` |  | Three Year Annualized Growth |
-| `AstCurOtherGr%5Y` |  | Five Year Annualized Growth |
-| `AstCurOtherGr%10Y` |  | Ten Year Annualized Growth |
-| `AstCurOtherRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `AstCurOtherRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `AstCurOtherRegEstANN` |  | Ten Year Regression Estimate |
-| `AstCurOtherRegEstTTM` |  | Five Year Regression Estimate |
-| `AstCurOtherRegGr%ANN` |  | Ten Year Regression Estimate |
-| `AstCurOtherRegGr%TTM` |  | Five Year Regression Growth |
-| `AstCurOtherPSQ` |  | Quarterly Per Share |
-| `AstCurOtherPSA` |  | Annual Per Share |
-| `AstCurOther%AssetsQ` |  | % of Quarterly Assets |
-| `AstCurOther%AssetsA` |  | % of Annual Assets |
-| `AstCurOther3YAvg` |  | Three Year Average |
-| `AstCurOther5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `AstCurOther()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOtherPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOther%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOther%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOther3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
+| `AstCurOther5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCurOther |
 
 
 #### Current Assets Total
 
 Sum of all assets expected to convert to cash within 12 months.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `AstCur()` | offset, type[, NAHandling] |  |
-| `AstCurQ` |  | Latest Quarter |
-| `AstCurPQ` |  | Previous Quarter |
-| `AstCurPYQ` |  | Previous Quarter 1 Year Ago |
-| `AstCurTTM` |  | Trailing 12 Months |
-| `AstCurPTM` |  | Previous Trailing 12 Months |
-| `AstCurA` |  | Latest Year |
-| `AstCurPY` |  | Previous Year |
-| `AstCurGr%PQ` |  | Q vs Previous Q Growth |
-| `AstCurGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `AstCurGr%TTM` |  | Trailing Twelve Months Growth |
-| `AstCurGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `AstCurGr%A` |  | Growth Annual |
-| `AstCurGr%3Y` |  | Three Year Annualized Growth |
-| `AstCurGr%5Y` |  | Five Year Annualized Growth |
-| `AstCurGr%10Y` |  | Ten Year Annualized Growth |
-| `AstCurRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `AstCurRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `AstCurRegEstANN` |  | Ten Year Regression Estimate |
-| `AstCurRegEstTTM` |  | Five Year Regression Estimate |
-| `AstCurRegGr%ANN` |  | Ten Year Regression Estimate |
-| `AstCurRegGr%TTM` |  | Five Year Regression Growth |
-| `AstCurPSQ` |  | Quarterly Per Share |
-| `AstCurPSA` |  | Annual Per Share |
-| `AstCur%AssetsQ` |  | % of Quarterly Assets |
-| `AstCur%AssetsA` |  | % of Annual Assets |
-| `AstCur3YAvg` |  | Three Year Average |
-| `AstCur5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `AstCur()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCurPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCur%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCur%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCur3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
+| `AstCur5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstCur |
 
 
 #### Inventory
 
 Current asset representing merchandise or materials held for sale or revenue generation.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `Inventory()` | offset, type[, NAHandling] |  |
-| `InventoryQ` |  | Latest Quarter |
-| `InventoryPQ` |  | Previous Quarter |
-| `InventoryPYQ` |  | Previous Quarter 1 Year Ago |
-| `InventoryTTM` |  | Trailing 12 Months |
-| `InventoryPTM` |  | Previous Trailing 12 Months |
-| `InventoryA` |  | Latest Year |
-| `InventoryPY` |  | Previous Year |
-| `InventoryGr%PQ` |  | Q vs Previous Q Growth |
-| `InventoryGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `InventoryGr%TTM` |  | Trailing Twelve Months Growth |
-| `InventoryGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `InventoryGr%A` |  | Growth Annual |
-| `InventoryGr%3Y` |  | Three Year Annualized Growth |
-| `InventoryGr%5Y` |  | Five Year Annualized Growth |
-| `InventoryGr%10Y` |  | Ten Year Annualized Growth |
-| `InventoryRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `InventoryRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `InventoryRegEstANN` |  | Ten Year Regression Estimate |
-| `InventoryRegEstTTM` |  | Five Year Regression Estimate |
-| `InventoryRegGr%ANN` |  | Ten Year Regression Estimate |
-| `InventoryRegGr%TTM` |  | Five Year Regression Growth |
-| `InventoryPSQ` |  | Quarterly Per Share |
-| `InventoryPSA` |  | Annual Per Share |
-| `Inventory%AssetsQ` |  | % of Quarterly Assets |
-| `Inventory%AssetsA` |  | % of Annual Assets |
-| `Inventory3YAvg` |  | Three Year Average |
-| `Inventory5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `Inventory()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `InventoryPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `Inventory%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `Inventory%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `Inventory3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
+| `Inventory5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Inventory |
 
 
 #### Short Term Investments
 
 Current asset representing marketable securities due or expected to be traded within 12 months.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `InvstST()` | offset, type[, NAHandling] |  |
-| `InvstSTQ` |  | Latest Quarter |
-| `InvstSTPQ` |  | Previous Quarter |
-| `InvstSTPYQ` |  | Previous Quarter 1 Year Ago |
-| `InvstSTTTM` |  | Trailing 12 Months |
-| `InvstSTPTM` |  | Previous Trailing 12 Months |
-| `InvstSTA` |  | Latest Year |
-| `InvstSTPY` |  | Previous Year |
-| `InvstSTGr%PQ` |  | Q vs Previous Q Growth |
-| `InvstSTGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `InvstSTGr%TTM` |  | Trailing Twelve Months Growth |
-| `InvstSTGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `InvstSTGr%A` |  | Growth Annual |
-| `InvstSTGr%3Y` |  | Three Year Annualized Growth |
-| `InvstSTGr%5Y` |  | Five Year Annualized Growth |
-| `InvstSTGr%10Y` |  | Ten Year Annualized Growth |
-| `InvstSTRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `InvstSTRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `InvstSTRegEstANN` |  | Ten Year Regression Estimate |
-| `InvstSTRegEstTTM` |  | Five Year Regression Estimate |
-| `InvstSTRegGr%ANN` |  | Ten Year Regression Estimate |
-| `InvstSTRegGr%TTM` |  | Five Year Regression Growth |
-| `InvstSTPSQ` |  | Quarterly Per Share |
-| `InvstSTPSA` |  | Annual Per Share |
-| `InvstST%AssetsQ` |  | % of Quarterly Assets |
-| `InvstST%AssetsA` |  | % of Annual Assets |
-| `InvstST3YAvg` |  | Three Year Average |
-| `InvstST5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `InvstST()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstSTPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstST%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstST%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstST3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
+| `InvstST5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstST |
 
 
 #### Working Capital
 
 Current assets less current liabilities.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `WorkCap()` | offset, type[, NAHandling] |  |
-| `WorkCapQ` |  | Latest Quarter |
-| `WorkCapPQ` |  | Previous Quarter |
-| `WorkCapPYQ` |  | Previous Quarter 1 Year Ago |
-| `WorkCapTTM` |  | Trailing 12 Months |
-| `WorkCapPTM` |  | Previous Trailing 12 Months |
-| `WorkCapA` |  | Latest Year |
-| `WorkCapPY` |  | Previous Year |
-| `WorkCapGr%PQ` |  | Q vs Previous Q Growth |
-| `WorkCapGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `WorkCapGr%TTM` |  | Trailing Twelve Months Growth |
-| `WorkCapGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `WorkCapGr%A` |  | Growth Annual |
-| `WorkCapGr%3Y` |  | Three Year Annualized Growth |
-| `WorkCapGr%5Y` |  | Five Year Annualized Growth |
-| `WorkCapGr%10Y` |  | Ten Year Annualized Growth |
-| `WorkCapRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `WorkCapRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `WorkCapRegEstANN` |  | Ten Year Regression Estimate |
-| `WorkCapRegEstTTM` |  | Five Year Regression Estimate |
-| `WorkCapRegGr%ANN` |  | Ten Year Regression Estimate |
-| `WorkCapRegGr%TTM` |  | Five Year Regression Growth |
-| `WorkCapPSQ` |  | Quarterly Per Share |
-| `WorkCapPSA` |  | Annual Per Share |
-| `WorkCap%AssetsQ` |  | % of Quarterly Assets |
-| `WorkCap%AssetsA` |  | % of Annual Assets |
-| `WorkCap3YAvg` |  | Three Year Average |
-| `WorkCap5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `WorkCap()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCapPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCap%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCap%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCap3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
+| `WorkCap5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=WorkCap |
 
 
 ### Assets-Noncurrent
@@ -1489,360 +1489,360 @@ Owned items that are identified by the company as being illiquid.
 
 Total depreciation recognized on gross property, plant and equipment (GrossPlant).
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `AccumDep()` | offset, type[, NAHandling] |  |
-| `AccumDepQ` |  | Latest Quarter |
-| `AccumDepPQ` |  | Previous Quarter |
-| `AccumDepPYQ` |  | Previous Quarter 1 Year Ago |
-| `AccumDepTTM` |  | Trailing 12 Months |
-| `AccumDepPTM` |  | Previous Trailing 12 Months |
-| `AccumDepA` |  | Latest Year |
-| `AccumDepPY` |  | Previous Year |
-| `AccumDepGr%PQ` |  | Q vs Previous Q Growth |
-| `AccumDepGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `AccumDepGr%TTM` |  | Trailing Twelve Months Growth |
-| `AccumDepGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `AccumDepGr%A` |  | Growth Annual |
-| `AccumDepGr%3Y` |  | Three Year Annualized Growth |
-| `AccumDepGr%5Y` |  | Five Year Annualized Growth |
-| `AccumDepGr%10Y` |  | Ten Year Annualized Growth |
-| `AccumDepRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `AccumDepRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `AccumDepRegEstANN` |  | Ten Year Regression Estimate |
-| `AccumDepRegEstTTM` |  | Five Year Regression Estimate |
-| `AccumDepRegGr%ANN` |  | Ten Year Regression Estimate |
-| `AccumDepRegGr%TTM` |  | Five Year Regression Growth |
-| `AccumDepPSQ` |  | Quarterly Per Share |
-| `AccumDepPSA` |  | Annual Per Share |
-| `AccumDep%AssetsQ` |  | % of Quarterly Assets |
-| `AccumDep%AssetsA` |  | % of Annual Assets |
-| `AccumDep3YAvg` |  | Three Year Average |
-| `AccumDep5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `AccumDep()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDepPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDep%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDep%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDep3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
+| `AccumDep5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccumDep |
 
 
 #### Equity Investments
 
 Long-term equity investments.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `InvstEq()` | offset, type[, NAHandling] |  |
-| `InvstEqQ` |  | Latest Quarter |
-| `InvstEqPQ` |  | Previous Quarter |
-| `InvstEqPYQ` |  | Previous Quarter 1 Year Ago |
-| `InvstEqTTM` |  | Trailing 12 Months |
-| `InvstEqPTM` |  | Previous Trailing 12 Months |
-| `InvstEqA` |  | Latest Year |
-| `InvstEqPY` |  | Previous Year |
-| `InvstEqGr%PQ` |  | Q vs Previous Q Growth |
-| `InvstEqGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `InvstEqGr%TTM` |  | Trailing Twelve Months Growth |
-| `InvstEqGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `InvstEqGr%A` |  | Growth Annual |
-| `InvstEqGr%3Y` |  | Three Year Annualized Growth |
-| `InvstEqGr%5Y` |  | Five Year Annualized Growth |
-| `InvstEqGr%10Y` |  | Ten Year Annualized Growth |
-| `InvstEqRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `InvstEqRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `InvstEqRegEstANN` |  | Ten Year Regression Estimate |
-| `InvstEqRegEstTTM` |  | Five Year Regression Estimate |
-| `InvstEqRegGr%ANN` |  | Ten Year Regression Estimate |
-| `InvstEqRegGr%TTM` |  | Five Year Regression Growth |
-| `InvstEqPSQ` |  | Quarterly Per Share |
-| `InvstEqPSA` |  | Annual Per Share |
-| `InvstEq%AssetsQ` |  | % of Quarterly Assets |
-| `InvstEq%AssetsA` |  | % of Annual Assets |
-| `InvstEq3YAvg` |  | Three Year Average |
-| `InvstEq5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `InvstEq()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEqPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEq%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEq%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEq3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
+| `InvstEq5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstEq |
 
 
 #### Goodwill
 
 Excess cost over equity in acquisitions.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `Goodwill()` | offset, type[, NAHandling] |  |
-| `GoodwillQ` |  | Latest Quarter |
-| `GoodwillPQ` |  | Previous Quarter |
-| `GoodwillPYQ` |  | Previous Quarter 1 Year Ago |
-| `GoodwillTTM` |  | Trailing 12 Months |
-| `GoodwillPTM` |  | Previous Trailing 12 Months |
-| `GoodwillA` |  | Latest Year |
-| `GoodwillPY` |  | Previous Year |
-| `GoodwillGr%PQ` |  | Q vs Previous Q Growth |
-| `GoodwillGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `GoodwillGr%TTM` |  | Trailing Twelve Months Growth |
-| `GoodwillGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `GoodwillGr%A` |  | Growth Annual |
-| `GoodwillGr%3Y` |  | Three Year Annualized Growth |
-| `GoodwillGr%5Y` |  | Five Year Annualized Growth |
-| `GoodwillGr%10Y` |  | Ten Year Annualized Growth |
-| `GoodwillRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `GoodwillRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `GoodwillRegEstANN` |  | Ten Year Regression Estimate |
-| `GoodwillRegEstTTM` |  | Five Year Regression Estimate |
-| `GoodwillRegGr%ANN` |  | Ten Year Regression Estimate |
-| `GoodwillRegGr%TTM` |  | Five Year Regression Growth |
-| `GoodwillPSQ` |  | Quarterly Per Share |
-| `GoodwillPSA` |  | Annual Per Share |
-| `Goodwill%AssetsQ` |  | % of Quarterly Assets |
-| `Goodwill%AssetsA` |  | % of Annual Assets |
-| `Goodwill3YAvg` |  | Three Year Average |
-| `Goodwill5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `Goodwill()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `GoodwillPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `Goodwill%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `Goodwill%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `Goodwill3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
+| `Goodwill5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Goodwill |
 
 
 #### Gross Property Plant and Equipment
 
 Total value of physical assets owned before depreciation adjustments.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `GrossPlant()` | offset, type[, NAHandling] |  |
-| `GrossPlantQ` |  | Latest Quarter |
-| `GrossPlantPQ` |  | Previous Quarter |
-| `GrossPlantPYQ` |  | Previous Quarter 1 Year Ago |
-| `GrossPlantTTM` |  | Trailing 12 Months |
-| `GrossPlantPTM` |  | Previous Trailing 12 Months |
-| `GrossPlantA` |  | Latest Year |
-| `GrossPlantPY` |  | Previous Year |
-| `GrossPlantGr%PQ` |  | Q vs Previous Q Growth |
-| `GrossPlantGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `GrossPlantGr%TTM` |  | Trailing Twelve Months Growth |
-| `GrossPlantGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `GrossPlantGr%A` |  | Growth Annual |
-| `GrossPlantGr%3Y` |  | Three Year Annualized Growth |
-| `GrossPlantGr%5Y` |  | Five Year Annualized Growth |
-| `GrossPlantGr%10Y` |  | Ten Year Annualized Growth |
-| `GrossPlantRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `GrossPlantRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `GrossPlantRegEstANN` |  | Ten Year Regression Estimate |
-| `GrossPlantRegEstTTM` |  | Five Year Regression Estimate |
-| `GrossPlantRegGr%ANN` |  | Ten Year Regression Estimate |
-| `GrossPlantRegGr%TTM` |  | Five Year Regression Growth |
-| `GrossPlantPSQ` |  | Quarterly Per Share |
-| `GrossPlantPSA` |  | Annual Per Share |
-| `GrossPlant%AssetsQ` |  | % of Quarterly Assets |
-| `GrossPlant%AssetsA` |  | % of Annual Assets |
-| `GrossPlant3YAvg` |  | Three Year Average |
-| `GrossPlant5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `GrossPlant()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlantPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlant%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlant%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlant3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
+| `GrossPlant5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=GrossPlant |
 
 
 #### Intangible Assets
 
 Sum of assets that are not included in the tangible assets of property, plant and equipment.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `AstIntan()` | offset, type[, NAHandling] |  |
-| `AstIntanQ` |  | Latest Quarter |
-| `AstIntanPQ` |  | Previous Quarter |
-| `AstIntanPYQ` |  | Previous Quarter 1 Year Ago |
-| `AstIntanTTM` |  | Trailing 12 Months |
-| `AstIntanPTM` |  | Previous Trailing 12 Months |
-| `AstIntanA` |  | Latest Year |
-| `AstIntanPY` |  | Previous Year |
-| `AstIntanGr%PQ` |  | Q vs Previous Q Growth |
-| `AstIntanGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `AstIntanGr%TTM` |  | Trailing Twelve Months Growth |
-| `AstIntanGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `AstIntanGr%A` |  | Growth Annual |
-| `AstIntanGr%3Y` |  | Three Year Annualized Growth |
-| `AstIntanGr%5Y` |  | Five Year Annualized Growth |
-| `AstIntanGr%10Y` |  | Ten Year Annualized Growth |
-| `AstIntanRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `AstIntanRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `AstIntanRegEstANN` |  | Ten Year Regression Estimate |
-| `AstIntanRegEstTTM` |  | Five Year Regression Estimate |
-| `AstIntanRegGr%ANN` |  | Ten Year Regression Estimate |
-| `AstIntanRegGr%TTM` |  | Five Year Regression Growth |
-| `AstIntanPSQ` |  | Quarterly Per Share |
-| `AstIntanPSA` |  | Annual Per Share |
-| `AstIntan%AssetsQ` |  | % of Quarterly Assets |
-| `AstIntan%AssetsA` |  | % of Annual Assets |
-| `AstIntan3YAvg` |  | Three Year Average |
-| `AstIntan5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `AstIntan()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntanPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntan%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntan%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntan3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
+| `AstIntan5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstIntan |
 
 
 #### Investments and Advances Other
 
 Long-term receivables including investments in unconsolidated companies.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `InvstAdvOther()` | offset, type[, NAHandling] |  |
-| `InvstAdvOtherQ` |  | Latest Quarter |
-| `InvstAdvOtherPQ` |  | Previous Quarter |
-| `InvstAdvOtherPYQ` |  | Previous Quarter 1 Year Ago |
-| `InvstAdvOtherTTM` |  | Trailing 12 Months |
-| `InvstAdvOtherPTM` |  | Previous Trailing 12 Months |
-| `InvstAdvOtherA` |  | Latest Year |
-| `InvstAdvOtherPY` |  | Previous Year |
-| `InvstAdvOtherGr%PQ` |  | Q vs Previous Q Growth |
-| `InvstAdvOtherGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `InvstAdvOtherGr%TTM` |  | Trailing Twelve Months Growth |
-| `InvstAdvOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `InvstAdvOtherGr%A` |  | Growth Annual |
-| `InvstAdvOtherGr%3Y` |  | Three Year Annualized Growth |
-| `InvstAdvOtherGr%5Y` |  | Five Year Annualized Growth |
-| `InvstAdvOtherGr%10Y` |  | Ten Year Annualized Growth |
-| `InvstAdvOtherRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `InvstAdvOtherRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `InvstAdvOtherRegEstANN` |  | Ten Year Regression Estimate |
-| `InvstAdvOtherRegEstTTM` |  | Five Year Regression Estimate |
-| `InvstAdvOtherRegGr%ANN` |  | Ten Year Regression Estimate |
-| `InvstAdvOtherRegGr%TTM` |  | Five Year Regression Growth |
-| `InvstAdvOtherPSQ` |  | Quarterly Per Share |
-| `InvstAdvOtherPSA` |  | Annual Per Share |
-| `InvstAdvOther%AssetsQ` |  | % of Quarterly Assets |
-| `InvstAdvOther%AssetsA` |  | % of Annual Assets |
-| `InvstAdvOther3YAvg` |  | Three Year Average |
-| `InvstAdvOther5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `InvstAdvOther()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOtherPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOther%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOther%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOther3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
+| `InvstAdvOther5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstAdvOther |
 
 
 #### Net Property Plant and Equipment
 
 Total physical assets minus accumulated depreciation.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `NetPlant()` | offset, type[, NAHandling] |  |
-| `NetPlantQ` |  | Latest Quarter |
-| `NetPlantPQ` |  | Previous Quarter |
-| `NetPlantPYQ` |  | Previous Quarter 1 Year Ago |
-| `NetPlantTTM` |  | Trailing 12 Months |
-| `NetPlantPTM` |  | Previous Trailing 12 Months |
-| `NetPlantA` |  | Latest Year |
-| `NetPlantPY` |  | Previous Year |
-| `NetPlantGr%PQ` |  | Q vs Previous Q Growth |
-| `NetPlantGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `NetPlantGr%TTM` |  | Trailing Twelve Months Growth |
-| `NetPlantGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `NetPlantGr%A` |  | Growth Annual |
-| `NetPlantGr%3Y` |  | Three Year Annualized Growth |
-| `NetPlantGr%5Y` |  | Five Year Annualized Growth |
-| `NetPlantGr%10Y` |  | Ten Year Annualized Growth |
-| `NetPlantRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `NetPlantRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `NetPlantRegEstANN` |  | Ten Year Regression Estimate |
-| `NetPlantRegEstTTM` |  | Five Year Regression Estimate |
-| `NetPlantRegGr%ANN` |  | Ten Year Regression Estimate |
-| `NetPlantRegGr%TTM` |  | Five Year Regression Growth |
-| `NetPlantPSQ` |  | Quarterly Per Share |
-| `NetPlantPSA` |  | Annual Per Share |
-| `NetPlant%AssetsQ` |  | % of Quarterly Assets |
-| `NetPlant%AssetsA` |  | % of Annual Assets |
-| `NetPlant3YAvg` |  | Three Year Average |
-| `NetPlant5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `NetPlant()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlantPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlant%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlant%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlant3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
+| `NetPlant5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetPlant |
 
 
 #### Non-Current Assets Other
 
 Value of assets that do not fit into either current assets or property plant and equipment.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `AstNonCurOther()` | offset, type[, NAHandling] |  |
-| `AstNonCurOtherQ` |  | Latest Quarter |
-| `AstNonCurOtherPQ` |  | Previous Quarter |
-| `AstNonCurOtherPYQ` |  | Previous Quarter 1 Year Ago |
-| `AstNonCurOtherTTM` |  | Trailing 12 Months |
-| `AstNonCurOtherPTM` |  | Previous Trailing 12 Months |
-| `AstNonCurOtherA` |  | Latest Year |
-| `AstNonCurOtherPY` |  | Previous Year |
-| `AstNonCurOtherGr%PQ` |  | Q vs Previous Q Growth |
-| `AstNonCurOtherGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `AstNonCurOtherGr%TTM` |  | Trailing Twelve Months Growth |
-| `AstNonCurOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `AstNonCurOtherGr%A` |  | Growth Annual |
-| `AstNonCurOtherGr%3Y` |  | Three Year Annualized Growth |
-| `AstNonCurOtherGr%5Y` |  | Five Year Annualized Growth |
-| `AstNonCurOtherGr%10Y` |  | Ten Year Annualized Growth |
-| `AstNonCurOtherRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `AstNonCurOtherRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `AstNonCurOtherRegEstANN` |  | Ten Year Regression Estimate |
-| `AstNonCurOtherRegEstTTM` |  | Five Year Regression Estimate |
-| `AstNonCurOtherRegGr%ANN` |  | Ten Year Regression Estimate |
-| `AstNonCurOtherRegGr%TTM` |  | Five Year Regression Growth |
-| `AstNonCurOtherPSQ` |  | Quarterly Per Share |
-| `AstNonCurOtherPSA` |  | Annual Per Share |
-| `AstNonCurOther%AssetsQ` |  | % of Quarterly Assets |
-| `AstNonCurOther%AssetsA` |  | % of Annual Assets |
-| `AstNonCurOther3YAvg` |  | Three Year Average |
-| `AstNonCurOther5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `AstNonCurOther()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOtherPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOther%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOther%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOther3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
+| `AstNonCurOther5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstNonCurOther |
 
 
 #### Other Intangibles
 
 All non-classifiable assets.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `IntanOther()` | offset, type[, NAHandling] |  |
-| `IntanOtherQ` |  | Latest Quarter |
-| `IntanOtherPQ` |  | Previous Quarter |
-| `IntanOtherPYQ` |  | Previous Quarter 1 Year Ago |
-| `IntanOtherTTM` |  | Trailing 12 Months |
-| `IntanOtherPTM` |  | Previous Trailing 12 Months |
-| `IntanOtherA` |  | Latest Year |
-| `IntanOtherPY` |  | Previous Year |
-| `IntanOtherGr%PQ` |  | Q vs Previous Q Growth |
-| `IntanOtherGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `IntanOtherGr%TTM` |  | Trailing Twelve Months Growth |
-| `IntanOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `IntanOtherGr%A` |  | Growth Annual |
-| `IntanOtherGr%3Y` |  | Three Year Annualized Growth |
-| `IntanOtherGr%5Y` |  | Five Year Annualized Growth |
-| `IntanOtherGr%10Y` |  | Ten Year Annualized Growth |
-| `IntanOtherRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `IntanOtherRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `IntanOtherRegEstANN` |  | Ten Year Regression Estimate |
-| `IntanOtherRegEstTTM` |  | Five Year Regression Estimate |
-| `IntanOtherRegGr%ANN` |  | Ten Year Regression Estimate |
-| `IntanOtherRegGr%TTM` |  | Five Year Regression Growth |
-| `IntanOtherPSQ` |  | Quarterly Per Share |
-| `IntanOtherPSA` |  | Annual Per Share |
-| `IntanOther%AssetsQ` |  | % of Quarterly Assets |
-| `IntanOther%AssetsA` |  | % of Annual Assets |
-| `IntanOther3YAvg` |  | Three Year Average |
-| `IntanOther5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `IntanOther()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOtherPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOther%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOther%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOther3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
+| `IntanOther5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=IntanOther |
 
 
 #### Total Assets
 
 Total value of assets as reported on the balance sheet.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `AstTot()` | offset, type[, NAHandling] |  |
-| `AstTotQ` |  | Latest Quarter |
-| `AstTotPQ` |  | Previous Quarter |
-| `AstTotPYQ` |  | Previous Quarter 1 Year Ago |
-| `AstTotTTM` |  | Trailing 12 Months |
-| `AstTotPTM` |  | Previous Trailing 12 Months |
-| `AstTotA` |  | Latest Year |
-| `AstTotPY` |  | Previous Year |
-| `AstTotGr%PQ` |  | Q vs Previous Q Growth |
-| `AstTotGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `AstTotGr%TTM` |  | Trailing Twelve Months Growth |
-| `AstTotGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `AstTotGr%A` |  | Growth Annual |
-| `AstTotGr%3Y` |  | Three Year Annualized Growth |
-| `AstTotGr%5Y` |  | Five Year Annualized Growth |
-| `AstTotGr%10Y` |  | Ten Year Annualized Growth |
-| `AstTotRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `AstTotRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `AstTotRegEstANN` |  | Ten Year Regression Estimate |
-| `AstTotRegEstTTM` |  | Five Year Regression Estimate |
-| `AstTotRegGr%ANN` |  | Ten Year Regression Estimate |
-| `AstTotRegGr%TTM` |  | Five Year Regression Growth |
-| `AstTotPSQ` |  | Quarterly Per Share |
-| `AstTotPSA` |  | Annual Per Share |
-| `AstTot%AssetsQ` |  | % of Quarterly Assets |
-| `AstTot%AssetsA` |  | % of Annual Assets |
-| `AstTot3YAvg` |  | Three Year Average |
-| `AstTot5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `AstTot()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTotPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTot%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTot%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTot3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
+| `AstTot5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AstTot |
 
 
 ### Liabilities-Current
@@ -1853,180 +1853,180 @@ Debts that are identified by the company as due within the next 12 months.
 
 Money owed by the company due within 12 months.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `Payables()` | offset, type[, NAHandling] |  |
-| `PayablesQ` |  | Latest Quarter |
-| `PayablesPQ` |  | Previous Quarter |
-| `PayablesPYQ` |  | Previous Quarter 1 Year Ago |
-| `PayablesTTM` |  | Trailing 12 Months |
-| `PayablesPTM` |  | Previous Trailing 12 Months |
-| `PayablesA` |  | Latest Year |
-| `PayablesPY` |  | Previous Year |
-| `PayablesGr%PQ` |  | Q vs Previous Q Growth |
-| `PayablesGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `PayablesGr%TTM` |  | Trailing Twelve Months Growth |
-| `PayablesGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `PayablesGr%A` |  | Growth Annual |
-| `PayablesGr%3Y` |  | Three Year Annualized Growth |
-| `PayablesGr%5Y` |  | Five Year Annualized Growth |
-| `PayablesGr%10Y` |  | Ten Year Annualized Growth |
-| `PayablesRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `PayablesRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `PayablesRegEstANN` |  | Ten Year Regression Estimate |
-| `PayablesRegEstTTM` |  | Five Year Regression Estimate |
-| `PayablesRegGr%ANN` |  | Ten Year Regression Estimate |
-| `PayablesRegGr%TTM` |  | Five Year Regression Growth |
-| `PayablesPSQ` |  | Quarterly Per Share |
-| `PayablesPSA` |  | Annual Per Share |
-| `Payables%AssetsQ` |  | % of Quarterly Assets |
-| `Payables%AssetsA` |  | % of Annual Assets |
-| `Payables3YAvg` |  | Three Year Average |
-| `Payables5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `Payables()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `PayablesPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `Payables%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `Payables%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `Payables3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
+| `Payables5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Payables |
 
 
 #### Current Liabilities Other
 
 All non-debt, non-payables liabilities due within 12 months.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `LiabCurOther()` | offset, type[, NAHandling] |  |
-| `LiabCurOtherQ` |  | Latest Quarter |
-| `LiabCurOtherPQ` |  | Previous Quarter |
-| `LiabCurOtherPYQ` |  | Previous Quarter 1 Year Ago |
-| `LiabCurOtherTTM` |  | Trailing 12 Months |
-| `LiabCurOtherPTM` |  | Previous Trailing 12 Months |
-| `LiabCurOtherA` |  | Latest Year |
-| `LiabCurOtherPY` |  | Previous Year |
-| `LiabCurOtherGr%PQ` |  | Q vs Previous Q Growth |
-| `LiabCurOtherGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `LiabCurOtherGr%TTM` |  | Trailing Twelve Months Growth |
-| `LiabCurOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `LiabCurOtherGr%A` |  | Growth Annual |
-| `LiabCurOtherGr%3Y` |  | Three Year Annualized Growth |
-| `LiabCurOtherGr%5Y` |  | Five Year Annualized Growth |
-| `LiabCurOtherGr%10Y` |  | Ten Year Annualized Growth |
-| `LiabCurOtherRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `LiabCurOtherRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `LiabCurOtherRegEstANN` |  | Ten Year Regression Estimate |
-| `LiabCurOtherRegEstTTM` |  | Five Year Regression Estimate |
-| `LiabCurOtherRegGr%ANN` |  | Ten Year Regression Estimate |
-| `LiabCurOtherRegGr%TTM` |  | Five Year Regression Growth |
-| `LiabCurOtherPSQ` |  | Quarterly Per Share |
-| `LiabCurOtherPSA` |  | Annual Per Share |
-| `LiabCurOther%AssetsQ` |  | % of Quarterly Assets |
-| `LiabCurOther%AssetsA` |  | % of Annual Assets |
-| `LiabCurOther3YAvg` |  | Three Year Average |
-| `LiabCurOther5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `LiabCurOther()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOtherPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOther%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOther%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOther3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
+| `LiabCurOther5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCurOther |
 
 
 #### Current Liabilities Total
 
 Total liabilities due within 12 months of the balance sheet date.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `LiabCur()` | offset, type[, NAHandling] |  |
-| `LiabCurQ` |  | Latest Quarter |
-| `LiabCurPQ` |  | Previous Quarter |
-| `LiabCurPYQ` |  | Previous Quarter 1 Year Ago |
-| `LiabCurTTM` |  | Trailing 12 Months |
-| `LiabCurPTM` |  | Previous Trailing 12 Months |
-| `LiabCurA` |  | Latest Year |
-| `LiabCurPY` |  | Previous Year |
-| `LiabCurGr%PQ` |  | Q vs Previous Q Growth |
-| `LiabCurGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `LiabCurGr%TTM` |  | Trailing Twelve Months Growth |
-| `LiabCurGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `LiabCurGr%A` |  | Growth Annual |
-| `LiabCurGr%3Y` |  | Three Year Annualized Growth |
-| `LiabCurGr%5Y` |  | Five Year Annualized Growth |
-| `LiabCurGr%10Y` |  | Ten Year Annualized Growth |
-| `LiabCurRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `LiabCurRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `LiabCurRegEstANN` |  | Ten Year Regression Estimate |
-| `LiabCurRegEstTTM` |  | Five Year Regression Estimate |
-| `LiabCurRegGr%ANN` |  | Ten Year Regression Estimate |
-| `LiabCurRegGr%TTM` |  | Five Year Regression Growth |
-| `LiabCurPSQ` |  | Quarterly Per Share |
-| `LiabCurPSA` |  | Annual Per Share |
-| `LiabCur%AssetsQ` |  | % of Quarterly Assets |
-| `LiabCur%AssetsA` |  | % of Annual Assets |
-| `LiabCur3YAvg` |  | Three Year Average |
-| `LiabCur5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `LiabCur()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCurPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCur%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCur%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCur3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
+| `LiabCur5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabCur |
 
 
 #### Short Term Debt
 
 Debt due within 12 months, reported as current liability on balance sheet.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `DbtST()` | offset, type[, NAHandling] |  |
-| `DbtSTQ` |  | Latest Quarter |
-| `DbtSTPQ` |  | Previous Quarter |
-| `DbtSTPYQ` |  | Previous Quarter 1 Year Ago |
-| `DbtSTTTM` |  | Trailing 12 Months |
-| `DbtSTPTM` |  | Previous Trailing 12 Months |
-| `DbtSTA` |  | Latest Year |
-| `DbtSTPY` |  | Previous Year |
-| `DbtSTGr%PQ` |  | Q vs Previous Q Growth |
-| `DbtSTGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `DbtSTGr%TTM` |  | Trailing Twelve Months Growth |
-| `DbtSTGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `DbtSTGr%A` |  | Growth Annual |
-| `DbtSTGr%3Y` |  | Three Year Annualized Growth |
-| `DbtSTGr%5Y` |  | Five Year Annualized Growth |
-| `DbtSTGr%10Y` |  | Ten Year Annualized Growth |
-| `DbtSTRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `DbtSTRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `DbtSTRegEstANN` |  | Ten Year Regression Estimate |
-| `DbtSTRegEstTTM` |  | Five Year Regression Estimate |
-| `DbtSTRegGr%ANN` |  | Ten Year Regression Estimate |
-| `DbtSTRegGr%TTM` |  | Five Year Regression Growth |
-| `DbtSTPSQ` |  | Quarterly Per Share |
-| `DbtSTPSA` |  | Annual Per Share |
-| `DbtST%AssetsQ` |  | % of Quarterly Assets |
-| `DbtST%AssetsA` |  | % of Annual Assets |
-| `DbtST3YAvg` |  | Three Year Average |
-| `DbtST5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `DbtST()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtSTPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtST%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtST%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtST3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
+| `DbtST5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtST |
 
 
 #### Taxes Payable
 
 Current liability for taxes owed within 12 months of balance sheet date.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `TxPayable()` | offset, type[, NAHandling] |  |
-| `TxPayableQ` |  | Latest Quarter |
-| `TxPayablePQ` |  | Previous Quarter |
-| `TxPayablePYQ` |  | Previous Quarter 1 Year Ago |
-| `TxPayableTTM` |  | Trailing 12 Months |
-| `TxPayablePTM` |  | Previous Trailing 12 Months |
-| `TxPayableA` |  | Latest Year |
-| `TxPayablePY` |  | Previous Year |
-| `TxPayableGr%PQ` |  | Q vs Previous Q Growth |
-| `TxPayableGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `TxPayableGr%TTM` |  | Trailing Twelve Months Growth |
-| `TxPayableGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `TxPayableGr%A` |  | Growth Annual |
-| `TxPayableGr%3Y` |  | Three Year Annualized Growth |
-| `TxPayableGr%5Y` |  | Five Year Annualized Growth |
-| `TxPayableGr%10Y` |  | Ten Year Annualized Growth |
-| `TxPayableRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `TxPayableRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `TxPayableRegEstANN` |  | Ten Year Regression Estimate |
-| `TxPayableRegEstTTM` |  | Five Year Regression Estimate |
-| `TxPayableRegGr%ANN` |  | Ten Year Regression Estimate |
-| `TxPayableRegGr%TTM` |  | Five Year Regression Growth |
-| `TxPayablePSQ` |  | Quarterly Per Share |
-| `TxPayablePSA` |  | Annual Per Share |
-| `TxPayable%AssetsQ` |  | % of Quarterly Assets |
-| `TxPayable%AssetsA` |  | % of Annual Assets |
-| `TxPayable3YAvg` |  | Three Year Average |
-| `TxPayable5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `TxPayable()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayablePQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayablePYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayablePTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayablePY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayableRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayablePSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayablePSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayable%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayable%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayable3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
+| `TxPayable5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxPayable |
 
 
 ### Liabilities-Noncurrent
@@ -2037,216 +2037,216 @@ Debts that are identified by the company as due more than 12 months in the futur
 
 Represents all obligations incurred through the contractual leasing of long-term assets, by which the periodic lease payments resemble payments on interest and debt capital. As such, capitalized leases are considered to be a form of long-term debt.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `CapLease()` | offset, type[, NAHandling] |  |
-| `CapLeaseQ` |  | Latest Quarter |
-| `CapLeasePQ` |  | Previous Quarter |
-| `CapLeasePYQ` |  | Previous Quarter 1 Year Ago |
-| `CapLeaseTTM` |  | Trailing 12 Months |
-| `CapLeasePTM` |  | Previous Trailing 12 Months |
-| `CapLeaseA` |  | Latest Year |
-| `CapLeasePY` |  | Previous Year |
-| `CapLeaseGr%PQ` |  | Q vs Previous Q Growth |
-| `CapLeaseGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `CapLeaseGr%TTM` |  | Trailing Twelve Months Growth |
-| `CapLeaseGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `CapLeaseGr%A` |  | Growth Annual |
-| `CapLeaseGr%3Y` |  | Three Year Annualized Growth |
-| `CapLeaseGr%5Y` |  | Five Year Annualized Growth |
-| `CapLeaseGr%10Y` |  | Ten Year Annualized Growth |
-| `CapLeaseRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `CapLeaseRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `CapLeaseRegEstANN` |  | Ten Year Regression Estimate |
-| `CapLeaseRegEstTTM` |  | Five Year Regression Estimate |
-| `CapLeaseRegGr%ANN` |  | Ten Year Regression Estimate |
-| `CapLeaseRegGr%TTM` |  | Five Year Regression Growth |
-| `CapLeasePSQ` |  | Quarterly Per Share |
-| `CapLeasePSA` |  | Annual Per Share |
-| `CapLease%AssetsQ` |  | % of Quarterly Assets |
-| `CapLease%AssetsA` |  | % of Annual Assets |
-| `CapLease3YAvg` |  | Three Year Average |
-| `CapLease5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `CapLease()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeasePQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeasePYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeasePTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeasePY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeaseRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeasePSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLeasePSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLease%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLease%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLease3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
+| `CapLease5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapLease |
 
 
 #### Deferred Taxes and Investment Credits
 
 Accumulated deferred taxes from timing differences plus investment tax credits.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `TxDfdIC()` | offset, type[, NAHandling] |  |
-| `TxDfdICQ` |  | Latest Quarter |
-| `TxDfdICPQ` |  | Previous Quarter |
-| `TxDfdICPYQ` |  | Previous Quarter 1 Year Ago |
-| `TxDfdICTTM` |  | Trailing 12 Months |
-| `TxDfdICPTM` |  | Previous Trailing 12 Months |
-| `TxDfdICA` |  | Latest Year |
-| `TxDfdICPY` |  | Previous Year |
-| `TxDfdICGr%PQ` |  | Q vs Previous Q Growth |
-| `TxDfdICGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `TxDfdICGr%TTM` |  | Trailing Twelve Months Growth |
-| `TxDfdICGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `TxDfdICGr%A` |  | Growth Annual |
-| `TxDfdICGr%3Y` |  | Three Year Annualized Growth |
-| `TxDfdICGr%5Y` |  | Five Year Annualized Growth |
-| `TxDfdICGr%10Y` |  | Ten Year Annualized Growth |
-| `TxDfdICRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `TxDfdICRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `TxDfdICRegEstANN` |  | Ten Year Regression Estimate |
-| `TxDfdICRegEstTTM` |  | Five Year Regression Estimate |
-| `TxDfdICRegGr%ANN` |  | Ten Year Regression Estimate |
-| `TxDfdICRegGr%TTM` |  | Five Year Regression Growth |
-| `TxDfdICPSQ` |  | Quarterly Per Share |
-| `TxDfdICPSA` |  | Annual Per Share |
-| `TxDfdIC%AssetsQ` |  | % of Quarterly Assets |
-| `TxDfdIC%AssetsA` |  | % of Annual Assets |
-| `TxDfdIC3YAvg` |  | Three Year Average |
-| `TxDfdIC5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `TxDfdIC()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdICPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdIC%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdIC%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdIC3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
+| `TxDfdIC5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfdIC |
 
 
 #### Long Term Debt
 
 Debt due more than 12 months from balance sheet date.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `DbtLT()` | offset, type[, NAHandling] |  |
-| `DbtLTQ` |  | Latest Quarter |
-| `DbtLTPQ` |  | Previous Quarter |
-| `DbtLTPYQ` |  | Previous Quarter 1 Year Ago |
-| `DbtLTTTM` |  | Trailing 12 Months |
-| `DbtLTPTM` |  | Previous Trailing 12 Months |
-| `DbtLTA` |  | Latest Year |
-| `DbtLTPY` |  | Previous Year |
-| `DbtLTGr%PQ` |  | Q vs Previous Q Growth |
-| `DbtLTGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `DbtLTGr%TTM` |  | Trailing Twelve Months Growth |
-| `DbtLTGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `DbtLTGr%A` |  | Growth Annual |
-| `DbtLTGr%3Y` |  | Three Year Annualized Growth |
-| `DbtLTGr%5Y` |  | Five Year Annualized Growth |
-| `DbtLTGr%10Y` |  | Ten Year Annualized Growth |
-| `DbtLTRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `DbtLTRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `DbtLTRegEstANN` |  | Ten Year Regression Estimate |
-| `DbtLTRegEstTTM` |  | Five Year Regression Estimate |
-| `DbtLTRegGr%ANN` |  | Ten Year Regression Estimate |
-| `DbtLTRegGr%TTM` |  | Five Year Regression Growth |
-| `DbtLTPSQ` |  | Quarterly Per Share |
-| `DbtLTPSA` |  | Annual Per Share |
-| `DbtLT%AssetsQ` |  | % of Quarterly Assets |
-| `DbtLT%AssetsA` |  | % of Annual Assets |
-| `DbtLT3YAvg` |  | Three Year Average |
-| `DbtLT5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `DbtLT()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLTPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLT%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLT%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLT3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
+| `DbtLT5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLT |
 
 
 #### Other Non-current Liabilities
 
 All long-term liabilities excluding debt, deferred taxes, investment tax credits, and minority interest.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `LiabNonCurOther()` | offset, type[, NAHandling] |  |
-| `LiabNonCurOtherQ` |  | Latest Quarter |
-| `LiabNonCurOtherPQ` |  | Previous Quarter |
-| `LiabNonCurOtherPYQ` |  | Previous Quarter 1 Year Ago |
-| `LiabNonCurOtherTTM` |  | Trailing 12 Months |
-| `LiabNonCurOtherPTM` |  | Previous Trailing 12 Months |
-| `LiabNonCurOtherA` |  | Latest Year |
-| `LiabNonCurOtherPY` |  | Previous Year |
-| `LiabNonCurOtherGr%PQ` |  | Q vs Previous Q Growth |
-| `LiabNonCurOtherGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `LiabNonCurOtherGr%TTM` |  | Trailing Twelve Months Growth |
-| `LiabNonCurOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `LiabNonCurOtherGr%A` |  | Growth Annual |
-| `LiabNonCurOtherGr%3Y` |  | Three Year Annualized Growth |
-| `LiabNonCurOtherGr%5Y` |  | Five Year Annualized Growth |
-| `LiabNonCurOtherGr%10Y` |  | Ten Year Annualized Growth |
-| `LiabNonCurOtherRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `LiabNonCurOtherRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `LiabNonCurOtherRegEstANN` |  | Ten Year Regression Estimate |
-| `LiabNonCurOtherRegEstTTM` |  | Five Year Regression Estimate |
-| `LiabNonCurOtherRegGr%ANN` |  | Ten Year Regression Estimate |
-| `LiabNonCurOtherRegGr%TTM` |  | Five Year Regression Growth |
-| `LiabNonCurOtherPSQ` |  | Quarterly Per Share |
-| `LiabNonCurOtherPSA` |  | Annual Per Share |
-| `LiabNonCurOther%AssetsQ` |  | % of Quarterly Assets |
-| `LiabNonCurOther%AssetsA` |  | % of Annual Assets |
-| `LiabNonCurOther3YAvg` |  | Three Year Average |
-| `LiabNonCurOther5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `LiabNonCurOther()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOtherPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOther%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOther%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOther3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
+| `LiabNonCurOther5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabNonCurOther |
 
 
 #### Total Debt
 
 Sum of all debt obligations as reported on the balance sheet.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `DbtTot()` | offset, type[, NAHandling] |  |
-| `DbtTotQ` |  | Latest Quarter |
-| `DbtTotPQ` |  | Previous Quarter |
-| `DbtTotPYQ` |  | Previous Quarter 1 Year Ago |
-| `DbtTotTTM` |  | Trailing 12 Months |
-| `DbtTotPTM` |  | Previous Trailing 12 Months |
-| `DbtTotA` |  | Latest Year |
-| `DbtTotPY` |  | Previous Year |
-| `DbtTotGr%PQ` |  | Q vs Previous Q Growth |
-| `DbtTotGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `DbtTotGr%TTM` |  | Trailing Twelve Months Growth |
-| `DbtTotGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `DbtTotGr%A` |  | Growth Annual |
-| `DbtTotGr%3Y` |  | Three Year Annualized Growth |
-| `DbtTotGr%5Y` |  | Five Year Annualized Growth |
-| `DbtTotGr%10Y` |  | Ten Year Annualized Growth |
-| `DbtTotRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `DbtTotRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `DbtTotRegEstANN` |  | Ten Year Regression Estimate |
-| `DbtTotRegEstTTM` |  | Five Year Regression Estimate |
-| `DbtTotRegGr%ANN` |  | Ten Year Regression Estimate |
-| `DbtTotRegGr%TTM` |  | Five Year Regression Growth |
-| `DbtTotPSQ` |  | Quarterly Per Share |
-| `DbtTotPSA` |  | Annual Per Share |
-| `DbtTot%AssetsQ` |  | % of Quarterly Assets |
-| `DbtTot%AssetsA` |  | % of Annual Assets |
-| `DbtTot3YAvg` |  | Three Year Average |
-| `DbtTot5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `DbtTot()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTotPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTot%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTot%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTot3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
+| `DbtTot5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtTot |
 
 
 #### Total Liabilities
 
 Sum of all balance sheet obligations excluding shareholders equity.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `LiabTot()` | offset, type[, NAHandling] |  |
-| `LiabTotQ` |  | Latest Quarter |
-| `LiabTotPQ` |  | Previous Quarter |
-| `LiabTotPYQ` |  | Previous Quarter 1 Year Ago |
-| `LiabTotTTM` |  | Trailing 12 Months |
-| `LiabTotPTM` |  | Previous Trailing 12 Months |
-| `LiabTotA` |  | Latest Year |
-| `LiabTotPY` |  | Previous Year |
-| `LiabTotGr%PQ` |  | Q vs Previous Q Growth |
-| `LiabTotGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `LiabTotGr%TTM` |  | Trailing Twelve Months Growth |
-| `LiabTotGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `LiabTotGr%A` |  | Growth Annual |
-| `LiabTotGr%3Y` |  | Three Year Annualized Growth |
-| `LiabTotGr%5Y` |  | Five Year Annualized Growth |
-| `LiabTotGr%10Y` |  | Ten Year Annualized Growth |
-| `LiabTotRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `LiabTotRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `LiabTotRegEstANN` |  | Ten Year Regression Estimate |
-| `LiabTotRegEstTTM` |  | Five Year Regression Estimate |
-| `LiabTotRegGr%ANN` |  | Ten Year Regression Estimate |
-| `LiabTotRegGr%TTM` |  | Five Year Regression Growth |
-| `LiabTotPSQ` |  | Quarterly Per Share |
-| `LiabTotPSA` |  | Annual Per Share |
-| `LiabTot%AssetsQ` |  | % of Quarterly Assets |
-| `LiabTot%AssetsA` |  | % of Annual Assets |
-| `LiabTot3YAvg` |  | Three Year Average |
-| `LiabTot5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `LiabTot()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTotPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTot%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTot%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTot3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
+| `LiabTot5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=LiabTot |
 
 
 ### Shareholders Equity
@@ -2257,288 +2257,288 @@ The difference between total assets and total liabilities. The lines herein indi
 
 Value of common equity excluding preferred shares and minority interests.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `BookVal()` | offset, type[, NAHandling] |  |
-| `BookValQ` |  | Latest Quarter |
-| `BookValPQ` |  | Previous Quarter |
-| `BookValPYQ` |  | Previous Quarter 1 Year Ago |
-| `BookValTTM` |  | Trailing 12 Months |
-| `BookValPTM` |  | Previous Trailing 12 Months |
-| `BookValA` |  | Latest Year |
-| `BookValPY` |  | Previous Year |
-| `BookValGr%PQ` |  | Q vs Previous Q Growth |
-| `BookValGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `BookValGr%TTM` |  | Trailing Twelve Months Growth |
-| `BookValGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `BookValGr%A` |  | Growth Annual |
-| `BookValGr%3Y` |  | Three Year Annualized Growth |
-| `BookValGr%5Y` |  | Five Year Annualized Growth |
-| `BookValGr%10Y` |  | Ten Year Annualized Growth |
-| `BookValRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `BookValRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `BookValRegEstANN` |  | Ten Year Regression Estimate |
-| `BookValRegEstTTM` |  | Five Year Regression Estimate |
-| `BookValRegGr%ANN` |  | Ten Year Regression Estimate |
-| `BookValRegGr%TTM` |  | Five Year Regression Growth |
-| `BookValPSQ` |  | Quarterly Per Share |
-| `BookValPSA` |  | Annual Per Share |
-| `BookVal%AssetsQ` |  | % of Quarterly Assets |
-| `BookVal%AssetsA` |  | % of Annual Assets |
-| `BookVal3YAvg` |  | Three Year Average |
-| `BookVal5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `BookVal()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookValPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookVal%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookVal%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookVal3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
+| `BookVal5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=BookVal |
 
 
 #### Capital Surplus
 
 Amount shareholders paid above par value for shares.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `CapSurplus()` | offset, type[, NAHandling] |  |
-| `CapSurplusQ` |  | Latest Quarter |
-| `CapSurplusPQ` |  | Previous Quarter |
-| `CapSurplusPYQ` |  | Previous Quarter 1 Year Ago |
-| `CapSurplusTTM` |  | Trailing 12 Months |
-| `CapSurplusPTM` |  | Previous Trailing 12 Months |
-| `CapSurplusA` |  | Latest Year |
-| `CapSurplusPY` |  | Previous Year |
-| `CapSurplusGr%PQ` |  | Q vs Previous Q Growth |
-| `CapSurplusGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `CapSurplusGr%TTM` |  | Trailing Twelve Months Growth |
-| `CapSurplusGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `CapSurplusGr%A` |  | Growth Annual |
-| `CapSurplusGr%3Y` |  | Three Year Annualized Growth |
-| `CapSurplusGr%5Y` |  | Five Year Annualized Growth |
-| `CapSurplusGr%10Y` |  | Ten Year Annualized Growth |
-| `CapSurplusRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `CapSurplusRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `CapSurplusRegEstANN` |  | Ten Year Regression Estimate |
-| `CapSurplusRegEstTTM` |  | Five Year Regression Estimate |
-| `CapSurplusRegGr%ANN` |  | Ten Year Regression Estimate |
-| `CapSurplusRegGr%TTM` |  | Five Year Regression Growth |
-| `CapSurplusPSQ` |  | Quarterly Per Share |
-| `CapSurplusPSA` |  | Annual Per Share |
-| `CapSurplus%AssetsQ` |  | % of Quarterly Assets |
-| `CapSurplus%AssetsA` |  | % of Annual Assets |
-| `CapSurplus3YAvg` |  | Three Year Average |
-| `CapSurplus5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `CapSurplus()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplusPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplus%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplus%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplus3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
+| `CapSurplus5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapSurplus |
 
 
 #### Common Equity
 
 Common shareholders' ownership interest.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `ComEq()` | offset, type[, NAHandling] |  |
-| `ComEqQ` |  | Latest Quarter |
-| `ComEqPQ` |  | Previous Quarter |
-| `ComEqPYQ` |  | Previous Quarter 1 Year Ago |
-| `ComEqTTM` |  | Trailing 12 Months |
-| `ComEqPTM` |  | Previous Trailing 12 Months |
-| `ComEqA` |  | Latest Year |
-| `ComEqPY` |  | Previous Year |
-| `ComEqGr%PQ` |  | Q vs Previous Q Growth |
-| `ComEqGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `ComEqGr%TTM` |  | Trailing Twelve Months Growth |
-| `ComEqGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `ComEqGr%A` |  | Growth Annual |
-| `ComEqGr%3Y` |  | Three Year Annualized Growth |
-| `ComEqGr%5Y` |  | Five Year Annualized Growth |
-| `ComEqGr%10Y` |  | Ten Year Annualized Growth |
-| `ComEqRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `ComEqRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `ComEqRegEstANN` |  | Ten Year Regression Estimate |
-| `ComEqRegEstTTM` |  | Five Year Regression Estimate |
-| `ComEqRegGr%ANN` |  | Ten Year Regression Estimate |
-| `ComEqRegGr%TTM` |  | Five Year Regression Growth |
-| `ComEqPSQ` |  | Quarterly Per Share |
-| `ComEqPSA` |  | Annual Per Share |
-| `ComEq%AssetsQ` |  | % of Quarterly Assets |
-| `ComEq%AssetsA` |  | % of Annual Assets |
-| `ComEq3YAvg` |  | Three Year Average |
-| `ComEq5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `ComEq()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEqPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEq%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEq%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEq3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
+| `ComEq5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ComEq |
 
 
 #### Non Controlling Interest
 
 Formerly minority interest (pre-2009).
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `NonControlInt()` | offset, type[, NAHandling] |  |
-| `NonControlIntQ` |  | Latest Quarter |
-| `NonControlIntPQ` |  | Previous Quarter |
-| `NonControlIntPYQ` |  | Previous Quarter 1 Year Ago |
-| `NonControlIntTTM` |  | Trailing 12 Months |
-| `NonControlIntPTM` |  | Previous Trailing 12 Months |
-| `NonControlIntA` |  | Latest Year |
-| `NonControlIntPY` |  | Previous Year |
-| `NonControlIntGr%PQ` |  | Q vs Previous Q Growth |
-| `NonControlIntGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `NonControlIntGr%TTM` |  | Trailing Twelve Months Growth |
-| `NonControlIntGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `NonControlIntGr%A` |  | Growth Annual |
-| `NonControlIntGr%3Y` |  | Three Year Annualized Growth |
-| `NonControlIntGr%5Y` |  | Five Year Annualized Growth |
-| `NonControlIntGr%10Y` |  | Ten Year Annualized Growth |
-| `NonControlIntRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `NonControlIntRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `NonControlIntRegEstANN` |  | Ten Year Regression Estimate |
-| `NonControlIntRegEstTTM` |  | Five Year Regression Estimate |
-| `NonControlIntRegGr%ANN` |  | Ten Year Regression Estimate |
-| `NonControlIntRegGr%TTM` |  | Five Year Regression Growth |
-| `NonControlIntPSQ` |  | Quarterly Per Share |
-| `NonControlIntPSA` |  | Annual Per Share |
-| `NonControlInt%AssetsQ` |  | % of Quarterly Assets |
-| `NonControlInt%AssetsA` |  | % of Annual Assets |
-| `NonControlInt3YAvg` |  | Three Year Average |
-| `NonControlInt5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `NonControlInt()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlIntPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlInt%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlInt%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlInt3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
+| `NonControlInt5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NonControlInt |
 
 
 #### Preferred Equity
 
 Net preferred shares multiplied by par/stated value per share.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `PfdEquity()` | offset, type[, NAHandling] |  |
-| `PfdEquityQ` |  | Latest Quarter |
-| `PfdEquityPQ` |  | Previous Quarter |
-| `PfdEquityPYQ` |  | Previous Quarter 1 Year Ago |
-| `PfdEquityTTM` |  | Trailing 12 Months |
-| `PfdEquityPTM` |  | Previous Trailing 12 Months |
-| `PfdEquityA` |  | Latest Year |
-| `PfdEquityPY` |  | Previous Year |
-| `PfdEquityGr%PQ` |  | Q vs Previous Q Growth |
-| `PfdEquityGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `PfdEquityGr%TTM` |  | Trailing Twelve Months Growth |
-| `PfdEquityGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `PfdEquityGr%A` |  | Growth Annual |
-| `PfdEquityGr%3Y` |  | Three Year Annualized Growth |
-| `PfdEquityGr%5Y` |  | Five Year Annualized Growth |
-| `PfdEquityGr%10Y` |  | Ten Year Annualized Growth |
-| `PfdEquityRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `PfdEquityRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `PfdEquityRegEstANN` |  | Ten Year Regression Estimate |
-| `PfdEquityRegEstTTM` |  | Five Year Regression Estimate |
-| `PfdEquityRegGr%ANN` |  | Ten Year Regression Estimate |
-| `PfdEquityRegGr%TTM` |  | Five Year Regression Growth |
-| `PfdEquityPSQ` |  | Quarterly Per Share |
-| `PfdEquityPSA` |  | Annual Per Share |
-| `PfdEquity%AssetsQ` |  | % of Quarterly Assets |
-| `PfdEquity%AssetsA` |  | % of Annual Assets |
-| `PfdEquity3YAvg` |  | Three Year Average |
-| `PfdEquity5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `PfdEquity()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquityPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquity%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquity%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquity3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
+| `PfdEquity5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PfdEquity |
 
 
 #### Retained Earnings
 
 Net income kept rather than distributed as dividends.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `RetainedEarn()` | offset, type[, NAHandling] |  |
-| `RetainedEarnQ` |  | Latest Quarter |
-| `RetainedEarnPQ` |  | Previous Quarter |
-| `RetainedEarnPYQ` |  | Previous Quarter 1 Year Ago |
-| `RetainedEarnTTM` |  | Trailing 12 Months |
-| `RetainedEarnPTM` |  | Previous Trailing 12 Months |
-| `RetainedEarnA` |  | Latest Year |
-| `RetainedEarnPY` |  | Previous Year |
-| `RetainedEarnGr%PQ` |  | Q vs Previous Q Growth |
-| `RetainedEarnGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `RetainedEarnGr%TTM` |  | Trailing Twelve Months Growth |
-| `RetainedEarnGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `RetainedEarnGr%A` |  | Growth Annual |
-| `RetainedEarnGr%3Y` |  | Three Year Annualized Growth |
-| `RetainedEarnGr%5Y` |  | Five Year Annualized Growth |
-| `RetainedEarnGr%10Y` |  | Ten Year Annualized Growth |
-| `RetainedEarnRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `RetainedEarnRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `RetainedEarnRegEstANN` |  | Ten Year Regression Estimate |
-| `RetainedEarnRegEstTTM` |  | Five Year Regression Estimate |
-| `RetainedEarnRegGr%ANN` |  | Ten Year Regression Estimate |
-| `RetainedEarnRegGr%TTM` |  | Five Year Regression Growth |
-| `RetainedEarnPSQ` |  | Quarterly Per Share |
-| `RetainedEarnPSA` |  | Annual Per Share |
-| `RetainedEarn%AssetsQ` |  | % of Quarterly Assets |
-| `RetainedEarn%AssetsA` |  | % of Annual Assets |
-| `RetainedEarn3YAvg` |  | Three Year Average |
-| `RetainedEarn5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `RetainedEarn()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarnPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarn%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarn%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarn3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
+| `RetainedEarn5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RetainedEarn |
 
 
 #### Shareholder's Equity Total
 
 Total assets minus total liabilities on the balance sheet.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `EqTot()` | offset, type[, NAHandling] |  |
-| `EqTotQ` |  | Latest Quarter |
-| `EqTotPQ` |  | Previous Quarter |
-| `EqTotPYQ` |  | Previous Quarter 1 Year Ago |
-| `EqTotTTM` |  | Trailing 12 Months |
-| `EqTotPTM` |  | Previous Trailing 12 Months |
-| `EqTotA` |  | Latest Year |
-| `EqTotPY` |  | Previous Year |
-| `EqTotGr%PQ` |  | Q vs Previous Q Growth |
-| `EqTotGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `EqTotGr%TTM` |  | Trailing Twelve Months Growth |
-| `EqTotGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `EqTotGr%A` |  | Growth Annual |
-| `EqTotGr%3Y` |  | Three Year Annualized Growth |
-| `EqTotGr%5Y` |  | Five Year Annualized Growth |
-| `EqTotGr%10Y` |  | Ten Year Annualized Growth |
-| `EqTotRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `EqTotRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `EqTotRegEstANN` |  | Ten Year Regression Estimate |
-| `EqTotRegEstTTM` |  | Five Year Regression Estimate |
-| `EqTotRegGr%ANN` |  | Ten Year Regression Estimate |
-| `EqTotRegGr%TTM` |  | Five Year Regression Growth |
-| `EqTotPSQ` |  | Quarterly Per Share |
-| `EqTotPSA` |  | Annual Per Share |
-| `EqTot%AssetsQ` |  | % of Quarterly Assets |
-| `EqTot%AssetsA` |  | % of Annual Assets |
-| `EqTot3YAvg` |  | Three Year Average |
-| `EqTot5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `EqTot()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTotPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTot%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTot%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTot3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
+| `EqTot5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqTot |
 
 
 #### Tangible Book Value (Net Tangible Assets)
 
 Common equity minus intangible assets.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `TanBV()` | offset, type[, NAHandling] |  |
-| `TanBVQ` |  | Latest Quarter |
-| `TanBVPQ` |  | Previous Quarter |
-| `TanBVPYQ` |  | Previous Quarter 1 Year Ago |
-| `TanBVTTM` |  | Trailing 12 Months |
-| `TanBVPTM` |  | Previous Trailing 12 Months |
-| `TanBVA` |  | Latest Year |
-| `TanBVPY` |  | Previous Year |
-| `TanBVGr%PQ` |  | Q vs Previous Q Growth |
-| `TanBVGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `TanBVGr%TTM` |  | Trailing Twelve Months Growth |
-| `TanBVGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `TanBVGr%A` |  | Growth Annual |
-| `TanBVGr%3Y` |  | Three Year Annualized Growth |
-| `TanBVGr%5Y` |  | Five Year Annualized Growth |
-| `TanBVGr%10Y` |  | Ten Year Annualized Growth |
-| `TanBVRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `TanBVRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `TanBVRegEstANN` |  | Ten Year Regression Estimate |
-| `TanBVRegEstTTM` |  | Five Year Regression Estimate |
-| `TanBVRegGr%ANN` |  | Ten Year Regression Estimate |
-| `TanBVRegGr%TTM` |  | Five Year Regression Growth |
-| `TanBVPSQ` |  | Quarterly Per Share |
-| `TanBVPSA` |  | Annual Per Share |
-| `TanBV%AssetsQ` |  | % of Quarterly Assets |
-| `TanBV%AssetsA` |  | % of Annual Assets |
-| `TanBV3YAvg` |  | Three Year Average |
-| `TanBV5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `TanBV()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBVPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBV%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBV%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBV3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
+| `TanBV5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TanBV |
 
 
 ### Shares
@@ -2549,73 +2549,73 @@ Basic, fully diluted and most recent share counts.
 
 Returns the most recent common shares outstanding from a daily source. Only includes the current primary stock. See Full Description from more info
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `SharesCur()` | barsAgo |  |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `SharesCur()` | barsAgo |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesCur |
 
 
 #### Common Shares
 
 Undiluted shares outstanding.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `Shares()` | offset, type[, NAHandling] |  |
-| `SharesQ` |  | Latest Quarter |
-| `SharesPQ` |  | Previous Quarter |
-| `SharesPYQ` |  | Previous Quarter 1 Year Ago |
-| `SharesTTM` |  | Trailing 12 Months |
-| `SharesPTM` |  | Previous Trailing 12 Months |
-| `SharesA` |  | Latest Year |
-| `SharesPY` |  | Previous Year |
-| `SharesGr%PQ` |  | Q vs Previous Q Growth |
-| `SharesGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `SharesGr%TTM` |  | Trailing Twelve Months Growth |
-| `SharesGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `SharesGr%A` |  | Growth Annual |
-| `SharesGr%3Y` |  | Three Year Annualized Growth |
-| `SharesGr%5Y` |  | Five Year Annualized Growth |
-| `SharesGr%10Y` |  | Ten Year Annualized Growth |
-| `SharesRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `SharesRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `SharesRegEstANN` |  | Ten Year Regression Estimate |
-| `SharesRegEstTTM` |  | Five Year Regression Estimate |
-| `SharesRegGr%ANN` |  | Ten Year Regression Estimate |
-| `SharesRegGr%TTM` |  | Five Year Regression Growth |
-| `Shares3YAvg` |  | Three Year Average |
-| `Shares5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `Shares()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `SharesRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `Shares3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
+| `Shares5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Shares |
 
 
 #### Common Shares Fully Diluted
 
 Fully diluted shares outstanding.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `SharesFD()` | offset, type[, NAHandling] |  |
-| `SharesFDQ` |  | Latest Quarter |
-| `SharesFDPQ` |  | Previous Quarter |
-| `SharesFDPYQ` |  | Previous Quarter 1 Year Ago |
-| `SharesFDTTM` |  | Trailing 12 Months |
-| `SharesFDPTM` |  | Previous Trailing 12 Months |
-| `SharesFDA` |  | Latest Year |
-| `SharesFDPY` |  | Previous Year |
-| `SharesFDGr%PQ` |  | Q vs Previous Q Growth |
-| `SharesFDGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `SharesFDGr%TTM` |  | Trailing Twelve Months Growth |
-| `SharesFDGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `SharesFDGr%A` |  | Growth Annual |
-| `SharesFDGr%3Y` |  | Three Year Annualized Growth |
-| `SharesFDGr%5Y` |  | Five Year Annualized Growth |
-| `SharesFDGr%10Y` |  | Ten Year Annualized Growth |
-| `SharesFDRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `SharesFDRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `SharesFDRegEstANN` |  | Ten Year Regression Estimate |
-| `SharesFDRegEstTTM` |  | Five Year Regression Estimate |
-| `SharesFDRegGr%ANN` |  | Ten Year Regression Estimate |
-| `SharesFDRegGr%TTM` |  | Five Year Regression Growth |
-| `SharesFD3YAvg` |  | Three Year Average |
-| `SharesFD5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `SharesFD()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFDRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFD3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
+| `SharesFD5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=SharesFD |
 
 
 ## Cash Flow Statement
@@ -2630,418 +2630,418 @@ Cash flows generated by operations, including inventory changes.
 
 Balance sheet changes in tax liabilities.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `TxAcrudChg()` | offset, type[, NAHandling] |  |
-| `TxAcrudChgQ` |  | Latest Quarter |
-| `TxAcrudChgPQ` |  | Previous Quarter |
-| `TxAcrudChgPYQ` |  | Previous Quarter 1 Year Ago |
-| `TxAcrudChgTTM` |  | Trailing 12 Months |
-| `TxAcrudChgPTM` |  | Previous Trailing 12 Months |
-| `TxAcrudChgA` |  | Latest Year |
-| `TxAcrudChgPY` |  | Previous Year |
-| `TxAcrudChgGr%PQ` |  | Q vs Previous Q Growth |
-| `TxAcrudChgGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `TxAcrudChgGr%TTM` |  | Trailing Twelve Months Growth |
-| `TxAcrudChgGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `TxAcrudChgGr%A` |  | Growth Annual |
-| `TxAcrudChgGr%3Y` |  | Three Year Annualized Growth |
-| `TxAcrudChgGr%5Y` |  | Five Year Annualized Growth |
-| `TxAcrudChgGr%10Y` |  | Ten Year Annualized Growth |
-| `TxAcrudChgRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `TxAcrudChgRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `TxAcrudChgRegEstANN` |  | Ten Year Regression Estimate |
-| `TxAcrudChgRegEstTTM` |  | Five Year Regression Estimate |
-| `TxAcrudChgRegGr%ANN` |  | Ten Year Regression Estimate |
-| `TxAcrudChgRegGr%TTM` |  | Five Year Regression Growth |
-| `TxAcrudChgPSQ` |  | Quarterly Per Share |
-| `TxAcrudChgPSA` |  | Annual Per Share |
-| `TxAcrudChg%SalesQ` |  | % of Quarterly Sales |
-| `TxAcrudChg%SalesA` |  | % of Annual Sales |
-| `TxAcrudChg%AssetsQ` |  | % of Quarterly Assets |
-| `TxAcrudChg%AssetsA` |  | % of Annual Assets |
-| `TxAcrudChg3YAvg` |  | Three Year Average |
-| `TxAcrudChg5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `TxAcrudChg()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChgPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChg%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChg%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChg%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChg%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChg3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
+| `TxAcrudChg5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxAcrudChg |
 
 
 #### Change to Accounts Receivables
 
 Changes in receivables balance over a period.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `RecvblChg()` | offset, type[, NAHandling] |  |
-| `RecvblChgQ` |  | Latest Quarter |
-| `RecvblChgPQ` |  | Previous Quarter |
-| `RecvblChgPYQ` |  | Previous Quarter 1 Year Ago |
-| `RecvblChgTTM` |  | Trailing 12 Months |
-| `RecvblChgPTM` |  | Previous Trailing 12 Months |
-| `RecvblChgA` |  | Latest Year |
-| `RecvblChgPY` |  | Previous Year |
-| `RecvblChgGr%PQ` |  | Q vs Previous Q Growth |
-| `RecvblChgGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `RecvblChgGr%TTM` |  | Trailing Twelve Months Growth |
-| `RecvblChgGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `RecvblChgGr%A` |  | Growth Annual |
-| `RecvblChgGr%3Y` |  | Three Year Annualized Growth |
-| `RecvblChgGr%5Y` |  | Five Year Annualized Growth |
-| `RecvblChgGr%10Y` |  | Ten Year Annualized Growth |
-| `RecvblChgRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `RecvblChgRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `RecvblChgRegEstANN` |  | Ten Year Regression Estimate |
-| `RecvblChgRegEstTTM` |  | Five Year Regression Estimate |
-| `RecvblChgRegGr%ANN` |  | Ten Year Regression Estimate |
-| `RecvblChgRegGr%TTM` |  | Five Year Regression Growth |
-| `RecvblChgPSQ` |  | Quarterly Per Share |
-| `RecvblChgPSA` |  | Annual Per Share |
-| `RecvblChg%SalesQ` |  | % of Quarterly Sales |
-| `RecvblChg%SalesA` |  | % of Annual Sales |
-| `RecvblChg%AssetsQ` |  | % of Quarterly Assets |
-| `RecvblChg%AssetsA` |  | % of Annual Assets |
-| `RecvblChg3YAvg` |  | Three Year Average |
-| `RecvblChg5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `RecvblChg()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChgPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChg%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChg%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChg%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChg%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChg3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
+| `RecvblChg5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=RecvblChg |
 
 
 #### Change to Accrued Liabilities (Accrued Expenses)
 
 Change in accrued liabilities on a company's balance sheet.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `AccruedExp()` | offset, type[, NAHandling] |  |
-| `AccruedExpQ` |  | Latest Quarter |
-| `AccruedExpPQ` |  | Previous Quarter |
-| `AccruedExpPYQ` |  | Previous Quarter 1 Year Ago |
-| `AccruedExpTTM` |  | Trailing 12 Months |
-| `AccruedExpPTM` |  | Previous Trailing 12 Months |
-| `AccruedExpA` |  | Latest Year |
-| `AccruedExpPY` |  | Previous Year |
-| `AccruedExpGr%PQ` |  | Q vs Previous Q Growth |
-| `AccruedExpGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `AccruedExpGr%TTM` |  | Trailing Twelve Months Growth |
-| `AccruedExpGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `AccruedExpGr%A` |  | Growth Annual |
-| `AccruedExpGr%3Y` |  | Three Year Annualized Growth |
-| `AccruedExpGr%5Y` |  | Five Year Annualized Growth |
-| `AccruedExpGr%10Y` |  | Ten Year Annualized Growth |
-| `AccruedExpRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `AccruedExpRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `AccruedExpRegEstANN` |  | Ten Year Regression Estimate |
-| `AccruedExpRegEstTTM` |  | Five Year Regression Estimate |
-| `AccruedExpRegGr%ANN` |  | Ten Year Regression Estimate |
-| `AccruedExpRegGr%TTM` |  | Five Year Regression Growth |
-| `AccruedExpPSQ` |  | Quarterly Per Share |
-| `AccruedExpPSA` |  | Annual Per Share |
-| `AccruedExp%SalesQ` |  | % of Quarterly Sales |
-| `AccruedExp%SalesA` |  | % of Annual Sales |
-| `AccruedExp%AssetsQ` |  | % of Quarterly Assets |
-| `AccruedExp%AssetsA` |  | % of Annual Assets |
-| `AccruedExp3YAvg` |  | Three Year Average |
-| `AccruedExp5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `AccruedExp()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExpPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExp%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExp%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExp%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExp%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExp3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
+| `AccruedExp5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=AccruedExp |
 
 
 #### Change to Inventory
 
 Change in current inventory account from cash flow statement.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `InvtyChg()` | offset, type[, NAHandling] |  |
-| `InvtyChgQ` |  | Latest Quarter |
-| `InvtyChgPQ` |  | Previous Quarter |
-| `InvtyChgPYQ` |  | Previous Quarter 1 Year Ago |
-| `InvtyChgTTM` |  | Trailing 12 Months |
-| `InvtyChgPTM` |  | Previous Trailing 12 Months |
-| `InvtyChgA` |  | Latest Year |
-| `InvtyChgPY` |  | Previous Year |
-| `InvtyChgGr%PQ` |  | Q vs Previous Q Growth |
-| `InvtyChgGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `InvtyChgGr%TTM` |  | Trailing Twelve Months Growth |
-| `InvtyChgGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `InvtyChgGr%A` |  | Growth Annual |
-| `InvtyChgGr%3Y` |  | Three Year Annualized Growth |
-| `InvtyChgGr%5Y` |  | Five Year Annualized Growth |
-| `InvtyChgGr%10Y` |  | Ten Year Annualized Growth |
-| `InvtyChgRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `InvtyChgRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `InvtyChgRegEstANN` |  | Ten Year Regression Estimate |
-| `InvtyChgRegEstTTM` |  | Five Year Regression Estimate |
-| `InvtyChgRegGr%ANN` |  | Ten Year Regression Estimate |
-| `InvtyChgRegGr%TTM` |  | Five Year Regression Growth |
-| `InvtyChgPSQ` |  | Quarterly Per Share |
-| `InvtyChgPSA` |  | Annual Per Share |
-| `InvtyChg%SalesQ` |  | % of Quarterly Sales |
-| `InvtyChg%SalesA` |  | % of Annual Sales |
-| `InvtyChg%AssetsQ` |  | % of Quarterly Assets |
-| `InvtyChg%AssetsA` |  | % of Annual Assets |
-| `InvtyChg3YAvg` |  | Three Year Average |
-| `InvtyChg5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `InvtyChg()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChgPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChg%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChg%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChg%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChg%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChg3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
+| `InvtyChg5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvtyChg |
 
 
 #### Change to Other Working Capital Lines
 
 All working capital changes not captured in specific line items (inventory, accounts payable, accounts receivable).
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `OtherWCChg()` | offset, type[, NAHandling] |  |
-| `OtherWCChgQ` |  | Latest Quarter |
-| `OtherWCChgPQ` |  | Previous Quarter |
-| `OtherWCChgPYQ` |  | Previous Quarter 1 Year Ago |
-| `OtherWCChgTTM` |  | Trailing 12 Months |
-| `OtherWCChgPTM` |  | Previous Trailing 12 Months |
-| `OtherWCChgA` |  | Latest Year |
-| `OtherWCChgPY` |  | Previous Year |
-| `OtherWCChgGr%PQ` |  | Q vs Previous Q Growth |
-| `OtherWCChgGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `OtherWCChgGr%TTM` |  | Trailing Twelve Months Growth |
-| `OtherWCChgGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `OtherWCChgGr%A` |  | Growth Annual |
-| `OtherWCChgGr%3Y` |  | Three Year Annualized Growth |
-| `OtherWCChgGr%5Y` |  | Five Year Annualized Growth |
-| `OtherWCChgGr%10Y` |  | Ten Year Annualized Growth |
-| `OtherWCChgRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `OtherWCChgRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `OtherWCChgRegEstANN` |  | Ten Year Regression Estimate |
-| `OtherWCChgRegEstTTM` |  | Five Year Regression Estimate |
-| `OtherWCChgRegGr%ANN` |  | Ten Year Regression Estimate |
-| `OtherWCChgRegGr%TTM` |  | Five Year Regression Growth |
-| `OtherWCChgPSQ` |  | Quarterly Per Share |
-| `OtherWCChgPSA` |  | Annual Per Share |
-| `OtherWCChg%SalesQ` |  | % of Quarterly Sales |
-| `OtherWCChg%SalesA` |  | % of Annual Sales |
-| `OtherWCChg%AssetsQ` |  | % of Quarterly Assets |
-| `OtherWCChg%AssetsA` |  | % of Annual Assets |
-| `OtherWCChg3YAvg` |  | Three Year Average |
-| `OtherWCChg5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `OtherWCChg()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChgPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChg%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChg%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChg%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChg%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChg3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
+| `OtherWCChg5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OtherWCChg |
 
 
 #### Change to Payables (Accounts Payable)
 
 Change in accounts payable balance for the period.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `PayablesChg()` | offset, type[, NAHandling] |  |
-| `PayablesChgQ` |  | Latest Quarter |
-| `PayablesChgPQ` |  | Previous Quarter |
-| `PayablesChgPYQ` |  | Previous Quarter 1 Year Ago |
-| `PayablesChgTTM` |  | Trailing 12 Months |
-| `PayablesChgPTM` |  | Previous Trailing 12 Months |
-| `PayablesChgA` |  | Latest Year |
-| `PayablesChgPY` |  | Previous Year |
-| `PayablesChgGr%PQ` |  | Q vs Previous Q Growth |
-| `PayablesChgGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `PayablesChgGr%TTM` |  | Trailing Twelve Months Growth |
-| `PayablesChgGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `PayablesChgGr%A` |  | Growth Annual |
-| `PayablesChgGr%3Y` |  | Three Year Annualized Growth |
-| `PayablesChgGr%5Y` |  | Five Year Annualized Growth |
-| `PayablesChgGr%10Y` |  | Ten Year Annualized Growth |
-| `PayablesChgRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `PayablesChgRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `PayablesChgRegEstANN` |  | Ten Year Regression Estimate |
-| `PayablesChgRegEstTTM` |  | Five Year Regression Estimate |
-| `PayablesChgRegGr%ANN` |  | Ten Year Regression Estimate |
-| `PayablesChgRegGr%TTM` |  | Five Year Regression Growth |
-| `PayablesChgPSQ` |  | Quarterly Per Share |
-| `PayablesChgPSA` |  | Annual Per Share |
-| `PayablesChg%SalesQ` |  | % of Quarterly Sales |
-| `PayablesChg%SalesA` |  | % of Annual Sales |
-| `PayablesChg%AssetsQ` |  | % of Quarterly Assets |
-| `PayablesChg%AssetsA` |  | % of Annual Assets |
-| `PayablesChg3YAvg` |  | Three Year Average |
-| `PayablesChg5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `PayablesChg()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChgPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChg%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChg%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChg%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChg%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChg3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
+| `PayablesChg5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=PayablesChg |
 
 
 #### Deferred Taxes
 
 Expense from repaying deferred tax liabilities (on cash flow statement).
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `TxDfd()` | offset, type[, NAHandling] |  |
-| `TxDfdQ` |  | Latest Quarter |
-| `TxDfdPQ` |  | Previous Quarter |
-| `TxDfdPYQ` |  | Previous Quarter 1 Year Ago |
-| `TxDfdTTM` |  | Trailing 12 Months |
-| `TxDfdPTM` |  | Previous Trailing 12 Months |
-| `TxDfdA` |  | Latest Year |
-| `TxDfdPY` |  | Previous Year |
-| `TxDfdGr%PQ` |  | Q vs Previous Q Growth |
-| `TxDfdGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `TxDfdGr%TTM` |  | Trailing Twelve Months Growth |
-| `TxDfdGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `TxDfdGr%A` |  | Growth Annual |
-| `TxDfdGr%3Y` |  | Three Year Annualized Growth |
-| `TxDfdGr%5Y` |  | Five Year Annualized Growth |
-| `TxDfdGr%10Y` |  | Ten Year Annualized Growth |
-| `TxDfdRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `TxDfdRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `TxDfdRegEstANN` |  | Ten Year Regression Estimate |
-| `TxDfdRegEstTTM` |  | Five Year Regression Estimate |
-| `TxDfdRegGr%ANN` |  | Ten Year Regression Estimate |
-| `TxDfdRegGr%TTM` |  | Five Year Regression Growth |
-| `TxDfdPSQ` |  | Quarterly Per Share |
-| `TxDfdPSA` |  | Annual Per Share |
-| `TxDfd%SalesQ` |  | % of Quarterly Sales |
-| `TxDfd%SalesA` |  | % of Annual Sales |
-| `TxDfd%AssetsQ` |  | % of Quarterly Assets |
-| `TxDfd%AssetsA` |  | % of Annual Assets |
-| `TxDfd3YAvg` |  | Three Year Average |
-| `TxDfd5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `TxDfd()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfdPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfd%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfd%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfd%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfd%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfd3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
+| `TxDfd5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=TxDfd |
 
 
 #### Depreciation and Amort, Cash Flow
 
 Depreciation and Amortization as reported on cash flow statement.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `DepAmortCF()` | offset, type[, NAHandling] |  |
-| `DepAmortCFQ` |  | Latest Quarter |
-| `DepAmortCFPQ` |  | Previous Quarter |
-| `DepAmortCFPYQ` |  | Previous Quarter 1 Year Ago |
-| `DepAmortCFTTM` |  | Trailing 12 Months |
-| `DepAmortCFPTM` |  | Previous Trailing 12 Months |
-| `DepAmortCFA` |  | Latest Year |
-| `DepAmortCFPY` |  | Previous Year |
-| `DepAmortCFGr%PQ` |  | Q vs Previous Q Growth |
-| `DepAmortCFGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `DepAmortCFGr%TTM` |  | Trailing Twelve Months Growth |
-| `DepAmortCFGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `DepAmortCFGr%A` |  | Growth Annual |
-| `DepAmortCFGr%3Y` |  | Three Year Annualized Growth |
-| `DepAmortCFGr%5Y` |  | Five Year Annualized Growth |
-| `DepAmortCFGr%10Y` |  | Ten Year Annualized Growth |
-| `DepAmortCFRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `DepAmortCFRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `DepAmortCFRegEstANN` |  | Ten Year Regression Estimate |
-| `DepAmortCFRegEstTTM` |  | Five Year Regression Estimate |
-| `DepAmortCFRegGr%ANN` |  | Ten Year Regression Estimate |
-| `DepAmortCFRegGr%TTM` |  | Five Year Regression Growth |
-| `DepAmortCFPSQ` |  | Quarterly Per Share |
-| `DepAmortCFPSA` |  | Annual Per Share |
-| `DepAmortCF%SalesQ` |  | % of Quarterly Sales |
-| `DepAmortCF%SalesA` |  | % of Annual Sales |
-| `DepAmortCF%AssetsQ` |  | % of Quarterly Assets |
-| `DepAmortCF%AssetsA` |  | % of Annual Assets |
-| `DepAmortCF3YAvg` |  | Three Year Average |
-| `DepAmortCF5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `DepAmortCF()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCFPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCF%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCF%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCF%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCF%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCF3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
+| `DepAmortCF5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DepAmortCF |
 
 
 #### Net Income (Cash Flow Statement)
 
 Top line of the cash flow statement using indirect method.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `NetIncCFStmt()` | offset, type[, NAHandling] |  |
-| `NetIncCFStmtQ` |  | Latest Quarter |
-| `NetIncCFStmtPQ` |  | Previous Quarter |
-| `NetIncCFStmtPYQ` |  | Previous Quarter 1 Year Ago |
-| `NetIncCFStmtTTM` |  | Trailing 12 Months |
-| `NetIncCFStmtPTM` |  | Previous Trailing 12 Months |
-| `NetIncCFStmtA` |  | Latest Year |
-| `NetIncCFStmtPY` |  | Previous Year |
-| `NetIncCFStmtGr%PQ` |  | Q vs Previous Q Growth |
-| `NetIncCFStmtGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `NetIncCFStmtGr%TTM` |  | Trailing Twelve Months Growth |
-| `NetIncCFStmtGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `NetIncCFStmtGr%A` |  | Growth Annual |
-| `NetIncCFStmtGr%3Y` |  | Three Year Annualized Growth |
-| `NetIncCFStmtGr%5Y` |  | Five Year Annualized Growth |
-| `NetIncCFStmtGr%10Y` |  | Ten Year Annualized Growth |
-| `NetIncCFStmtRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `NetIncCFStmtRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `NetIncCFStmtRegEstANN` |  | Ten Year Regression Estimate |
-| `NetIncCFStmtRegEstTTM` |  | Five Year Regression Estimate |
-| `NetIncCFStmtRegGr%ANN` |  | Ten Year Regression Estimate |
-| `NetIncCFStmtRegGr%TTM` |  | Five Year Regression Growth |
-| `NetIncCFStmtPSQ` |  | Quarterly Per Share |
-| `NetIncCFStmtPSA` |  | Annual Per Share |
-| `NetIncCFStmt%SalesQ` |  | % of Quarterly Sales |
-| `NetIncCFStmt%SalesA` |  | % of Annual Sales |
-| `NetIncCFStmt%AssetsQ` |  | % of Quarterly Assets |
-| `NetIncCFStmt%AssetsA` |  | % of Annual Assets |
-| `NetIncCFStmt3YAvg` |  | Three Year Average |
-| `NetIncCFStmt5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `NetIncCFStmt()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmtPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmt%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmt%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmt%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmt%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmt3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
+| `NetIncCFStmt5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetIncCFStmt |
 
 
 #### Operating Cash Flow from Operations
 
 Total cash change from operating activities.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `OperCashFl()` | offset, type[, NAHandling] |  |
-| `OperCashFlQ` |  | Latest Quarter |
-| `OperCashFlPQ` |  | Previous Quarter |
-| `OperCashFlPYQ` |  | Previous Quarter 1 Year Ago |
-| `OperCashFlTTM` |  | Trailing 12 Months |
-| `OperCashFlPTM` |  | Previous Trailing 12 Months |
-| `OperCashFlA` |  | Latest Year |
-| `OperCashFlPY` |  | Previous Year |
-| `OperCashFlGr%PQ` |  | Q vs Previous Q Growth |
-| `OperCashFlGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `OperCashFlGr%TTM` |  | Trailing Twelve Months Growth |
-| `OperCashFlGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `OperCashFlGr%A` |  | Growth Annual |
-| `OperCashFlGr%3Y` |  | Three Year Annualized Growth |
-| `OperCashFlGr%5Y` |  | Five Year Annualized Growth |
-| `OperCashFlGr%10Y` |  | Ten Year Annualized Growth |
-| `OperCashFlRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `OperCashFlRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `OperCashFlRegEstANN` |  | Ten Year Regression Estimate |
-| `OperCashFlRegEstTTM` |  | Five Year Regression Estimate |
-| `OperCashFlRegGr%ANN` |  | Ten Year Regression Estimate |
-| `OperCashFlRegGr%TTM` |  | Five Year Regression Growth |
-| `OperCashFlPSQ` |  | Quarterly Per Share |
-| `OperCashFlPSA` |  | Annual Per Share |
-| `OperCashFl%SalesQ` |  | % of Quarterly Sales |
-| `OperCashFl%SalesA` |  | % of Annual Sales |
-| `OperCashFl%AssetsQ` |  | % of Quarterly Assets |
-| `OperCashFl%AssetsA` |  | % of Annual Assets |
-| `OperCashFl3YAvg` |  | Three Year Average |
-| `OperCashFl5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `OperCashFl()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFlPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFl%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFl%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFl%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFl%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFl3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
+| `OperCashFl5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=OperCashFl |
 
 
 #### Stock Option Compensation, Cash Flow
 
 Cashflow statement SBC. Data begins around 2006, with full annual coverage starting in 2013, and interim in 2021
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `StkOptCF()` | offset, type[, NAHandling] |  |
-| `StkOptCFQ` |  | Latest Quarter |
-| `StkOptCFPQ` |  | Previous Quarter |
-| `StkOptCFPYQ` |  | Previous Quarter 1 Year Ago |
-| `StkOptCFTTM` |  | Trailing 12 Months |
-| `StkOptCFPTM` |  | Previous Trailing 12 Months |
-| `StkOptCFA` |  | Latest Year |
-| `StkOptCFPY` |  | Previous Year |
-| `StkOptCFGr%PQ` |  | Q vs Previous Q Growth |
-| `StkOptCFGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `StkOptCFGr%TTM` |  | Trailing Twelve Months Growth |
-| `StkOptCFGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `StkOptCFGr%A` |  | Growth Annual |
-| `StkOptCFGr%3Y` |  | Three Year Annualized Growth |
-| `StkOptCFGr%5Y` |  | Five Year Annualized Growth |
-| `StkOptCFGr%10Y` |  | Ten Year Annualized Growth |
-| `StkOptCFRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `StkOptCFRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `StkOptCFRegEstANN` |  | Ten Year Regression Estimate |
-| `StkOptCFRegEstTTM` |  | Five Year Regression Estimate |
-| `StkOptCFRegGr%ANN` |  | Ten Year Regression Estimate |
-| `StkOptCFRegGr%TTM` |  | Five Year Regression Growth |
-| `StkOptCFPSQ` |  | Quarterly Per Share |
-| `StkOptCFPSA` |  | Annual Per Share |
-| `StkOptCF%SalesQ` |  | % of Quarterly Sales |
-| `StkOptCF%SalesA` |  | % of Annual Sales |
-| `StkOptCF%AssetsQ` |  | % of Quarterly Assets |
-| `StkOptCF%AssetsA` |  | % of Annual Assets |
-| `StkOptCF3YAvg` |  | Three Year Average |
-| `StkOptCF5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `StkOptCF()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCFPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCF%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCF%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCF%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCF%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCF3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
+| `StkOptCF5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=StkOptCF |
 
 
 ### Investing
@@ -3052,190 +3052,190 @@ Cash flows generated by investing activities, including capital expenditures.
 
 Cash outflows for purchasing companies or equity stakes.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `Acquis()` | offset, type[, NAHandling] |  |
-| `AcquisQ` |  | Latest Quarter |
-| `AcquisPQ` |  | Previous Quarter |
-| `AcquisPYQ` |  | Previous Quarter 1 Year Ago |
-| `AcquisTTM` |  | Trailing 12 Months |
-| `AcquisPTM` |  | Previous Trailing 12 Months |
-| `AcquisA` |  | Latest Year |
-| `AcquisPY` |  | Previous Year |
-| `AcquisGr%PQ` |  | Q vs Previous Q Growth |
-| `AcquisGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `AcquisGr%TTM` |  | Trailing Twelve Months Growth |
-| `AcquisGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `AcquisGr%A` |  | Growth Annual |
-| `AcquisGr%3Y` |  | Three Year Annualized Growth |
-| `AcquisGr%5Y` |  | Five Year Annualized Growth |
-| `AcquisGr%10Y` |  | Ten Year Annualized Growth |
-| `AcquisRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `AcquisRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `AcquisRegEstANN` |  | Ten Year Regression Estimate |
-| `AcquisRegEstTTM` |  | Five Year Regression Estimate |
-| `AcquisRegGr%ANN` |  | Ten Year Regression Estimate |
-| `AcquisRegGr%TTM` |  | Five Year Regression Growth |
-| `AcquisPSQ` |  | Quarterly Per Share |
-| `AcquisPSA` |  | Annual Per Share |
-| `Acquis%SalesQ` |  | % of Quarterly Sales |
-| `Acquis%SalesA` |  | % of Annual Sales |
-| `Acquis%AssetsQ` |  | % of Quarterly Assets |
-| `Acquis%AssetsA` |  | % of Annual Assets |
-| `Acquis3YAvg` |  | Three Year Average |
-| `Acquis5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `Acquis()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `AcquisPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `Acquis%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `Acquis%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `Acquis%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `Acquis%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `Acquis3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
+| `Acquis5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Acquis |
 
 
 #### Capital Expenditures (CapEx)
 
 Expenditures on property, plant, and equipment investments.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `CapEx()` | offset, type[, NAHandling] |  |
-| `CapExQ` |  | Latest Quarter |
-| `CapExPQ` |  | Previous Quarter |
-| `CapExPYQ` |  | Previous Quarter 1 Year Ago |
-| `CapExTTM` |  | Trailing 12 Months |
-| `CapExPTM` |  | Previous Trailing 12 Months |
-| `CapExA` |  | Latest Year |
-| `CapExPY` |  | Previous Year |
-| `CapExGr%PQ` |  | Q vs Previous Q Growth |
-| `CapExGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `CapExGr%TTM` |  | Trailing Twelve Months Growth |
-| `CapExGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `CapExGr%A` |  | Growth Annual |
-| `CapExGr%3Y` |  | Three Year Annualized Growth |
-| `CapExGr%5Y` |  | Five Year Annualized Growth |
-| `CapExGr%10Y` |  | Ten Year Annualized Growth |
-| `CapExRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `CapExRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `CapExRegEstANN` |  | Ten Year Regression Estimate |
-| `CapExRegEstTTM` |  | Five Year Regression Estimate |
-| `CapExRegGr%ANN` |  | Ten Year Regression Estimate |
-| `CapExRegGr%TTM` |  | Five Year Regression Growth |
-| `CapExPSQ` |  | Quarterly Per Share |
-| `CapExPSA` |  | Annual Per Share |
-| `CapEx%SalesQ` |  | % of Quarterly Sales |
-| `CapEx%SalesA` |  | % of Annual Sales |
-| `CapEx%AssetsQ` |  | % of Quarterly Assets |
-| `CapEx%AssetsA` |  | % of Annual Assets |
-| `CapEx3YAvg` |  | Three Year Average |
-| `CapEx5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `CapEx()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapExPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapEx%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapEx%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapEx%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapEx%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapEx3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
+| `CapEx5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CapEx |
 
 
 #### Cash from Investing
 
 Net cash flows from investing activities.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `CashFrInvest()` | offset, type[, NAHandling] |  |
-| `CashFrInvestQ` |  | Latest Quarter |
-| `CashFrInvestPQ` |  | Previous Quarter |
-| `CashFrInvestPYQ` |  | Previous Quarter 1 Year Ago |
-| `CashFrInvestTTM` |  | Trailing 12 Months |
-| `CashFrInvestPTM` |  | Previous Trailing 12 Months |
-| `CashFrInvestA` |  | Latest Year |
-| `CashFrInvestPY` |  | Previous Year |
-| `CashFrInvestGr%PQ` |  | Q vs Previous Q Growth |
-| `CashFrInvestGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `CashFrInvestGr%TTM` |  | Trailing Twelve Months Growth |
-| `CashFrInvestGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `CashFrInvestGr%A` |  | Growth Annual |
-| `CashFrInvestGr%3Y` |  | Three Year Annualized Growth |
-| `CashFrInvestGr%5Y` |  | Five Year Annualized Growth |
-| `CashFrInvestGr%10Y` |  | Ten Year Annualized Growth |
-| `CashFrInvestRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `CashFrInvestRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `CashFrInvestRegEstANN` |  | Ten Year Regression Estimate |
-| `CashFrInvestRegEstTTM` |  | Five Year Regression Estimate |
-| `CashFrInvestRegGr%ANN` |  | Ten Year Regression Estimate |
-| `CashFrInvestRegGr%TTM` |  | Five Year Regression Growth |
-| `CashFrInvestPSQ` |  | Quarterly Per Share |
-| `CashFrInvestPSA` |  | Annual Per Share |
-| `CashFrInvest%SalesQ` |  | % of Quarterly Sales |
-| `CashFrInvest%SalesA` |  | % of Annual Sales |
-| `CashFrInvest%AssetsQ` |  | % of Quarterly Assets |
-| `CashFrInvest%AssetsA` |  | % of Annual Assets |
-| `CashFrInvest3YAvg` |  | Three Year Average |
-| `CashFrInvest5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `CashFrInvest()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvestPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvest%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvest%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvest%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvest%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvest3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
+| `CashFrInvest5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrInvest |
 
 
 #### Divestitures
 
 Cash inflow from selling companies/subsidiaries.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `Divest()` | offset, type[, NAHandling] |  |
-| `DivestQ` |  | Latest Quarter |
-| `DivestPQ` |  | Previous Quarter |
-| `DivestPYQ` |  | Previous Quarter 1 Year Ago |
-| `DivestTTM` |  | Trailing 12 Months |
-| `DivestPTM` |  | Previous Trailing 12 Months |
-| `DivestA` |  | Latest Year |
-| `DivestPY` |  | Previous Year |
-| `DivestGr%PQ` |  | Q vs Previous Q Growth |
-| `DivestGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `DivestGr%TTM` |  | Trailing Twelve Months Growth |
-| `DivestGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `DivestGr%A` |  | Growth Annual |
-| `DivestGr%3Y` |  | Three Year Annualized Growth |
-| `DivestGr%5Y` |  | Five Year Annualized Growth |
-| `DivestGr%10Y` |  | Ten Year Annualized Growth |
-| `DivestRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `DivestRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `DivestRegEstANN` |  | Ten Year Regression Estimate |
-| `DivestRegEstTTM` |  | Five Year Regression Estimate |
-| `DivestRegGr%ANN` |  | Ten Year Regression Estimate |
-| `DivestRegGr%TTM` |  | Five Year Regression Growth |
-| `DivestPSQ` |  | Quarterly Per Share |
-| `DivestPSA` |  | Annual Per Share |
-| `Divest%SalesQ` |  | % of Quarterly Sales |
-| `Divest%SalesA` |  | % of Annual Sales |
-| `Divest%AssetsQ` |  | % of Quarterly Assets |
-| `Divest%AssetsA` |  | % of Annual Assets |
-| `Divest3YAvg` |  | Three Year Average |
-| `Divest5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `Divest()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `DivestPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `Divest%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `Divest%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `Divest%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `Divest%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `Divest3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
+| `Divest5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=Divest |
 
 
 #### Other Investing Cash Flow
 
 Miscellaneous investing cash flows not classified elsewhere.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `InvstOther()` | offset, type[, NAHandling] |  |
-| `InvstOtherQ` |  | Latest Quarter |
-| `InvstOtherPQ` |  | Previous Quarter |
-| `InvstOtherPYQ` |  | Previous Quarter 1 Year Ago |
-| `InvstOtherTTM` |  | Trailing 12 Months |
-| `InvstOtherPTM` |  | Previous Trailing 12 Months |
-| `InvstOtherA` |  | Latest Year |
-| `InvstOtherPY` |  | Previous Year |
-| `InvstOtherGr%PQ` |  | Q vs Previous Q Growth |
-| `InvstOtherGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `InvstOtherGr%TTM` |  | Trailing Twelve Months Growth |
-| `InvstOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `InvstOtherGr%A` |  | Growth Annual |
-| `InvstOtherGr%3Y` |  | Three Year Annualized Growth |
-| `InvstOtherGr%5Y` |  | Five Year Annualized Growth |
-| `InvstOtherGr%10Y` |  | Ten Year Annualized Growth |
-| `InvstOtherRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `InvstOtherRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `InvstOtherRegEstANN` |  | Ten Year Regression Estimate |
-| `InvstOtherRegEstTTM` |  | Five Year Regression Estimate |
-| `InvstOtherRegGr%ANN` |  | Ten Year Regression Estimate |
-| `InvstOtherRegGr%TTM` |  | Five Year Regression Growth |
-| `InvstOtherPSQ` |  | Quarterly Per Share |
-| `InvstOtherPSA` |  | Annual Per Share |
-| `InvstOther%SalesQ` |  | % of Quarterly Sales |
-| `InvstOther%SalesA` |  | % of Annual Sales |
-| `InvstOther%AssetsQ` |  | % of Quarterly Assets |
-| `InvstOther%AssetsA` |  | % of Annual Assets |
-| `InvstOther3YAvg` |  | Three Year Average |
-| `InvstOther5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `InvstOther()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOtherPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOther%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOther%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOther%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOther%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOther3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
+| `InvstOther5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=InvstOther |
 
 
 ### Financing
@@ -3246,304 +3246,304 @@ Cash flows generated by financing activities, including debt service and dividen
 
 Sum of all financing activity cash flows.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `CashFrFin()` | offset, type[, NAHandling] |  |
-| `CashFrFinQ` |  | Latest Quarter |
-| `CashFrFinPQ` |  | Previous Quarter |
-| `CashFrFinPYQ` |  | Previous Quarter 1 Year Ago |
-| `CashFrFinTTM` |  | Trailing 12 Months |
-| `CashFrFinPTM` |  | Previous Trailing 12 Months |
-| `CashFrFinA` |  | Latest Year |
-| `CashFrFinPY` |  | Previous Year |
-| `CashFrFinGr%PQ` |  | Q vs Previous Q Growth |
-| `CashFrFinGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `CashFrFinGr%TTM` |  | Trailing Twelve Months Growth |
-| `CashFrFinGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `CashFrFinGr%A` |  | Growth Annual |
-| `CashFrFinGr%3Y` |  | Three Year Annualized Growth |
-| `CashFrFinGr%5Y` |  | Five Year Annualized Growth |
-| `CashFrFinGr%10Y` |  | Ten Year Annualized Growth |
-| `CashFrFinRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `CashFrFinRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `CashFrFinRegEstANN` |  | Ten Year Regression Estimate |
-| `CashFrFinRegEstTTM` |  | Five Year Regression Estimate |
-| `CashFrFinRegGr%ANN` |  | Ten Year Regression Estimate |
-| `CashFrFinRegGr%TTM` |  | Five Year Regression Growth |
-| `CashFrFinPSQ` |  | Quarterly Per Share |
-| `CashFrFinPSA` |  | Annual Per Share |
-| `CashFrFin%SalesQ` |  | % of Quarterly Sales |
-| `CashFrFin%SalesA` |  | % of Annual Sales |
-| `CashFrFin%AssetsQ` |  | % of Quarterly Assets |
-| `CashFrFin%AssetsA` |  | % of Annual Assets |
-| `CashFrFin3YAvg` |  | Three Year Average |
-| `CashFrFin5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `CashFrFin()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFinPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFin%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFin%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFin%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFin%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFin3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
+| `CashFrFin5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFrFin |
 
 
 #### Change to Debt
 
 Net debt activity during the period.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `ChangeDebt()` | offset, type[, NAHandling] |  |
-| `ChangeDebtQ` |  | Latest Quarter |
-| `ChangeDebtPQ` |  | Previous Quarter |
-| `ChangeDebtPYQ` |  | Previous Quarter 1 Year Ago |
-| `ChangeDebtTTM` |  | Trailing 12 Months |
-| `ChangeDebtPTM` |  | Previous Trailing 12 Months |
-| `ChangeDebtA` |  | Latest Year |
-| `ChangeDebtPY` |  | Previous Year |
-| `ChangeDebtGr%PQ` |  | Q vs Previous Q Growth |
-| `ChangeDebtGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `ChangeDebtGr%TTM` |  | Trailing Twelve Months Growth |
-| `ChangeDebtGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `ChangeDebtGr%A` |  | Growth Annual |
-| `ChangeDebtGr%3Y` |  | Three Year Annualized Growth |
-| `ChangeDebtGr%5Y` |  | Five Year Annualized Growth |
-| `ChangeDebtGr%10Y` |  | Ten Year Annualized Growth |
-| `ChangeDebtRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `ChangeDebtRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `ChangeDebtRegEstANN` |  | Ten Year Regression Estimate |
-| `ChangeDebtRegEstTTM` |  | Five Year Regression Estimate |
-| `ChangeDebtRegGr%ANN` |  | Ten Year Regression Estimate |
-| `ChangeDebtRegGr%TTM` |  | Five Year Regression Growth |
-| `ChangeDebtPSQ` |  | Quarterly Per Share |
-| `ChangeDebtPSA` |  | Annual Per Share |
-| `ChangeDebt%SalesQ` |  | % of Quarterly Sales |
-| `ChangeDebt%SalesA` |  | % of Annual Sales |
-| `ChangeDebt%AssetsQ` |  | % of Quarterly Assets |
-| `ChangeDebt%AssetsA` |  | % of Annual Assets |
-| `ChangeDebt3YAvg` |  | Three Year Average |
-| `ChangeDebt5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `ChangeDebt()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebtPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebt%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebt%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebt%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebt%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebt3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
+| `ChangeDebt5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeDebt |
 
 
 #### Change to Equity
 
 Net equity activity during the period.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `ChangeEq()` | offset, type[, NAHandling] |  |
-| `ChangeEqQ` |  | Latest Quarter |
-| `ChangeEqPQ` |  | Previous Quarter |
-| `ChangeEqPYQ` |  | Previous Quarter 1 Year Ago |
-| `ChangeEqTTM` |  | Trailing 12 Months |
-| `ChangeEqPTM` |  | Previous Trailing 12 Months |
-| `ChangeEqA` |  | Latest Year |
-| `ChangeEqPY` |  | Previous Year |
-| `ChangeEqGr%PQ` |  | Q vs Previous Q Growth |
-| `ChangeEqGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `ChangeEqGr%TTM` |  | Trailing Twelve Months Growth |
-| `ChangeEqGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `ChangeEqGr%A` |  | Growth Annual |
-| `ChangeEqGr%3Y` |  | Three Year Annualized Growth |
-| `ChangeEqGr%5Y` |  | Five Year Annualized Growth |
-| `ChangeEqGr%10Y` |  | Ten Year Annualized Growth |
-| `ChangeEqRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `ChangeEqRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `ChangeEqRegEstANN` |  | Ten Year Regression Estimate |
-| `ChangeEqRegEstTTM` |  | Five Year Regression Estimate |
-| `ChangeEqRegGr%ANN` |  | Ten Year Regression Estimate |
-| `ChangeEqRegGr%TTM` |  | Five Year Regression Growth |
-| `ChangeEqPSQ` |  | Quarterly Per Share |
-| `ChangeEqPSA` |  | Annual Per Share |
-| `ChangeEq%SalesQ` |  | % of Quarterly Sales |
-| `ChangeEq%SalesA` |  | % of Annual Sales |
-| `ChangeEq%AssetsQ` |  | % of Quarterly Assets |
-| `ChangeEq%AssetsA` |  | % of Annual Assets |
-| `ChangeEq3YAvg` |  | Three Year Average |
-| `ChangeEq5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `ChangeEq()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEqPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEq%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEq%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEq%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEq%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEq3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
+| `ChangeEq5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=ChangeEq |
 
 
 #### Dividends Paid (Total Cash Flow)
 
 Total dividends paid across all share classes and preferred shares.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `DivPaid()` | offset, type[, NAHandling] |  |
-| `DivPaidQ` |  | Latest Quarter |
-| `DivPaidPQ` |  | Previous Quarter |
-| `DivPaidPYQ` |  | Previous Quarter 1 Year Ago |
-| `DivPaidTTM` |  | Trailing 12 Months |
-| `DivPaidPTM` |  | Previous Trailing 12 Months |
-| `DivPaidA` |  | Latest Year |
-| `DivPaidPY` |  | Previous Year |
-| `DivPaidGr%PQ` |  | Q vs Previous Q Growth |
-| `DivPaidGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `DivPaidGr%TTM` |  | Trailing Twelve Months Growth |
-| `DivPaidGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `DivPaidGr%A` |  | Growth Annual |
-| `DivPaidGr%3Y` |  | Three Year Annualized Growth |
-| `DivPaidGr%5Y` |  | Five Year Annualized Growth |
-| `DivPaidGr%10Y` |  | Ten Year Annualized Growth |
-| `DivPaidRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `DivPaidRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `DivPaidRegEstANN` |  | Ten Year Regression Estimate |
-| `DivPaidRegEstTTM` |  | Five Year Regression Estimate |
-| `DivPaidRegGr%ANN` |  | Ten Year Regression Estimate |
-| `DivPaidRegGr%TTM` |  | Five Year Regression Growth |
-| `DivPaidPSQ` |  | Quarterly Per Share |
-| `DivPaidPSA` |  | Annual Per Share |
-| `DivPaid%SalesQ` |  | % of Quarterly Sales |
-| `DivPaid%SalesA` |  | % of Annual Sales |
-| `DivPaid%AssetsQ` |  | % of Quarterly Assets |
-| `DivPaid%AssetsA` |  | % of Annual Assets |
-| `DivPaid3YAvg` |  | Three Year Average |
-| `DivPaid5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `DivPaid()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaidPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaid%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaid%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaid%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaid%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaid3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
+| `DivPaid5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DivPaid |
 
 
 #### Equity Issued
 
 Cash received from issuing equity instruments.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `EqIssued()` | offset, type[, NAHandling] |  |
-| `EqIssuedQ` |  | Latest Quarter |
-| `EqIssuedPQ` |  | Previous Quarter |
-| `EqIssuedPYQ` |  | Previous Quarter 1 Year Ago |
-| `EqIssuedTTM` |  | Trailing 12 Months |
-| `EqIssuedPTM` |  | Previous Trailing 12 Months |
-| `EqIssuedA` |  | Latest Year |
-| `EqIssuedPY` |  | Previous Year |
-| `EqIssuedGr%PQ` |  | Q vs Previous Q Growth |
-| `EqIssuedGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `EqIssuedGr%TTM` |  | Trailing Twelve Months Growth |
-| `EqIssuedGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `EqIssuedGr%A` |  | Growth Annual |
-| `EqIssuedGr%3Y` |  | Three Year Annualized Growth |
-| `EqIssuedGr%5Y` |  | Five Year Annualized Growth |
-| `EqIssuedGr%10Y` |  | Ten Year Annualized Growth |
-| `EqIssuedRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `EqIssuedRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `EqIssuedRegEstANN` |  | Ten Year Regression Estimate |
-| `EqIssuedRegEstTTM` |  | Five Year Regression Estimate |
-| `EqIssuedRegGr%ANN` |  | Ten Year Regression Estimate |
-| `EqIssuedRegGr%TTM` |  | Five Year Regression Growth |
-| `EqIssuedPSQ` |  | Quarterly Per Share |
-| `EqIssuedPSA` |  | Annual Per Share |
-| `EqIssued%SalesQ` |  | % of Quarterly Sales |
-| `EqIssued%SalesA` |  | % of Annual Sales |
-| `EqIssued%AssetsQ` |  | % of Quarterly Assets |
-| `EqIssued%AssetsA` |  | % of Annual Assets |
-| `EqIssued3YAvg` |  | Three Year Average |
-| `EqIssued5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `EqIssued()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssuedPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssued%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssued%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssued%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssued%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssued3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
+| `EqIssued5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqIssued |
 
 
 #### Equity Purchased
 
 Cash outflow from equity repurchases.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `EqPurch()` | offset, type[, NAHandling] |  |
-| `EqPurchQ` |  | Latest Quarter |
-| `EqPurchPQ` |  | Previous Quarter |
-| `EqPurchPYQ` |  | Previous Quarter 1 Year Ago |
-| `EqPurchTTM` |  | Trailing 12 Months |
-| `EqPurchPTM` |  | Previous Trailing 12 Months |
-| `EqPurchA` |  | Latest Year |
-| `EqPurchPY` |  | Previous Year |
-| `EqPurchGr%PQ` |  | Q vs Previous Q Growth |
-| `EqPurchGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `EqPurchGr%TTM` |  | Trailing Twelve Months Growth |
-| `EqPurchGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `EqPurchGr%A` |  | Growth Annual |
-| `EqPurchGr%3Y` |  | Three Year Annualized Growth |
-| `EqPurchGr%5Y` |  | Five Year Annualized Growth |
-| `EqPurchGr%10Y` |  | Ten Year Annualized Growth |
-| `EqPurchRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `EqPurchRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `EqPurchRegEstANN` |  | Ten Year Regression Estimate |
-| `EqPurchRegEstTTM` |  | Five Year Regression Estimate |
-| `EqPurchRegGr%ANN` |  | Ten Year Regression Estimate |
-| `EqPurchRegGr%TTM` |  | Five Year Regression Growth |
-| `EqPurchPSQ` |  | Quarterly Per Share |
-| `EqPurchPSA` |  | Annual Per Share |
-| `EqPurch%SalesQ` |  | % of Quarterly Sales |
-| `EqPurch%SalesA` |  | % of Annual Sales |
-| `EqPurch%AssetsQ` |  | % of Quarterly Assets |
-| `EqPurch%AssetsA` |  | % of Annual Assets |
-| `EqPurch3YAvg` |  | Three Year Average |
-| `EqPurch5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `EqPurch()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurchPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurch%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurch%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurch%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurch%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurch3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
+| `EqPurch5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=EqPurch |
 
 
 #### Long Term Debt Issued
 
 Cash inflow from issuing debt with maturity over 12 months.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `DbtLTIssued()` | offset, type[, NAHandling] |  |
-| `DbtLTIssuedQ` |  | Latest Quarter |
-| `DbtLTIssuedPQ` |  | Previous Quarter |
-| `DbtLTIssuedPYQ` |  | Previous Quarter 1 Year Ago |
-| `DbtLTIssuedTTM` |  | Trailing 12 Months |
-| `DbtLTIssuedPTM` |  | Previous Trailing 12 Months |
-| `DbtLTIssuedA` |  | Latest Year |
-| `DbtLTIssuedPY` |  | Previous Year |
-| `DbtLTIssuedGr%PQ` |  | Q vs Previous Q Growth |
-| `DbtLTIssuedGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `DbtLTIssuedGr%TTM` |  | Trailing Twelve Months Growth |
-| `DbtLTIssuedGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `DbtLTIssuedGr%A` |  | Growth Annual |
-| `DbtLTIssuedGr%3Y` |  | Three Year Annualized Growth |
-| `DbtLTIssuedGr%5Y` |  | Five Year Annualized Growth |
-| `DbtLTIssuedGr%10Y` |  | Ten Year Annualized Growth |
-| `DbtLTIssuedRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `DbtLTIssuedRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `DbtLTIssuedRegEstANN` |  | Ten Year Regression Estimate |
-| `DbtLTIssuedRegEstTTM` |  | Five Year Regression Estimate |
-| `DbtLTIssuedRegGr%ANN` |  | Ten Year Regression Estimate |
-| `DbtLTIssuedRegGr%TTM` |  | Five Year Regression Growth |
-| `DbtLTIssuedPSQ` |  | Quarterly Per Share |
-| `DbtLTIssuedPSA` |  | Annual Per Share |
-| `DbtLTIssued%SalesQ` |  | % of Quarterly Sales |
-| `DbtLTIssued%SalesA` |  | % of Annual Sales |
-| `DbtLTIssued%AssetsQ` |  | % of Quarterly Assets |
-| `DbtLTIssued%AssetsA` |  | % of Annual Assets |
-| `DbtLTIssued3YAvg` |  | Three Year Average |
-| `DbtLTIssued5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `DbtLTIssued()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssuedPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssued%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssued%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssued%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssued%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssued3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
+| `DbtLTIssued5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTIssued |
 
 
 #### Long Term Debt Reduced
 
 Cash outflow from retiring debt with maturity over 12 months.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `DbtLTReduced()` | offset, type[, NAHandling] |  |
-| `DbtLTReducedQ` |  | Latest Quarter |
-| `DbtLTReducedPQ` |  | Previous Quarter |
-| `DbtLTReducedPYQ` |  | Previous Quarter 1 Year Ago |
-| `DbtLTReducedTTM` |  | Trailing 12 Months |
-| `DbtLTReducedPTM` |  | Previous Trailing 12 Months |
-| `DbtLTReducedA` |  | Latest Year |
-| `DbtLTReducedPY` |  | Previous Year |
-| `DbtLTReducedGr%PQ` |  | Q vs Previous Q Growth |
-| `DbtLTReducedGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `DbtLTReducedGr%TTM` |  | Trailing Twelve Months Growth |
-| `DbtLTReducedGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `DbtLTReducedGr%A` |  | Growth Annual |
-| `DbtLTReducedGr%3Y` |  | Three Year Annualized Growth |
-| `DbtLTReducedGr%5Y` |  | Five Year Annualized Growth |
-| `DbtLTReducedGr%10Y` |  | Ten Year Annualized Growth |
-| `DbtLTReducedRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `DbtLTReducedRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `DbtLTReducedRegEstANN` |  | Ten Year Regression Estimate |
-| `DbtLTReducedRegEstTTM` |  | Five Year Regression Estimate |
-| `DbtLTReducedRegGr%ANN` |  | Ten Year Regression Estimate |
-| `DbtLTReducedRegGr%TTM` |  | Five Year Regression Growth |
-| `DbtLTReducedPSQ` |  | Quarterly Per Share |
-| `DbtLTReducedPSA` |  | Annual Per Share |
-| `DbtLTReduced%SalesQ` |  | % of Quarterly Sales |
-| `DbtLTReduced%SalesA` |  | % of Annual Sales |
-| `DbtLTReduced%AssetsQ` |  | % of Quarterly Assets |
-| `DbtLTReduced%AssetsA` |  | % of Annual Assets |
-| `DbtLTReduced3YAvg` |  | Three Year Average |
-| `DbtLTReduced5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `DbtLTReduced()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReducedPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReduced%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReduced%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReduced%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReduced%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReduced3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
+| `DbtLTReduced5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=DbtLTReduced |
 
 
 ### Summary
@@ -3554,150 +3554,150 @@ Cash flow lines that do not fit into the three general activities, such as net f
 
 Income After Taxes - Preferred Dividends + Depreciation & Amortization
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `CashFl()` | offset, type[, NAHandling] |  |
-| `CashFlQ` |  | Latest Quarter |
-| `CashFlPQ` |  | Previous Quarter |
-| `CashFlPYQ` |  | Previous Quarter 1 Year Ago |
-| `CashFlTTM` |  | Trailing 12 Months |
-| `CashFlPTM` |  | Previous Trailing 12 Months |
-| `CashFlA` |  | Latest Year |
-| `CashFlPY` |  | Previous Year |
-| `CashFlGr%PQ` |  | Q vs Previous Q Growth |
-| `CashFlGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `CashFlGr%TTM` |  | Trailing Twelve Months Growth |
-| `CashFlGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `CashFlGr%A` |  | Growth Annual |
-| `CashFlGr%3Y` |  | Three Year Annualized Growth |
-| `CashFlGr%5Y` |  | Five Year Annualized Growth |
-| `CashFlGr%10Y` |  | Ten Year Annualized Growth |
-| `CashFlRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `CashFlRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `CashFlRegEstANN` |  | Ten Year Regression Estimate |
-| `CashFlRegEstTTM` |  | Five Year Regression Estimate |
-| `CashFlRegGr%ANN` |  | Ten Year Regression Estimate |
-| `CashFlRegGr%TTM` |  | Five Year Regression Growth |
-| `CashFlPSQ` |  | Quarterly Per Share |
-| `CashFlPSA` |  | Annual Per Share |
-| `CashFl%SalesQ` |  | % of Quarterly Sales |
-| `CashFl%SalesA` |  | % of Annual Sales |
-| `CashFl%AssetsQ` |  | % of Quarterly Assets |
-| `CashFl%AssetsA` |  | % of Annual Assets |
-| `CashFl3YAvg` |  | Three Year Average |
-| `CashFl5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `CashFl()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFlPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFl%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFl%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFl%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFl%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFl3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
+| `CashFl5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=CashFl |
 
 
 #### Free Cash Flow
 
 Cash generated after accounting for operational support and capital asset maintenance.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `FCF()` | offset, type[, NAHandling] |  |
-| `FCFQ` |  | Latest Quarter |
-| `FCFPQ` |  | Previous Quarter |
-| `FCFPYQ` |  | Previous Quarter 1 Year Ago |
-| `FCFTTM` |  | Trailing 12 Months |
-| `FCFPTM` |  | Previous Trailing 12 Months |
-| `FCFA` |  | Latest Year |
-| `FCFPY` |  | Previous Year |
-| `FCFGr%PQ` |  | Q vs Previous Q Growth |
-| `FCFGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `FCFGr%TTM` |  | Trailing Twelve Months Growth |
-| `FCFGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `FCFGr%A` |  | Growth Annual |
-| `FCFGr%3Y` |  | Three Year Annualized Growth |
-| `FCFGr%5Y` |  | Five Year Annualized Growth |
-| `FCFGr%10Y` |  | Ten Year Annualized Growth |
-| `FCFRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `FCFRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `FCFRegEstANN` |  | Ten Year Regression Estimate |
-| `FCFRegEstTTM` |  | Five Year Regression Estimate |
-| `FCFRegGr%ANN` |  | Ten Year Regression Estimate |
-| `FCFRegGr%TTM` |  | Five Year Regression Growth |
-| `FCFPSQ` |  | Quarterly Per Share |
-| `FCFPSA` |  | Annual Per Share |
-| `FCF%SalesQ` |  | % of Quarterly Sales |
-| `FCF%SalesA` |  | % of Annual Sales |
-| `FCF%AssetsQ` |  | % of Quarterly Assets |
-| `FCF%AssetsA` |  | % of Annual Assets |
-| `FCF3YAvg` |  | Three Year Average |
-| `FCF5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `FCF()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCFPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCF%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCF%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCF%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCF%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCF3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
+| `FCF5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=FCF |
 
 
 #### Net Change to Cash Position
 
 Total change in cash for the period.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `NetChgCash()` | offset, type[, NAHandling] |  |
-| `NetChgCashQ` |  | Latest Quarter |
-| `NetChgCashPQ` |  | Previous Quarter |
-| `NetChgCashPYQ` |  | Previous Quarter 1 Year Ago |
-| `NetChgCashTTM` |  | Trailing 12 Months |
-| `NetChgCashPTM` |  | Previous Trailing 12 Months |
-| `NetChgCashA` |  | Latest Year |
-| `NetChgCashPY` |  | Previous Year |
-| `NetChgCashGr%PQ` |  | Q vs Previous Q Growth |
-| `NetChgCashGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `NetChgCashGr%TTM` |  | Trailing Twelve Months Growth |
-| `NetChgCashGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `NetChgCashGr%A` |  | Growth Annual |
-| `NetChgCashGr%3Y` |  | Three Year Annualized Growth |
-| `NetChgCashGr%5Y` |  | Five Year Annualized Growth |
-| `NetChgCashGr%10Y` |  | Ten Year Annualized Growth |
-| `NetChgCashRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `NetChgCashRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `NetChgCashRegEstANN` |  | Ten Year Regression Estimate |
-| `NetChgCashRegEstTTM` |  | Five Year Regression Estimate |
-| `NetChgCashRegGr%ANN` |  | Ten Year Regression Estimate |
-| `NetChgCashRegGr%TTM` |  | Five Year Regression Growth |
-| `NetChgCashPSQ` |  | Quarterly Per Share |
-| `NetChgCashPSA` |  | Annual Per Share |
-| `NetChgCash%SalesQ` |  | % of Quarterly Sales |
-| `NetChgCash%SalesA` |  | % of Annual Sales |
-| `NetChgCash%AssetsQ` |  | % of Quarterly Assets |
-| `NetChgCash%AssetsA` |  | % of Annual Assets |
-| `NetChgCash3YAvg` |  | Three Year Average |
-| `NetChgCash5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `NetChgCash()` | offset, type[, NAHandling] |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCashPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCash%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCash%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCash%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCash%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCash3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
+| `NetChgCash5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetChgCash |
 
 
 #### Net Free Cash Flow
 
 Cash generated after supporting operations, maintaining capital assets, and paying dividends.
 
-| Factor | Params | Variant |
-|--------|--------|---------|
-| `NetFCF()` | offset, type |  |
-| `NetFCFQ` |  | Latest Quarter |
-| `NetFCFPQ` |  | Previous Quarter |
-| `NetFCFPYQ` |  | Previous Quarter 1 Year Ago |
-| `NetFCFTTM` |  | Trailing 12 Months |
-| `NetFCFPTM` |  | Previous Trailing 12 Months |
-| `NetFCFA` |  | Latest Year |
-| `NetFCFPY` |  | Previous Year |
-| `NetFCFGr%PQ` |  | Q vs Previous Q Growth |
-| `NetFCFGr%PYQ` |  | Q vs 1 year ago Q Growth |
-| `NetFCFGr%TTM` |  | Trailing Twelve Months Growth |
-| `NetFCFGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago |
-| `NetFCFGr%A` |  | Growth Annual |
-| `NetFCFGr%3Y` |  | Three Year Annualized Growth |
-| `NetFCFGr%5Y` |  | Five Year Annualized Growth |
-| `NetFCFGr%10Y` |  | Ten Year Annualized Growth |
-| `NetFCFRSD%ANN` |  | Ten Year Relative Standard Deviation |
-| `NetFCFRSD%TTM` |  | Five Year Relative Standard Deviation |
-| `NetFCFRegEstANN` |  | Ten Year Regression Estimate |
-| `NetFCFRegEstTTM` |  | Five Year Regression Estimate |
-| `NetFCFRegGr%ANN` |  | Ten Year Regression Estimate |
-| `NetFCFRegGr%TTM` |  | Five Year Regression Growth |
-| `NetFCFPSQ` |  | Quarterly Per Share |
-| `NetFCFPSA` |  | Annual Per Share |
-| `NetFCF%SalesQ` |  | % of Quarterly Sales |
-| `NetFCF%SalesA` |  | % of Annual Sales |
-| `NetFCF%AssetsQ` |  | % of Quarterly Assets |
-| `NetFCF%AssetsA` |  | % of Annual Assets |
-| `NetFCF3YAvg` |  | Three Year Average |
-| `NetFCF5YAvg` |  | Five Year Average |
+| Factor | Params | Variant | Full Description |
+|--------|--------|---------|------------------|
+| `NetFCF()` | offset, type |  | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFQ` |  | Latest Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFPQ` |  | Previous Quarter | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFPYQ` |  | Previous Quarter 1 Year Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFTTM` |  | Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFPTM` |  | Previous Trailing 12 Months | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFA` |  | Latest Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFPY` |  | Previous Year | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFGr%PQ` |  | Q vs Previous Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFGr%PYQ` |  | Q vs 1 year ago Q Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFGr%TTM` |  | Trailing Twelve Months Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFGr%PQTTM` |  | Trailing Twelve Months Growth 1Q Ago | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFGr%A` |  | Growth Annual | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFGr%3Y` |  | Three Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFGr%5Y` |  | Five Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFGr%10Y` |  | Ten Year Annualized Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFRSD%ANN` |  | Ten Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFRSD%TTM` |  | Five Year Relative Standard Deviation | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFRegEstANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFRegEstTTM` |  | Five Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFRegGr%ANN` |  | Ten Year Regression Estimate | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFRegGr%TTM` |  | Five Year Regression Growth | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFPSQ` |  | Quarterly Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCFPSA` |  | Annual Per Share | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCF%SalesQ` |  | % of Quarterly Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCF%SalesA` |  | % of Annual Sales | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCF%AssetsQ` |  | % of Quarterly Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCF%AssetsA` |  | % of Annual Assets | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCF3YAvg` |  | Three Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
+| `NetFCF5YAvg` |  | Five Year Average | https://www.portfolio123.com/doc/doc_detail.jsp?factor=NetFCF |
 

@@ -90,12 +90,10 @@ portfolio123/
 ├── SKILL.md                              # Entry point (always loaded)
 └── references/                           # Loaded on demand
     ├── formula-quick-reference.md        # Syntax, operators, patterns
-    ├── fundamental-data.md               # Financial statement functions
-    ├── technical-functions.md            # Price, volume, technical indicators
-    ├── advanced-functions.md             # FHist, Loop, Regression, estimates
     ├── api-reference.md                  # p123api Python wrapper
     ├── ai-factor-reference.md            # AI Factor ML predictions
-    └── macros-constants.md               # FRED macros, universes, constants
+    ├── factors-and-functions/index.md    # Factors and Functions Index by category/sub-category
+    └── factors-and-functions/*.md        # Factors broken out by category
 ```
 
 The skill follows the [Agent Skills](https://agentskills.io/) standard with progressive disclosure: `SKILL.md` is always in context (~225 lines), and reference files are loaded only when relevant to the task.
